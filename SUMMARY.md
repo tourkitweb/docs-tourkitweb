@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Giới thiệu TourkitWeb](README.md)
-* [Hướng dẫn đăng ký tài khoản--](huong-dan-dang-ky-tai-khoan.md)
+* [Hướng dẫn đăng ký tài khoản---](huong-dan-dang-ky-tai-khoan.md)
 * [Hướng dẫn đăng nhập tài khoản](huong-dan-dang-nhap-tai-khoan.md)
 
 ## Bảng điều khiển
