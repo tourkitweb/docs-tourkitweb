@@ -1,24 +1,28 @@
 # 3.1. Địa điểm
 
-Mục Địa điểm là nơi thiết lập "bản đồ dữ liệu" cho toàn bộ website. Khi bạn quản lý tốt phần này, khách hàng có thể dễ dàng lọc tìm các tour du lịch hoặc
+Mục **Địa điểm** là nơi bạn khai báo "bản đồ" cho toàn bộ website: có những quốc gia nào, tỉnh thành nào, khu vực nào. Nghe qua thì đơn giản, nhưng đây là phần nền móng — nếu chưa khai báo "Đà Nẵng" ở đây thì khi thêm tour bạn sẽ không tìm thấy "Đà Nẵng" để chọn.
+
+Đây cũng là thứ giúp khách hàng lọc tìm nhanh. Khách vào website, bấm "Đà Nẵng" là ra ngay các tour và khách sạn ở Đà Nẵng, thay vì phải cuộn qua hàng trăm sản phẩm.
+
+> **Đường dẫn:** Menu bên trái > **Địa điểm** (biểu tượng la bàn)
 
 ![](../.gitbook/assets/pg060-0.png)
 
-khách sạn theo đúng khu vực họ quan tâm.
-
 *📺 Video hướng dẫn: TourkitWeb | Hướng dẫn thao tác Địa điểm*
 
-## Các thành phần trong mục Địa điểm
+## Trong mục này có gì?
 
-Dựa trên menu điều hướng, tính năng này bao gồm 3 phần chính:
+Khi nhấn vào **Địa điểm** ở menu bên trái, bạn sẽ thấy 3 mục con:
 
-- Tất cả vị trí: Đây là nơi quản lý danh sách các quốc gia và thành phố (ví dụ: Việt Nam, Nhật Bản, Hà Nội, Tokyo).
+- **Tất cả vị trí** — danh sách các quốc gia, tỉnh, thành phố (ví dụ: Việt Nam, Nhật Bản, Hà Nội, Tokyo). Đây là nơi bạn làm việc nhiều nhất.
+- **Tất cả danh mục** — phân loại địa điểm theo đặc tính (ví dụ: Du lịch biển, Du lịch vùng cao, Khu nghỉ dưỡng tâm linh). Dùng khi bạn muốn gom nhiều địa điểm cùng kiểu vào một nhóm.
+- **Địa chỉ cụ thể** — lưu các địa chỉ chi tiết dùng đi dùng lại (ví dụ: điểm đón khách, văn phòng). Khác với "vị trí" là vùng lớn, "địa chỉ" là một điểm chính xác trên bản đồ.
 
-- Tất cả danh mục: Dùng để phân loại các địa điểm theo đặc tính hoặc mục đích riêng (ví dụ: Địa điểm du lịch biển, Địa điểm du lịch vùng cao, Khu nghỉ dưỡng tâm linh).
-
-- Địa chỉ cụ thể: Cho phép bạn lưu trữ các địa chỉ chi tiết, tọa độ GPS hoặc các điểm đến chính xác trong một khu vực. Điều này hỗ trợ việc hiển thị bản đồ dẫn đường cho khách hàng một cách chính xác nhất.
+> **Lưu ý:** Nếu bạn không thấy mục **Địa điểm** trong menu, tài khoản của bạn chưa được cấp quyền xem phần này — hãy liên hệ quản trị viên.
 
 ## Tất cả vị trí
+
+Đây là màn hình chính. Nó chia làm hai phần rõ rệt: **cột bên trái** là khung để thêm địa điểm mới, **phần bên phải** là bảng danh sách các địa điểm đã có.
 
 ![](../.gitbook/assets/pg061-0.png)
 
@@ -28,53 +32,81 @@ Dựa trên menu điều hướng, tính năng này bao gồm 3 phần chính:
 
 ![](../.gitbook/assets/pg061-1.png)
 
-**Bước 1:** Tại cột Thêm vị trí bên trái, bạn điền các thông tin sau:
+Bạn làm ở **cột bên trái**, mục **"Thêm vị trí"**.
 
-- Tên: Nhập tên thành phố, quốc gia hoặc khu vực (ví dụ: Hà Nội, Nhật Bản).
+### Bước 1: Điền thông tin cơ bản
 
-- Cha: Nếu đây là một thành phố thuộc một quốc gia đã có sẵn, hãy chọn quốc gia đó trong thực đơn thả xuống (ví dụ: Chọn "United States" nếu bạn đang thêm "New York"). Nếu là quốc gia mới, bạn để trống mục này.
+- **Ô "Tên"** — nhập tên quốc gia, tỉnh hoặc thành phố. Ví dụ: `Hà Nội`, `Nhật Bản`, `Đà Nẵng`.
 
-- Mô tả: Sử dụng khung soạn thảo để viết giới thiệu ngắn về đặc điểm nổi bật hoặc thông tin cần lưu ý của địa điểm này.
+  > **Mẹo:** Hãy gõ tên đúng chính tả và có dấu tiếng Việt như bạn muốn khách nhìn thấy trên website. Tên này sẽ hiện ra y hệt ở ngoài trang web.
 
-**Bước 2:** Thiết lập bản đồ vị trí:
+- **Ô "Cha"** — đây là ô hay gây bối rối nhất, nhưng thật ra rất dễ hiểu. "Cha" nghĩa là **địa điểm lớn hơn bao trùm nó**.
 
-- Xác định vị trí: Bạn sử dụng khung bản đồ phía dưới mục mô tả.
+  - Nếu bạn đang thêm một **thành phố** thuộc một quốc gia đã có sẵn, hãy chọn quốc gia đó. Ví dụ: thêm "New York" thì chọn Cha là "United States"; thêm "Hà Nội" thì chọn Cha là "Việt Nam".
+  - Nếu bạn đang thêm một **quốc gia mới**, hãy **để trống** ô này.
 
-- Thao tác: Nhấp trực tiếp vào bản đồ để ghim tọa độ chính xác. Việc này giúp khách hàng có thể xem vị trí thực tế của địa điểm trên website.
+  > **Vì sao cần làm đúng?** Vì nhờ quan hệ cha–con này mà khách bấm vào "Việt Nam" trên website sẽ thấy được cả tour ở Hà Nội, Đà Nẵng, Hội An. Nếu bạn để trống Cha cho mọi thứ, các thành phố sẽ nằm rời rạc và khách khó tìm.
 
-**Bước 3:** Lưu địa điểm:
+- **Ô "Mô tả"** — viết vài dòng giới thiệu về địa điểm: có gì hay, mùa nào đẹp, món gì ngon. Phần này hiện ra cho khách đọc nên hãy viết tự nhiên như bạn đang tư vấn cho khách. Không bắt buộc, có thể bổ sung sau.
 
-- Sau khi hoàn tất thông tin và vị trí bản đồ, nhấn nút Thêm mới màu xanh ở dưới cùng bên trái để đưa địa điểm vào danh sách quản lý.
+### Bước 2: Ghim vị trí trên bản đồ
+
+Bên dưới ô mô tả có một **khung bản đồ**.
+
+- Nhấp chuột trực tiếp vào đúng chỗ trên bản đồ để ghim một điểm đánh dấu.
+- Điểm ghim này chính là thứ khách nhìn thấy khi họ xem bản đồ trên website, giúp họ biết địa điểm nằm ở đâu.
+
+> **Không bắt buộc phải chính xác tuyệt đối.** Với một tỉnh hay thành phố, bạn chỉ cần ghim vào giữa khu trung tâm là đủ. Bản đồ ở đây để khách hình dung khu vực, không phải để dẫn đường từng mét.
+
+### Bước 3: Lưu lại
+
+Nhấn nút **"Thêm mới"** màu xanh ở **dưới cùng bên trái**.
+
+Sau khi lưu, địa điểm mới sẽ xuất hiện ngay trong bảng danh sách bên phải. Nếu bạn không thấy nó, hãy tải lại trang (nhấn **F5**) và tìm lại.
 
 ## b, Khu vực tìm kiếm địa điểm
 
-Dùng để lọc nhanh thông tin khi danh sách địa điểm trở nên quá dài.
+Khi danh sách địa điểm đã dài tới vài chục dòng, việc cuộn tay tìm sẽ rất mất thời gian. Hãy dùng ô tìm kiếm.
 
-- Nhập từ khóa: Nhập tên thành phố hoặc quốc gia bạn cần tìm vào ô Tìm kiếm theo tên ở góc trên bên phải.
+1. Nhìn lên **góc trên bên phải** của bảng danh sách, bạn sẽ thấy ô **"Tìm kiếm theo tên"**.
+2. Gõ tên thành phố hoặc quốc gia bạn cần tìm.
+3. Nhấn nút **"Tìm kiếm"**.
 
-- Thực hiện: Nhấn nút Tìm kiếm. Hệ thống sẽ lọc và hiển thị chính xác những địa điểm khớp với từ khóa của bạn.
+Hệ thống sẽ chỉ hiển thị những dòng khớp với từ khóa của bạn.
+
+> **Nếu tìm mà không ra kết quả nào:** hãy kiểm tra hai thứ. Thứ nhất, ô tìm kiếm có bị dính dấu cách thừa ở đầu/cuối không (hay gặp khi bạn copy-paste từ chỗ khác). Thứ hai, bạn gõ có dấu hay không dấu — nếu địa điểm được lưu là "Hà Nội" mà bạn gõ "Ha Noi" thì có thể không ra. Hãy thử gõ một phần ngắn như "Hà" xem sao.
+
+Muốn xem lại toàn bộ danh sách, chỉ cần xóa trống ô tìm kiếm rồi nhấn **"Tìm kiếm"** lần nữa.
 
 ![](../.gitbook/assets/pg062-0.png)
 
 ## c, Khu vực quản lý và hành động hàng loạt
 
-Dùng để xử lý nhiều địa điểm cùng lúc hoặc chỉnh sửa lẻ từng mục.
+### Sửa từng địa điểm một
 
-- Chỉnh sửa lẻ: Nhấn nút Chỉnh sửa màu xanh tại dòng tương ứng của địa điểm đó để thay đổi thông tin.
+Tìm đến dòng của địa điểm cần sửa, nhấn nút **"Chỉnh sửa"** màu xanh ở dòng đó. Màn hình sẽ mở ra đúng các ô như lúc thêm mới (Tên, Cha, Mô tả, bản đồ) và bạn sửa gì tùy ý, rồi lưu lại.
 
 ![](../.gitbook/assets/pg063-0.png)
 
-- Xử lý hàng loạt:
+### Làm hàng loạt (xử lý nhiều mục cùng lúc)
 
-1. Đánh dấu tích vào các ô vuông ở cột đầu tiên để chọn nhiều địa điểm cùng lúc.
+"Hành động hàng loạt" nghĩa là thay vì xóa từng địa điểm một, bạn tích chọn 10 cái rồi xóa cả 10 trong một lần bấm.
 
-2. Tại thực đơn thả xuống Hành động hàng loạt, chọn lệnh cần thực hiện (ví dụ: Xóa).
+Làm theo 3 bước:
 
-3. Nhấn nút Áp dụng để hệ thống xử lý tất cả các mục đã chọn trong một lần duy nhất.
+1. **Chọn:** tích vào các **ô vuông nhỏ ở cột đầu tiên** bên trái của những dòng bạn muốn xử lý. Muốn chọn hết các dòng đang hiện trên trang, hãy tích vào ô vuông nằm trên thanh tiêu đề bảng.
+2. **Chọn lệnh:** mở thực đơn thả xuống **"Hành động hàng loạt"** và chọn việc cần làm (thường là **"Xóa"**).
+3. **Thực thi:** nhấn nút **"Áp dụng"** ngay bên cạnh.
+
+> **Đây là lỗi số một mà mọi người hay mắc:** chọn xong lệnh trong thực đơn rồi tưởng là xong, quay đi làm việc khác. Không phải. **Bắt buộc phải nhấn "Áp dụng"** thì hệ thống mới thực hiện. Nếu bạn thấy chọn Xóa rồi mà chẳng có gì xảy ra, chính là vì chưa bấm "Áp dụng".
+
+> **Cẩn thận:** Trước khi bấm "Áp dụng" với lệnh Xóa, hãy nhìn lại một lượt xem mình đã tích đúng những dòng cần xóa chưa. Xóa nhầm một địa điểm đang được nhiều tour sử dụng sẽ ảnh hưởng tới các tour đó.
 
 ![](../.gitbook/assets/pg063-1.png)
 
 ## Tất cả danh mục
+
+Danh mục địa điểm giúp bạn gom các địa điểm cùng kiểu vào một nhóm. Ví dụ bạn tạo nhóm "Du lịch biển" rồi gán Nha Trang, Đà Nẵng, Phú Quốc vào đó — khách chỉ cần bấm một cái là thấy hết các điểm biển.
 
 ![](../.gitbook/assets/pg064-0.png)
 
@@ -82,64 +114,93 @@ Dùng để xử lý nhiều địa điểm cùng lúc hoặc chỉnh sửa lẻ
 
 ## a, Thêm danh mục vị trí mới
 
-Thực hiện tại cột bên trái:
+Bạn làm ở **cột bên trái**:
 
-- Bước 1 - Tên: Nhập tên loại hình địa điểm bạn muốn quản lý vào ô Tên.
+### Bước 1: Nhập tên
 
-- Bước 2 - Lớp biểu tượng: Nếu bạn muốn hiển thị biểu tượng minh họa cho danh mục này trên bản đồ hoặc website, hãy nhập mã lớp biểu tượng vào ô này. Nếu không cần, bạn có thể để trống.
+Trong **ô "Tên"**, gõ tên loại hình bạn muốn quản lý. Ví dụ: `Du lịch biển`, `Du lịch vùng cao`, `Khu nghỉ dưỡng tâm linh`.
 
-- Bước 3 - Hoàn tất: Nhấn nút Thêm mới màu xanh để lưu danh mục vào hệ thống.
+### Bước 2: Lớp biểu tượng (không bắt buộc)
+
+**Ô "Lớp biểu tượng"** dùng để gắn một hình icon nhỏ minh họa cho danh mục (ví dụ hình cái ô cho nhóm du lịch biển).
+
+Đây là ô cần **mã kỹ thuật** chứ không phải chữ thường. Nếu bạn không rành phần này, **cứ để trống** — danh mục vẫn hoạt động bình thường, chỉ là không có hình icon đi kèm. Muốn có icon đẹp, hãy nhờ đơn vị triển khai điền giúp.
+
+### Bước 3: Lưu lại
+
+Nhấn nút **"Thêm mới"** màu xanh.
 
 ![](../.gitbook/assets/pg064-1.png)
 
 ## b, Quản lý danh sách danh mục
 
-Theo dõi bảng bên phải để nắm bắt thông tin các danh mục đã tạo:
-
-- Theo dõi: Xem danh sách tên danh mục, trạng thái hiển thị (Publish) và ngày tạo lập.
+Bảng bên phải cho bạn thấy toàn bộ danh mục đã tạo, gồm: tên danh mục, trạng thái hiển thị (**"Publish"** nghĩa là đã đăng cho khách xem được) và ngày tạo.
 
 ![](../.gitbook/assets/pg065-0.png)
 
-- Chỉnh sửa lẻ: Đưa con trỏ chuột vào tên từng mục để thực hiện thay đổi thông tin khi cần thiết.
+Muốn sửa một danh mục, hãy đưa con trỏ chuột vào tên của nó — các lựa chọn thao tác sẽ hiện ra để bạn chỉnh sửa.
 
 ![](../.gitbook/assets/pg065-1.png)
 
 ## c, Tìm kiếm và Thao tác hàng loạt
 
-Khu vực phía trên bên phải giúp bạn xử lý dữ liệu nhanh chóng:
+Khu vực **phía trên bên phải** hoạt động y hệt như bên "Tất cả vị trí":
 
-- Tìm kiếm: Nhập tên danh mục vào ô Tìm kiếm theo tên và nhấn nút Tìm kiếm để lọc nhanh mục cần tìm.
+**Tìm kiếm:** gõ tên danh mục vào ô **"Tìm kiếm theo tên"** rồi nhấn nút **"Tìm kiếm"**.
 
 ![](../.gitbook/assets/pg065-2.png)
 
-- Hành động hàng loạt: Đánh dấu vào ô vuông ở đầu các dòng danh mục cần xử lý, chọn lệnh (ví dụ: Xóa) trong thực đơn thả xuống, sau đó nhấn Áp dụng để thực hiện lệnh cho tất cả các mục đã chọn.
+**Hành động hàng loạt:** tích chọn các dòng cần xử lý ở cột đầu tiên → chọn lệnh (ví dụ **"Xóa"**) trong thực đơn thả xuống → nhấn **"Áp dụng"**. Đừng quên bước "Áp dụng" cuối cùng.
 
 ![](../.gitbook/assets/pg065-3.png)
 
 ## Địa chỉ cụ thể
 
+Khác với "vị trí" là một vùng rộng (cả thành phố Nha Trang), **địa chỉ cụ thể** là một điểm chính xác — ví dụ nơi xe đón khách, địa chỉ nhà hàng ăn trưa trong lịch trình. Bạn khai báo một lần ở đây rồi dùng lại nhiều lần cho nhiều tour, khỏi phải gõ lại mỗi lần.
+
 ## a, Tìm kiếm địa chỉ
 
-- Nhập từ khóa hoặc tên địa chỉ cần tìm vào ô Tìm kiếm địa chỉ... ở góc trên bên phải.
-
-- Nhấn nút Tìm kiếm để lọc danh sách.
+1. Nhìn lên **góc trên bên phải**, tìm ô **"Tìm kiếm địa chỉ..."**.
+2. Gõ tên hoặc từ khóa của địa chỉ cần tìm.
+3. Nhấn nút **"Tìm kiếm"** để lọc danh sách.
 
 ![](../.gitbook/assets/pg067-0.png)
 
 ## b, Thêm địa chỉ mới
 
-- Nhấn nút Thêm mới (màu xanh dương có biểu tượng dấu cộng) ở góc trên bên phải màn hình để mở giao diện nhập liệu địa chỉ mới.
+Nhấn nút **"Thêm mới"** — nút màu xanh dương có biểu tượng dấu cộng, nằm ở **góc trên bên phải màn hình**. Một giao diện nhập liệu sẽ mở ra để bạn khai báo địa chỉ mới.
 
 ![](../.gitbook/assets/pg067-1.png)
 
 ## c, Theo dõi và thao tác
 
-Bảng danh sách cung cấp các thông tin:
+Bảng danh sách hiển thị các cột sau:
 
-- Địa chỉ: Tên hoặc địa chỉ chi tiết đã lưu (ví dụ: Nha Trang, Paris, Bắc Kinh).
+- **Địa chỉ** — tên hoặc địa chỉ chi tiết đã lưu (ví dụ: Nha Trang, Paris, Bắc Kinh).
+- **Số lần dùng** — cho biết địa chỉ này đang được bao nhiêu tour hoặc bài viết sử dụng.
 
-- Số lần dùng: Hiển thị tần suất địa chỉ này được sử dụng trong các tour hoặc bài viết.
+  > **Cột này rất hữu ích trước khi xóa.** Nếu một địa chỉ có số lần dùng là 0, xóa đi hoàn toàn an toàn. Nếu nó đang được 15 tour dùng, hãy cân nhắc kỹ — xóa sẽ ảnh hưởng tới cả 15 tour đó.
 
-- Thao tác: ◦ Nhấn biểu tượng Bút chì (vàng) để chỉnh sửa thông tin địa chỉ. ◦ Nhấn biểu tượng Thùng rác (đỏ) để xóa địa chỉ khỏi hệ thống.
+- **Thao tác** — có hai biểu tượng:
+  - **Bút chì (màu vàng)** — nhấn để chỉnh sửa thông tin địa chỉ.
+  - **Thùng rác (màu đỏ)** — nhấn để xóa địa chỉ khỏi hệ thống.
 
 ![](../.gitbook/assets/pg068-0.png)
+
+## Lưu ý & xử lý sự cố
+
+**Thêm địa điểm xong nhưng khi tạo tour không tìm thấy nó trong danh sách chọn:** hãy tải lại trang tạo tour bằng **Ctrl + F5**. Màn hình tạo tour thường đã tải sẵn danh sách địa điểm từ lúc bạn mở nó, nên địa điểm vừa tạo chưa kịp xuất hiện.
+
+**Gõ tên địa điểm bị mất dấu hoặc sai chính tả:** kiểm tra bộ gõ tiếng Việt (Unikey) đang bật hay tắt. Nếu tên đã lưu sai, bạn vẫn sửa được bất cứ lúc nào bằng nút **"Chỉnh sửa"** — không cần xóa đi tạo lại.
+
+**Tạo nhầm một địa điểm là "con" của quốc gia sai:** vào **"Chỉnh sửa"** địa điểm đó, chọn lại đúng giá trị trong ô **"Cha"** rồi lưu. Các tour đã gán vẫn giữ nguyên, không mất gì.
+
+**Ngoài website vẫn hiện địa điểm cũ sau khi sửa:** trình duyệt đang giữ bản cũ. Nhấn **Ctrl + F5** trên trang web để tải lại sạch.
+
+**Không thấy mục "Địa chỉ cụ thể":** mục này phụ thuộc quyền và cấu hình. Hãy liên hệ quản trị viên hoặc đơn vị triển khai.
+
+## Xem thêm
+
+- [3. Khối SẢN PHẨM](README.md)
+- [3.2. Khách sạn](khach-san.md)
+- [3.3. Tour](tour.md)

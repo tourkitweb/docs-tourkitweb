@@ -1,113 +1,173 @@
 # 3.6. Vé máy bay BGT
 
-3.6.1. Cài đặt API 3.6.2. Cấu hình giá
+Mục **Vé máy bay BGT** cho phép website của bạn bán vé máy bay thật — khách tự tìm chuyến, chọn giờ bay và đặt vé ngay trên trang của bạn.
 
-3.6.3. API Logs 3.6.4. Hướng dẫn
+Điểm khác biệt quan trọng: giá vé và danh sách chuyến bay **không do bạn tự nhập tay**. Chúng được lấy tự động, theo thời gian thực, từ một nhà cung cấp dữ liệu vé máy bay bên ngoài tên là **AirData**. Việc của bạn ở đây chỉ là hai chuyện:
+
+1. **Khai báo thông tin kết nối** để website nói chuyện được với AirData.
+2. **Quyết định bạn cộng thêm bao nhiêu tiền** vào giá gốc để lấy lời.
+
+> **Đường dẫn:** Menu bên trái > **Vé máy bay BGT**
+
+Mục này gồm 4 phần:
+
+- **Cài đặt API** — khai báo thông tin kết nối tới nhà cung cấp dữ liệu vé.
+- **Cấu hình giá** — quy định mức cộng thêm / giảm giá cho từng hãng bay.
+- **API Logs** — nhật ký: bản ghi lại mọi lần website hỏi dữ liệu vé, dùng khi cần tra lỗi.
+- **Hướng dẫn** — tài liệu thao tác chi tiết ngay trong hệ thống.
+
+> **Lưu ý:** "API" nghe rất kỹ thuật, nhưng bạn cứ hiểu đơn giản: đó là **đường dây nối** giữa website của bạn và kho dữ liệu vé máy bay của đối tác. Bạn không cần biết nó hoạt động ra sao — chỉ cần điền đúng thông tin mà đối tác cấp cho bạn.
+
+> **Cẩn thận:** Toàn bộ thông tin trong phần **Cài đặt API** phải do **đơn vị cung cấp dịch vụ AirData gửi cho bạn**. Đừng tự đoán, đừng tự gõ đại. Điền sai thì website sẽ không tìm được chuyến bay nào.
 
 ## Cài đặt API
 
-## a. Cấu hình API AirData
+### a. Cấu hình API AirData
 
-Đây là phần thiết lập kết nối dữ liệu cốt lõi cho hệ thống vé máy bay.
+Đây là phần thiết lập kết nối cốt lõi. Không có phần này, mọi thứ còn lại đều vô nghĩa.
 
-- API Base URL: Nhập địa chỉ URL cơ sở của dịch vụ AirData.
+- **API Base URL** — địa chỉ kho dữ liệu của AirData. Hãy copy đúng nguyên văn từ email/tài liệu mà đối tác gửi.
+- **API Token (Bearer)** — mã xác thực, giống như "chìa khóa" chứng minh website của bạn có quyền lấy dữ liệu. Khi bạn điền đúng, hệ thống sẽ hiện dòng chữ **"Đã có token"** màu xanh.
 
-- API Token (Bearer): Nhập mã token xác thực để hệ thống có quyền truy xuất dữ liệu. Khi cấu hình đúng, hệ thống sẽ hiển thị thông báo "Đã có token" màu xanh.
+> **Cẩn thận:** Token là chuỗi ký tự rất dài. Khi copy dán, cực kỳ dễ bị **thiếu vài ký tự ở đầu/cuối** hoặc **dính dấu cách thừa**. Hãy bôi đen toàn bộ chuỗi rồi copy, và kiểm tra kỹ trước khi lưu.
 
 ![](../.gitbook/assets/pg098-0.png)
 
-## b. Thông tin Agent (VN1A)
+### b. Thông tin Agent (VN1A)
 
-Các thông tin này cần thiết cho các tác vụ thay đổi hành trình, xử lý vé của hệ thống VN1A (nếu chỉ dùng Vietjet - VJ thì có thể bỏ trống):
+Phần này chỉ cần thiết cho các nghiệp vụ xử lý vé, đổi hành trình trên hệ thống **VN1A**.
 
-- Agency Code: Nhập mã đại lý của bạn.
+- **Agency Code** — mã đại lý của bạn.
+- **Pax Code (Customer Code)** — mã định danh khách hàng tương ứng.
 
-- Pax Code (Customer Code): Nhập mã định danh khách hàng tương ứng.
+> **Nếu bạn chỉ bán vé Vietjet (VJ):** bạn có thể **để trống cả hai ô này**, không ảnh hưởng gì.
 
 ![](../.gitbook/assets/pg098-1.png)
 
-## c. Cấu hình đặt vé
+### c. Cấu hình đặt vé
 
-Thiết lập các quy tắc cho quy trình khách hàng đặt vé trên website:
+Đây là các quy tắc cho quy trình khách đặt vé trên website:
 
-- Thời gian hết hạn draft (phút): Thiết lập thời gian (mặc định là 30 phút) để hệ thống tự động hủy các booking chưa hoàn tất.
+**Thời gian hết hạn draft (phút)**
 
-- Điều khoản & điều kiện:
+"Draft" ở đây nghĩa là **đơn đặt vé dang dở** — khách bấm đặt nhưng chưa thanh toán xong rồi bỏ đi. Ô này quy định sau bao nhiêu phút thì hệ thống tự hủy những đơn dang dở đó để trả chỗ lại. Mặc định là **30 phút**.
 
-◦ Tích chọn Bật điều khoản & điều kiện nếu muốn bắt buộc khách hàng phải đồng ý trước khi đặt vé. ◦ Nhập văn bản nội dung chi tiết vào ô Nội dung điều khoản & điều kiện.
+> **Mẹo:** Đừng để con số này quá lớn. Nếu đặt 300 phút, một khách bỏ ngang sẽ giữ chỗ suốt 5 tiếng và khách thật sự muốn mua sẽ không đặt được.
+
+**Điều khoản & điều kiện**
+
+- Tích chọn **"Bật điều khoản & điều kiện"** nếu bạn muốn khách **bắt buộc phải đồng ý** với quy định của bạn trước khi đặt vé.
+- Sau khi bật, nhập nội dung chi tiết vào ô **"Nội dung điều khoản & điều kiện"**.
 
 ![](../.gitbook/assets/pg099-0.png)
 
-## d. Kiểm tra và Lưu cài đặt
+### d. Kiểm tra và Lưu cài đặt
 
-- Kiểm tra kết nối: Sau khi điền các thông tin API, hãy nhấn nút Kiểm tra kết nối API ở cuối trang để xác nhận hệ thống đã liên kết thành công.
+Điền xong chưa phải là xong. Bạn cần làm đủ 3 việc sau:
 
-- Lưu cài đặt: Nhấn nút Lưu thay đổi ở khung bên phải để hoàn tất quá trình cấu hình.
+1. **Kiểm tra kết nối** — nhấn nút **"Kiểm tra kết nối API"** ở cuối trang. Hệ thống sẽ thử gọi sang AirData và báo lại cho bạn biết đã liên kết được hay chưa. **Hãy luôn làm bước này trước khi lưu.**
+2. **Lưu cài đặt** — nhấn nút **"Lưu thay đổi"** ở khung bên phải.
+3. **Xem lại trạng thái** — ô **"Trạng thái"** cho biết tính năng đang hoạt động hay không. Khi mọi thứ đã sẵn sàng, ô này hiện **"Đã kích hoạt"** màu xanh.
 
-- Trạng thái: Bạn có thể theo dõi tình trạng hoạt động tại ô Trạng thái (đang hiển thị "Đã kích hoạt" màu xanh).
+> **Nếu bấm "Kiểm tra kết nối API" mà báo lỗi:** đừng vội lưu. 9/10 trường hợp là do Base URL hoặc Token bị sai một ký tự, hoặc dính dấu cách thừa khi copy. Hãy xóa hết và dán lại cẩn thận. Nếu vẫn lỗi, hãy liên hệ đơn vị cung cấp AirData để xác nhận thông tin còn hiệu lực không.
 
 ![](../.gitbook/assets/pg099-1.png)
 
 ## Cấu hình giá
 
+Đây là phần **quan trọng nhất với túi tiền của bạn**.
+
+Giá lấy về từ AirData là **giá gốc**. Nếu bạn bán đúng giá gốc, bạn không lời đồng nào. Màn hình này là nơi bạn quy định: cộng thêm bao nhiêu vào giá gốc để ra **giá niêm yết** hiển thị cho khách.
+
 ![](../.gitbook/assets/pg100-0.png)
 
 *📺 Video hướng dẫn: TourkitWeb | Hướng dẫn sử dụng Module vé máy bay*
 
-## a, Thiết lập Tăng giá & Giảm giá
+### a. Thiết lập Tăng giá & Giảm giá
 
-Tại mỗi hãng bay, bạn có hai cột chính để điều chỉnh:
+Tại mỗi hãng bay, bạn có hai cột để điều chỉnh:
 
-- Cột Tăng giá (Màu xanh): Dùng để tạo ra mức giá niêm yết (thường là giá để bạn lấy lời hoặc bao gồm phí dịch vụ). ◦ Loại %: Hệ thống lấy Giá API cộng thêm X% (Ví dụ: +10%). ◦ Loại VNĐ: Hệ thống cộng trực tiếp một số tiền cố định vào Giá API (Ví dụ: +40,000đ).
+**Cột "Tăng giá" (màu xanh)** — dùng để tạo ra **giá niêm yết**, tức là giá khách nhìn thấy. Đây là chỗ bạn cài phần lời hoặc phí dịch vụ của mình. Có 2 kiểu:
 
-- Cột Giảm giá (Màu vàng): Dùng để tạo các chương trình khuyến mãi hoặc giảm giá so với giá niêm yết. ◦ Loại %: Giảm X% dựa trên Giá Niêm Yết. ◦ Loại VNĐ: Trừ trực tiếp số tiền X từ Giá Niêm Yết.
+- **Loại %** — cộng thêm theo phần trăm giá gốc. Ví dụ đặt `10` thì vé gốc 1.000.000đ sẽ thành 1.100.000đ.
+- **Loại VNĐ** — cộng thẳng một số tiền cố định. Ví dụ đặt `40000` thì vé nào cũng cộng thêm đúng 40.000đ.
+
+**Cột "Giảm giá" (màu vàng)** — dùng để chạy khuyến mãi, giảm so với **giá niêm yết** vừa tính ở trên. Cũng có 2 kiểu:
+
+- **Loại %** — giảm X% trên giá niêm yết.
+- **Loại VNĐ** — trừ thẳng X đồng khỏi giá niêm yết.
+
+> **Cẩn thận:** Hãy nhớ thứ tự — hệ thống **tăng giá trước, giảm giá sau**. Nếu bạn cộng thêm 10% rồi lại giảm 20%, kết quả là bạn đang **bán lỗ so với giá gốc**. Hãy tính kỹ trước khi lưu, hoặc thử với một chuyến bay cụ thể để xem con số cuối cùng ra bao nhiêu.
 
 ![](../.gitbook/assets/pg101-0.png)
 
-## b, Các cấp độ cấu hình
+### b. Các cấp độ cấu hình
 
-- Mặc định (Tất cả hãng): Dòng đầu tiên (màu vàng nhạt) dùng để áp dụng chung cho tất cả các hãng bay chưa được thiết lập riêng. Nếu bạn để trống ở các hãng phía dưới, hệ thống sẽ tự lấy giá trị ở dòng mặc định này.
+Hệ thống cho phép bạn cài giá theo 2 cấp, để bạn không phải gõ đi gõ lại:
 
-- Cấu hình theo từng hãng: Bạn có thể thiết lập các con số khác nhau cho từng hãng cụ thể (như Galileo, Cebu Pacific, AirAsia...) để phù hợp với chính sách chiết khấu riêng của từng bên.
+- **Mặc định (Tất cả hãng)** — dòng đầu tiên, **màu vàng nhạt**. Đây là mức áp dụng chung cho mọi hãng bay mà bạn chưa cài riêng. Cài một lần ở đây là xong cho tất cả.
+- **Cấu hình theo từng hãng** — các dòng phía dưới (Galileo, Cebu Pacific, AirAsia…). Chỉ điền vào đây khi hãng đó có chính sách chiết khấu khác biệt, cần mức lời riêng.
+
+> **Quy tắc để nhớ:** Ô nào **để trống** ở dòng của một hãng, hệ thống sẽ **tự lấy theo dòng mặc định**. Nên bạn chỉ cần điền ở những hãng thật sự khác biệt.
 
 ![](../.gitbook/assets/pg101-1.png)
 
-## c, Các nút chức năng quan trọng
+### c. Các nút chức năng quan trọng
 
-- Cập nhật danh sách hãng bay (Nút xanh phía trên bên phải): Nhấn vào đây nếu bạn muốn đồng bộ lại danh sách các hãng hàng không mới nhất từ hệ thống API.
-
-- Nút X (Màu đỏ cuối mỗi dòng): Dùng để xóa cấu hình riêng của hãng đó và quay về sử dụng giá trị mặc định.
-
-- Lưu thay đổi (Nút xanh lớn ở cột phải): Cực kỳ quan trọng. Sau khi điều chỉnh bất kỳ con số nào, bạn phải nhấn nút này để hệ thống ghi nhận các thay đổi lên website.
+- **"Cập nhật danh sách hãng bay"** (nút xanh, **góc trên bên phải**) — nhấn khi bạn muốn lấy về danh sách hãng hàng không mới nhất từ đối tác. Nếu thấy thiếu một hãng nào đó trong bảng, hãy thử nút này trước tiên.
+- **Nút "X"** (màu đỏ, **cuối mỗi dòng**) — xóa cấu hình riêng của hãng đó, đưa hãng đó quay về dùng mức mặc định. Nút này **không xóa hãng bay**, chỉ xóa mức giá riêng bạn đã cài.
+- **"Lưu thay đổi"** (nút xanh lớn, **cột bên phải**) — **cực kỳ quan trọng**. Chỉnh xong bất kỳ con số nào, bạn **bắt buộc** phải nhấn nút này. Nếu đóng trang mà chưa lưu, mọi thứ bạn vừa gõ sẽ mất sạch và giá trên website vẫn y như cũ.
 
 ![](../.gitbook/assets/pg102-0.png)
 
 ## API Logs
 
-## Bộ lọc tìm kiếm (Phía trên)
+**Logs** nghĩa là **nhật ký** — hệ thống ghi lại mọi lần website của bạn hỏi dữ liệu từ AirData: hỏi lúc nào, hỏi cái gì, đối tác trả lời ra sao.
 
-Phần này giúp bạn tra cứu nhanh các giao dịch hoặc lỗi cụ thể:
+Bạn không cần vào đây hàng ngày. Nhưng khi có sự cố — khách báo không tìm được chuyến bay, giá hiện sai — thì đây là nơi tìm nguyên nhân. Khi báo lỗi cho đơn vị kỹ thuật, việc bạn gửi kèm thông tin từ màn hình này sẽ giúp họ xử lý nhanh hơn rất nhiều.
 
-- Mã đặt chỗ / PNR: Nhập mã ID hệ thống hoặc mã PNR của hãng hàng không để tìm chính xác log của một đơn hàng.
+### Bộ lọc tìm kiếm (phía trên)
 
-- Endpoint: Lọc theo đường dẫn API (ví dụ: để xem các /cheapest-fare lượt tìm vé rẻ nhất).
+Phần này giúp bạn tra cứu nhanh một giao dịch hoặc một lỗi cụ thể:
 
-- Context: Chọn loại tác vụ cụ thể như (Tìm chuyến bay), SearchFlights (Chi tiết chuyến bay), hoặc . GetFlightDetail GetCheapestFare
-
-- Trạng thái: Lọc theo mã phản hồi (ví dụ: là thành công, các mã 200 4xx hoặc là có lỗi). 5xx
-
-- Từ ngày: Chọn mốc thời gian bắt đầu để giới hạn phạm vi tìm kiếm.
-
-- Nút tìm kiếm (Biểu tượng kính lúp): Nhấn để thực thi bộ lọc.
-
-- Nút xóa lọc (Biểu tượng dấu X): Nhấn để reset các ô nhập liệu về mặc định.
+- **Mã đặt chỗ / PNR** — nhập mã đơn hàng hoặc mã PNR của hãng để tìm đúng nhật ký của một đơn. Đây là cách tìm nhanh nhất khi bạn đang xử lý khiếu nại của một khách cụ thể.
+- **Endpoint** — lọc theo loại yêu cầu đã gửi đi. Ví dụ `/cheapest-fare` là các lượt tìm vé rẻ nhất.
+- **Context** — lọc theo loại tác vụ: `SearchFlights` (tìm chuyến bay), `GetFlightDetail` (xem chi tiết chuyến bay), `GetCheapestFare` (tìm vé rẻ nhất).
+- **Trạng thái** — lọc theo mã phản hồi. Bạn chỉ cần nhớ đơn giản: mã **200 là thành công**; mã bắt đầu bằng **4** hoặc **5** là **có lỗi**. Muốn xem có trục trặc gì không, hãy lọc theo các mã 4xx và 5xx.
+- **Từ ngày** — chọn mốc thời gian bắt đầu, để không phải lục lại quá nhiều bản ghi cũ.
+- **Nút kính lúp** — nhấn để chạy bộ lọc.
+- **Nút dấu X** — xóa hết điều kiện lọc, đưa các ô về mặc định.
 
 ![](../.gitbook/assets/pg103-0.png)
 
 ## Hướng dẫn
 
-Để xem hướng dẫn thao tác chi tiết với tính năng Vé máy bay BGT, bạn vui lòng truy cập vào mục Hướng dẫn nằm trong menu con của phần Vé máy bay BGT ở thanh điều hướng bên trái màn hình.
+Hệ thống có sẵn một trang hướng dẫn thao tác chi tiết dành riêng cho tính năng Vé máy bay BGT.
+
+Để mở, bạn vào menu bên trái, nhấn vào **Vé máy bay BGT**, rồi chọn mục **Hướng dẫn** trong danh sách xổ xuống.
 
 ![](../.gitbook/assets/pg104-0.png)
 
 ![](../.gitbook/assets/pg104-1.png)
+
+## Lưu ý & xử lý sự cố
+
+**Website không tìm thấy chuyến bay nào:**
+
+- Vào **Cài đặt API**, kiểm tra ô **"Trạng thái"** có đang là **"Đã kích hoạt"** màu xanh không.
+- Nhấn **"Kiểm tra kết nối API"** để xem đường dây còn thông không.
+- Nếu vẫn không được, mở **API Logs** và lọc theo mã lỗi 4xx/5xx để xem đối tác báo lỗi gì.
+
+**Giá trên website vẫn là giá cũ sau khi sửa:** khả năng cao bạn quên nhấn **"Lưu thay đổi"** ở cột bên phải. Nếu chắc chắn đã lưu rồi, hãy tải lại trang bằng **Ctrl + F5** (giữ Ctrl rồi bấm F5) để trình duyệt lấy bản mới nhất.
+
+**Thiếu một hãng bay trong bảng cấu hình giá:** nhấn nút **"Cập nhật danh sách hãng bay"** ở góc trên bên phải để đồng bộ lại.
+
+**Khách đặt vé nhưng đơn tự biến mất:** đó là đơn dang dở đã quá **thời gian hết hạn draft** nên hệ thống tự hủy để trả chỗ. Nếu khách hay phàn nàn về việc này, bạn có thể tăng số phút trong phần **Cấu hình đặt vé** — nhưng đừng tăng quá nhiều.
+
+**Không thấy mục này trong menu:** tính năng có thể chưa được bật trên website của bạn, hoặc tài khoản của bạn chưa được cấp quyền. Hãy liên hệ đơn vị triển khai hoặc quản trị viên.
+
+## Xem thêm
+
+- [3.8. Booking](booking.md) — nơi xem và xử lý các đơn vé máy bay khách đã đặt.
+- [3.11. Chuyến bay](chuyen-bay.md) — module quản lý chuyến bay do bạn **tự khai báo tay**, khác với vé lấy tự động qua API ở trang này.
+- [4.10. Tích hợp](../khoi-he-thong/tich-hop.md) — các kết nối khác với dịch vụ bên ngoài.

@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Giới thiệu TourkitWeb](README.md)
-* [Hướng dẫn đăng ký tài khoản--](huong-dan-dang-ky-tai-khoan.md)
+* [Hướng dẫn đăng ký tài khoản](huong-dan-dang-ky-tai-khoan.md)
 * [Hướng dẫn đăng nhập tài khoản](huong-dan-dang-nhap-tai-khoan.md)
 
 ## Bảng điều khiển
@@ -31,6 +31,14 @@
   * [3.6. Vé máy bay BGT](khoi-san-pham/ve-may-bay-bgt.md)
   * [3.7. Thẻ visa](khoi-san-pham/the-visa.md)
   * [3.8. Booking](khoi-san-pham/booking.md)
+  * [3.9. Du thuyền](khoi-san-pham/du-thuyen.md)
+  * [3.10. Không gian](khoi-san-pham/khong-gian.md)
+  * [3.11. Chuyến bay](khoi-san-pham/chuyen-bay.md)
+  * [3.12. Xe](khoi-san-pham/xe.md)
+  * [3.13. Thuyền](khoi-san-pham/thuyen.md)
+  * [3.14. Khóa học](khoi-san-pham/khoa-hoc.md)
+  * [3.15. Tài sản](khoi-san-pham/tai-san.md)
+  * [3.16. Đơn hàng](khoi-san-pham/don-hang.md)
 
 ## Khối Hệ thống
 
@@ -49,6 +57,8 @@
   * [4.12. Bảo mật 2 lớp](khoi-he-thong/bao-mat-2-lop.md)
   * [4.13. Báo cáo](khoi-he-thong/bao-cao.md)
   * [4.14. Kho ứng dụng](khoi-he-thong/kho-ung-dung.md)
+  * [4.15. Đội ngũ](khoi-he-thong/doi-ngu.md)
+  * [4.16. Slide item](khoi-he-thong/slide-item.md)
 
 ## Khác
 
