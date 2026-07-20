@@ -112,7 +112,7 @@ Cách hoạt động chia làm 2 tầng:
 - **Nhóm thuộc tính** — cái tên lớn, ví dụ: `Số chỗ ngồi`, `Loại hộp số`, `Tiện nghi`.
 - **Giá trị bên trong nhóm** — các lựa chọn cụ thể, ví dụ trong nhóm `Số chỗ ngồi` sẽ có `4 chỗ`, `7 chỗ`, `16 chỗ`.
 
-> 📷 *[Cần chụp màn hình: trang Thuộc tính tại Xe > Thuộc tính]*
+![](../.gitbook/assets/xe-04.png)
 
 ### Cách thêm
 

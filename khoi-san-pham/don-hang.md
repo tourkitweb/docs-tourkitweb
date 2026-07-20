@@ -21,7 +21,7 @@ Hệ thống có 2 mục nghe rất giống nhau, người mới cực kỳ dễ
 
 Hiểu nôm na: **Đơn hàng** giống tờ hóa đơn của cả giỏ hàng, còn **Quản lý đơn hàng** là từng món trong giỏ đó.
 
-> 📷 *[Cần chụp màn hình: trang danh sách Đơn hàng tại Menu bên trái > Đơn hàng]*
+![](../.gitbook/assets/don-hang-01.png)
 
 ## Bảy trạng thái của một đơn hàng
 
@@ -61,7 +61,7 @@ Một đơn hàng thuận lợi sẽ đi qua các bước:
 
 > **Mỗi lần đổi trạng thái, hệ thống tự ghi lại một dòng nhật ký** trong đơn: đổi từ trạng thái nào sang trạng thái nào. Nhờ vậy bạn luôn truy được ai đã làm gì với đơn, rất hữu ích khi có tranh cãi với khách.
 
-> 📷 *[Cần chụp màn hình: trang chi tiết/chỉnh sửa một đơn hàng]*
+![](../.gitbook/assets/don-hang-02.png)
 
 ## Xử lý nhiều đơn cùng lúc
 

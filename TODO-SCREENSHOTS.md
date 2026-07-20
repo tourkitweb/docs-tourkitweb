@@ -3,7 +3,50 @@
 > File này là **ghi chú công việc nội bộ**, không nằm trong `SUMMARY.md` nên GitBook không xuất bản ra ngoài.
 > Xóa file này khi đã chụp xong toàn bộ.
 
-**Tổng: 53 vị trí ảnh trên 10 trang** (các trang module mới, trước đây chưa có tài liệu nên chưa có ảnh).
+**Đã chụp tự động 6/53 ảnh (20/07/2026).** Còn lại **47 ảnh** đang bị chặn bởi 3 nguyên nhân dưới đây — xử lý xong thì chạy lại script là chụp được hết.
+
+## Trạng thái sau lần chạy tự động
+
+| Trang | Xong | Còn | Vướng gì |
+|---|---|---|---|
+| `du-thuyen.md` | 5/5 | 0 | — |
+| `xe.md` | 1/5 | 4 | thiếu quyền `car_*` |
+| `thuyen.md` | 0/5 | 5 | thiếu quyền `boat_*` |
+| `khong-gian.md` | 0/4 | 4 | thiếu quyền `space_*` |
+| `chuyen-bay.md` | 0/5 | 5 | thiếu quyền `flight_*` |
+| `don-hang.md` | 0/2 | 2 | ảnh chụp được nhưng **lộ email/SĐT khách** |
+| `slide-item.md` | 0/5 | 5 | thiếu bảng DB `bc_slide_items`, `bc_slide_categories` |
+| `khoa-hoc.md` | 0/6 | 6 | module chưa bật trong theme |
+| `tai-san.md` | 0/6 | 6 | module chưa bật trong theme |
+| `doi-ngu.md` | 0/3 | 3 | module chưa bật trong theme |
+| `ket-noi-khach-san.md` | 0/4 | 4 | app Pro chưa cài |
+| `bao-mat-2-lop.md` | 0/3 | 3 | tài khoản chưa được cấp QR |
+
+### Nguyên nhân 1 — Thiếu quyền (18 ảnh)
+Role `administrator` (id 1) trong bảng `core_role_permissions` có `cruise_*` nhưng **không có** `car_*`, `boat_*`, `space_*`, `flight_*`.
+Truy cập các trang đó bị đá về trang chủ (trả HTTP 200 nên **dễ tưởng nhầm là chụp thành công** — script đã có bước kiểm tra URL cuối để bắt lỗi này).
+→ Cần cấp thêm quyền cho role, hoặc dùng tài khoản super-admin có đủ quyền.
+
+### Nguyên nhân 2 — Module chưa bật trong theme (15 ảnh)
+Theme đang dùng là `Themes\Euphoria`. Danh sách module bật nằm ở `themes/Euphoria/ThemeProvider.php`.
+File này **không khai báo** `Course`, `Property`, `Team` (dù thư mục `modules/Course`, `modules/Property`, `modules/Team` có tồn tại) → route 404.
+`HotelConnect` là app Pro, chưa cài trên máy local.
+
+### Nguyên nhân 3 — Thiếu bảng DB / dữ liệu (8 ảnh)
+- `slide-item`: 4 trang đều lỗi 500, log báo `Table 'bc_slide_items' doesn't exist` → chưa chạy migration của module.
+- `slide-item` ảnh trang chủ: chưa có dữ liệu nên dải logo đối tác không hiện.
+- `bao-mat-2-lop`: tài khoản hiện báo *"Bạn chưa được cấp QR"* → cần super-admin cấp QR trước mới có ảnh mã QR + khóa bí mật. Ảnh Google Authenticator trên điện thoại thì **phải chụp tay**, không tự động được.
+
+### Riêng `don-hang.md`
+Ảnh chụp được và đúng trang, nhưng danh sách đơn hàng hiển thị **email và số điện thoại khách** (`devqanh@gmail.com`, `0345678912`, `anh@gmail.com`, `0987657535`...). Chưa chèn vào tài liệu. Cần làm mờ hoặc thay bằng dữ liệu mẫu trước khi dùng.
+
+### Script chụp tự động
+Đã viết sẵn, chạy bằng Playwright, tự đăng nhập + ẩn thanh debugbar + kiểm tra trang có thật rồi mới chụp:
+`%TEMP%\claude\c--laragon-www-core-travel-cms\<session>\scratchpad\shoot3.mjs` (kèm `shots.json` là danh sách 51 vị trí).
+
+---
+
+**Tổng ban đầu: 53 vị trí ảnh trên 12 trang** (các trang module mới, trước đây chưa có tài liệu nên chưa có ảnh).
 
 ## Cách nhận biết chỗ cần chèn ảnh
 

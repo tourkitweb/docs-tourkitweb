@@ -15,7 +15,7 @@ Cách hiểu dễ nhất: **du thuyền giống một khách sạn nổi**. Bạ
 >
 > Nếu sản phẩm của bạn là tour ngủ đêm trên vịnh, hãy dùng **Du thuyền**.
 
-> 📷 *[Cần chụp màn hình: menu bên trái đang mở mục Du thuyền với đầy đủ các mục con]*
+![](../.gitbook/assets/du-thuyen-01.png)
 
 ## Trong mục này có gì?
 
@@ -39,7 +39,7 @@ Nhấn vào **Du thuyền** ở menu bên trái, danh sách sẽ xổ xuống 7 
 
 Vào **Du thuyền** > **Thêm du thuyền mới**.
 
-> 📷 *[Cần chụp màn hình: trang Thêm du thuyền mới, hiện các ô thông tin cơ bản]*
+![](../.gitbook/assets/du-thuyen-02.png)
 
 ### Bước 2: Khai báo thông tin con tàu
 
@@ -66,7 +66,7 @@ Một con tàu có nhiều hạng phòng khác nhau (ví dụ: Deluxe, Suite, ph
 - Giá.
 - Ảnh và các **Thuộc Tính Phòng** tương ứng.
 
-> 📷 *[Cần chụp màn hình: khu vực khai báo danh sách phòng/cabin trong trang sửa du thuyền]*
+![](../.gitbook/assets/du-thuyen-03.png)
 
 > **Cẩn thận:** Nếu bạn không khai báo phòng nào, khách vào website sẽ thấy con tàu nhưng **không có gì để đặt**. Đây là lỗi hay gặp nhất khi mới làm quen mục này.
 
@@ -91,7 +91,7 @@ Cách làm chung:
 3. Điền **giá** và **số phòng còn trống** cho khoảng ngày đó.
 4. Nhấn nút lưu/áp dụng.
 
-> 📷 *[Cần chụp màn hình: trang Du thuyền > Cập nhật giá, hiện lịch theo ngày và ô nhập giá/số phòng]*
+![](../.gitbook/assets/du-thuyen-04.png)
 
 > **Cẩn thận:** Nếu không khai báo lịch mở bán, khách sẽ thấy du thuyền hiện trên website nhưng **không đặt được ngày nào** — hệ thống hiểu là hết chỗ.
 
@@ -101,7 +101,7 @@ Cách làm chung:
 
 Vào **Du thuyền** > **Khôi phục** nếu bạn lỡ tay xóa mất một du thuyền. Dữ liệu đã xóa nằm ở đây và lấy lại được.
 
-> 📷 *[Cần chụp màn hình: trang Du thuyền > Khôi phục, hiện danh sách du thuyền đã xóa]*
+![](../.gitbook/assets/du-thuyen-05.png)
 
 ## Lưu ý & xử lý sự cố
 
