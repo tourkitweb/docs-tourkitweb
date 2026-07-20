@@ -10,28 +10,26 @@ Mục **Chuyến bay** dùng để bán vé máy bay do **bạn tự khai báo t
 
 > **Đừng nhầm với "Vé máy bay BGT":** Hệ thống có hai cách bán vé máy bay, dùng cho hai tình huống khác nhau:
 >
-> - **Chuyến bay** (trang này) — bạn **tự nhập** từng chuyến, tự đặt giá. Dữ liệu do bạn kiểm soát hoàn toàn.
-> - **Vé máy bay BGT** — vé và giá **tự động lấy về** từ nhà cung cấp bên ngoài (AirData), cập nhật theo thời gian thực. Bạn chỉ cài mức cộng thêm để lấy lời.
+> * **Chuyến bay** (trang này) — bạn **tự nhập** từng chuyến, tự đặt giá. Dữ liệu do bạn kiểm soát hoàn toàn.
+> * **Vé máy bay BGT** — vé và giá **tự động lấy về** từ nhà cung cấp bên ngoài (AirData), cập nhật theo thời gian thực. Bạn chỉ cài mức cộng thêm để lấy lời.
 >
 > Nếu bạn muốn website tự có hàng nghìn chuyến bay mà không phải gõ gì, hãy dùng [3.6. Vé máy bay BGT](ve-may-bay-bgt.md). Nếu bạn có vé riêng cần bán, hãy dùng trang này.
-
-> 📷 *[Cần chụp màn hình: menu bên trái đang mở mục Chuyến bay với đầy đủ các mục con]*
 
 ## Trong mục này có gì?
 
 Nhấn vào **Chuyến bay** ở menu bên trái, danh sách sẽ xổ xuống 6 mục con:
 
-- **Tất cả chuyến bay** — danh sách toàn bộ chuyến bay bạn đã tạo. Vào đây để xem, sửa hoặc tạm ẩn một chuyến.
-- **Thêm chuyến bay mới** — mở trang trống để khai báo một chuyến bay mới.
-- **Hãng hàng không** — danh sách các hãng bay (Vietnam Airlines, Vietjet, Bamboo…). Bạn khai báo ở đây một lần, sau đó chỉ việc chọn lại khi tạo chuyến.
-- **Sân bay** — danh sách sân bay (Nội Bài, Tân Sơn Nhất, Đà Nẵng…). Cũng khai báo một lần rồi dùng mãi.
-- **Loại ghế** — các hạng ghế bạn bán: Phổ thông, Phổ thông đặc biệt, Thương gia…
-- **Thuộc tính** — các tiêu chí để khách lọc tìm, ví dụ: "bay thẳng", "bao gồm hành lý ký gửi", "bay đêm".
+* **Tất cả chuyến bay** — danh sách toàn bộ chuyến bay bạn đã tạo. Vào đây để xem, sửa hoặc tạm ẩn một chuyến.
+* **Thêm chuyến bay mới** — mở trang trống để khai báo một chuyến bay mới.
+* **Hãng hàng không** — danh sách các hãng bay (Vietnam Airlines, Vietjet, Bamboo…). Bạn khai báo ở đây một lần, sau đó chỉ việc chọn lại khi tạo chuyến.
+* **Sân bay** — danh sách sân bay (Nội Bài, Tân Sơn Nhất, Đà Nẵng…). Cũng khai báo một lần rồi dùng mãi.
+* **Loại ghế** — các hạng ghế bạn bán: Phổ thông, Phổ thông đặc biệt, Thương gia…
+* **Thuộc tính** — các tiêu chí để khách lọc tìm, ví dụ: "bay thẳng", "bao gồm hành lý ký gửi", "bay đêm".
 
 > **Mục này KHÔNG có "Khôi phục" và KHÔNG có "Cập nhật giá".**
 >
-> - Không có **Khôi phục** nghĩa là **không có thùng rác**. Chuyến bay đã xóa thì **không lấy lại được**. Hãy cân nhắc kỹ trước khi xóa — thay vì xóa, bạn nên chuyển chuyến bay về **bản nháp** để ẩn khỏi website mà vẫn giữ dữ liệu.
-> - Không có **Cập nhật giá** nghĩa là giá và số ghế được khai báo **ngay trong từng chuyến bay**, không quản lý theo lịch ngày như khách sạn hay tour.
+> * Không có **Khôi phục** nghĩa là **không có thùng rác**. Chuyến bay đã xóa thì **không lấy lại được**. Hãy cân nhắc kỹ trước khi xóa — thay vì xóa, bạn nên chuyển chuyến bay về **bản nháp** để ẩn khỏi website mà vẫn giữ dữ liệu.
+> * Không có **Cập nhật giá** nghĩa là giá và số ghế được khai báo **ngay trong từng chuyến bay**, không quản lý theo lịch ngày như khách sạn hay tour.
 
 > **Nếu bạn không thấy mục nào trong danh sách trên:** tài khoản của bạn chưa được cấp quyền cho phần đó — hãy liên hệ quản trị viên.
 
@@ -45,21 +43,15 @@ Hãy làm theo đúng thứ tự sau:
 
 Vào **Chuyến bay** > **Hãng hàng không**, thêm các hãng bạn sẽ bán vé. Mỗi hãng thường cần tên và biểu tượng (logo) để hiển thị đẹp trên website.
 
-> 📷 *[Cần chụp màn hình: trang Chuyến bay > Hãng hàng không, hiện danh sách hãng]*
-
 ### Bước 2: Khai báo Sân bay
 
 Vào **Chuyến bay** > **Sân bay**, thêm các sân bay đi và đến mà bạn khai thác.
 
 > **Mẹo:** Chỉ cần khai báo những sân bay bạn thực sự bán vé. Không cần nhập cả trăm sân bay trên thế giới nếu bạn chỉ bay nội địa.
 
-> 📷 *[Cần chụp màn hình: trang Chuyến bay > Sân bay, hiện danh sách sân bay]*
-
 ### Bước 3: Khai báo Loại ghế
 
 Vào **Chuyến bay** > **Loại ghế**, thêm các hạng ghế bạn bán: Phổ thông, Thương gia…
-
-> 📷 *[Cần chụp màn hình: trang Chuyến bay > Loại ghế, hiện danh sách hạng ghế]*
 
 Làm xong 3 bước này một lần, bạn sẽ không phải làm lại nữa. Từ đó về sau, mỗi lần thêm chuyến bay chỉ việc chọn từ danh sách có sẵn.
 
@@ -69,16 +61,14 @@ Làm xong 3 bước này một lần, bạn sẽ không phải làm lại nữa.
 
 Vào **Chuyến bay** > **Thêm chuyến bay mới**.
 
-> 📷 *[Cần chụp màn hình: trang Thêm chuyến bay mới, hiện các ô hãng bay, sân bay đi/đến, giờ bay]*
-
 ### Bước 2: Điền thông tin chuyến bay
 
 Bạn cần khai báo:
 
-- **Hãng hàng không** — chọn từ danh sách bạn đã khai báo ở phần chuẩn bị.
-- **Sân bay đi** và **Sân bay đến** — cũng chọn từ danh sách có sẵn.
-- **Ngày giờ khởi hành** và **ngày giờ hạ cánh**.
-- **Loại ghế, số ghế và giá** cho từng hạng.
+* **Hãng hàng không** — chọn từ danh sách bạn đã khai báo ở phần chuẩn bị.
+* **Sân bay đi** và **Sân bay đến** — cũng chọn từ danh sách có sẵn.
+* **Ngày giờ khởi hành** và **ngày giờ hạ cánh**.
+* **Loại ghế, số ghế và giá** cho từng hạng.
 
 > **Cẩn thận với giờ bay:** hãy kiểm tra thật kỹ **ngày, giờ và cả buổi sáng/chiều**. Nhầm giữa 08:00 và 20:00 là lỗi rất dễ mắc, và hậu quả là khách ra sân bay sai giờ. Sau khi lưu, hãy mở website xem lại chuyến bay hiện đúng giờ chưa.
 
@@ -98,9 +88,9 @@ Nhấn **"Lưu thay đổi"**.
 
 **Đã bấm Lưu mà chuyến bay không hiện trên website:**
 
-- Kiểm tra trạng thái — có thể vẫn đang là **bản nháp**.
-- Kiểm tra bạn đã khai báo **số ghế** cho ít nhất một loại ghế chưa. Không có ghế thì hệ thống hiểu là hết chỗ.
-- Tải lại trang bằng **Ctrl + F5** (giữ phím Ctrl rồi bấm F5).
+* Kiểm tra trạng thái — có thể vẫn đang là **bản nháp**.
+* Kiểm tra bạn đã khai báo **số ghế** cho ít nhất một loại ghế chưa. Không có ghế thì hệ thống hiểu là hết chỗ.
+* Tải lại trang bằng **Ctrl + F5** (giữ phím Ctrl rồi bấm F5).
 
 **Lỡ xóa nhầm một chuyến bay:** rất tiếc, mục này **không có thùng rác** — dữ liệu đã xóa không lấy lại được, bạn phải nhập lại từ đầu. Vì vậy, với những chuyến chỉ muốn tạm ẩn, hãy chuyển về **bản nháp** thay vì xóa.
 
@@ -112,5 +102,5 @@ Nhấn **"Lưu thay đổi"**.
 
 ## Xem thêm
 
-- [3.6. Vé máy bay BGT](ve-may-bay-bgt.md) — cách bán vé máy bay lấy dữ liệu tự động từ đối tác, không phải nhập tay.
-- [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt vé.
+* [3.6. Vé máy bay BGT](ve-may-bay-bgt.md) — cách bán vé máy bay lấy dữ liệu tự động từ đối tác, không phải nhập tay.
+* [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt vé.

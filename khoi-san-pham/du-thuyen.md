@@ -1,17 +1,13 @@
 # 3.9. Du thuyền
 
-Mục **Du thuyền** dùng để bán các chuyến nghỉ đêm trên tàu — kiểu du thuyền Hạ Long, Lan Hạ, Cát Bà: khách lên tàu, ngủ lại trong **cabin** (phòng trên tàu), ăn uống và tham quan theo hành trình có sẵn.
-
-Cách hiểu dễ nhất: **du thuyền giống một khách sạn nổi**. Bạn không bán "cả con tàu" cho một khách, mà bán **từng phòng** trên con tàu đó — y hệt khách sạn bán từng phòng. Vì vậy nếu bạn đã quen mục **Khách sạn**, bạn sẽ thấy Du thuyền quen thuộc ngay.
-
 > **Đường dẫn:** Menu bên trái > **Du thuyền**
 
 > **Lưu ý:** Tính năng này có thể chưa được bật trên website của bạn. Nếu không thấy mục này trong menu, hãy liên hệ đơn vị triển khai.
 
 > **Đừng nhầm "Du thuyền" với "Thuyền":** Hệ thống có hai mục nghe rất giống nhau nhưng dùng cho hai việc khác hẳn:
 >
-> - **Du thuyền** (trang này) — tàu **có phòng ngủ**, khách ở lại qua đêm. Bạn quản lý theo từng phòng.
-> - **Thuyền** — tàu **cho thuê theo chuyến**, thường đi trong ngày, không có phòng ngủ để bán riêng.
+> * **Du thuyền** (trang này) — tàu **có phòng ngủ**, khách ở lại qua đêm. Bạn quản lý theo từng phòng.
+> * **Thuyền** — tàu **cho thuê theo chuyến**, thường đi trong ngày, không có phòng ngủ để bán riêng.
 >
 > Nếu sản phẩm của bạn là tour ngủ đêm trên vịnh, hãy dùng **Du thuyền**.
 
@@ -21,13 +17,13 @@ Cách hiểu dễ nhất: **du thuyền giống một khách sạn nổi**. Bạ
 
 Nhấn vào **Du thuyền** ở menu bên trái, danh sách sẽ xổ xuống 7 mục con:
 
-- **Tất cả Du thuyền** — danh sách toàn bộ du thuyền bạn đã tạo. Vào đây để xem, sửa hoặc tạm ẩn một du thuyền.
-- **Thêm du thuyền mới** — mở trang trống để khai báo một du thuyền mới từ đầu.
-- **Danh mục** — các nhóm phân loại du thuyền, ví dụ: "Du thuyền 5 sao", "Vịnh Lan Hạ", "Nghỉ 2 ngày 1 đêm". Phân loại giúp khách lọc nhanh thay vì phải cuộn qua toàn bộ danh sách.
-- **Thuộc tính** — các tiêu chí lọc **cho cả con tàu**, ví dụ: "có bể bơi", "có phòng gym", "tàu vỏ kim loại".
-- **Thuộc Tính Phòng** — các tiêu chí lọc **cho từng phòng trên tàu**, ví dụ: "có ban công", "hướng biển", "bồn tắm".
-- **Cập nhật giá** — lịch mở bán: ngày nào còn phòng, còn bao nhiêu phòng, giá bao nhiêu.
-- **Khôi phục** — thùng rác: nơi chứa du thuyền đã xóa. Xóa nhầm vẫn lấy lại được ở đây.
+* **Tất cả Du thuyền** — danh sách toàn bộ du thuyền bạn đã tạo. Vào đây để xem, sửa hoặc tạm ẩn một du thuyền.
+* **Thêm du thuyền mới** — mở trang trống để khai báo một du thuyền mới từ đầu.
+* **Danh mục** — các nhóm phân loại du thuyền, ví dụ: "Du thuyền 5 sao", "Vịnh Lan Hạ", "Nghỉ 2 ngày 1 đêm". Phân loại giúp khách lọc nhanh thay vì phải cuộn qua toàn bộ danh sách.
+* **Thuộc tính** — các tiêu chí lọc **cho cả con tàu**, ví dụ: "có bể bơi", "có phòng gym", "tàu vỏ kim loại".
+* **Thuộc Tính Phòng** — các tiêu chí lọc **cho từng phòng trên tàu**, ví dụ: "có ban công", "hướng biển", "bồn tắm".
+* **Cập nhật giá** — lịch mở bán: ngày nào còn phòng, còn bao nhiêu phòng, giá bao nhiêu.
+* **Khôi phục** — thùng rác: nơi chứa du thuyền đã xóa. Xóa nhầm vẫn lấy lại được ở đây.
 
 > **Vì sao có tới hai loại "thuộc tính"?** Vì khách tìm du thuyền theo hai tầng suy nghĩ khác nhau. Đầu tiên họ chọn **con tàu** ("tôi muốn tàu có bể bơi") — đó là **Thuộc tính**. Sau đó, trên con tàu đã chọn, họ chọn **phòng** ("tôi muốn phòng có ban công") — đó là **Thuộc Tính Phòng**. Khai báo đúng chỗ thì bộ lọc trên website mới chạy đúng.
 
@@ -45,10 +41,10 @@ Vào **Du thuyền** > **Thêm du thuyền mới**.
 
 Ở bước này bạn mô tả **cả con tàu**, chưa nói tới phòng:
 
-- **Tên du thuyền** — tên khách nhìn thấy trên website, ví dụ: `Du thuyền Hạ Long Paradise`.
-- **Địa điểm** — vịnh/khu vực tàu hoạt động.
-- **Mô tả** — kể cho khách nghe hành trình đi đâu, có hoạt động gì, ăn uống ra sao. Hãy viết như bạn đang tư vấn trực tiếp cho khách.
-- **Ảnh** — ảnh đại diện và bộ ảnh chi tiết. Với du thuyền, ảnh là thứ bán hàng mạnh nhất: hãy có ảnh ngoại cảnh con tàu, ảnh phòng, ảnh khu ăn uống và boong tàu.
+* **Tên du thuyền** — tên khách nhìn thấy trên website, ví dụ: `Du thuyền Hạ Long Paradise`.
+* **Địa điểm** — vịnh/khu vực tàu hoạt động.
+* **Mô tả** — kể cho khách nghe hành trình đi đâu, có hoạt động gì, ăn uống ra sao. Hãy viết như bạn đang tư vấn trực tiếp cho khách.
+* **Ảnh** — ảnh đại diện và bộ ảnh chi tiết. Với du thuyền, ảnh là thứ bán hàng mạnh nhất: hãy có ảnh ngoại cảnh con tàu, ảnh phòng, ảnh khu ăn uống và boong tàu.
 
 ### Bước 3: Chọn danh mục và thuộc tính
 
@@ -60,11 +56,11 @@ Vào **Du thuyền** > **Thêm du thuyền mới**.
 
 Một con tàu có nhiều hạng phòng khác nhau (ví dụ: Deluxe, Suite, phòng gia đình). Với mỗi hạng phòng, bạn cần cho hệ thống biết:
 
-- Tên hạng phòng.
-- Số lượng phòng thuộc hạng đó trên tàu.
-- Sức chứa mỗi phòng (tối đa mấy khách).
-- Giá.
-- Ảnh và các **Thuộc Tính Phòng** tương ứng.
+* Tên hạng phòng.
+* Số lượng phòng thuộc hạng đó trên tàu.
+* Sức chứa mỗi phòng (tối đa mấy khách).
+* Giá.
+* Ảnh và các **Thuộc Tính Phòng** tương ứng.
 
 ![](../.gitbook/assets/du-thuyen-03.png)
 
@@ -107,14 +103,14 @@ Vào **Du thuyền** > **Khôi phục** nếu bạn lỡ tay xóa mất một du
 
 **Du thuyền hiện trên website nhưng khách không đặt được:** đây là tình huống phổ biến nhất, thường do một trong ba nguyên nhân:
 
-- Bạn chưa khai báo **phòng** nào cho con tàu.
-- Bạn chưa khai báo **Cập nhật giá** (lịch mở bán) cho ngày khách muốn đi.
-- Số phòng còn trống đang để bằng 0.
+* Bạn chưa khai báo **phòng** nào cho con tàu.
+* Bạn chưa khai báo **Cập nhật giá** (lịch mở bán) cho ngày khách muốn đi.
+* Số phòng còn trống đang để bằng 0.
 
 **Đã bấm Lưu mà không thấy gì thay đổi trên website:**
 
-- Kiểm tra trạng thái — có thể vẫn đang là **bản nháp**.
-- Tải lại trang bằng **Ctrl + F5** (giữ phím Ctrl rồi bấm F5). Trình duyệt hay nhớ bản cũ, cách này buộc nó tải bản mới nhất.
+* Kiểm tra trạng thái — có thể vẫn đang là **bản nháp**.
+* Tải lại trang bằng **Ctrl + F5** (giữ phím Ctrl rồi bấm F5). Trình duyệt hay nhớ bản cũ, cách này buộc nó tải bản mới nhất.
 
 **Ảnh tải lên mãi không xong:** ảnh quá nặng. Ảnh chụp từ điện thoại đời mới thường nặng 5–10 MB. Hãy giảm dung lượng xuống dưới 1 MB trước khi tải lên — trang của bạn cũng sẽ mở nhanh hơn cho khách.
 
@@ -126,6 +122,6 @@ Vào **Du thuyền** > **Khôi phục** nếu bạn lỡ tay xóa mất một du
 
 ## Xem thêm
 
-- [3.2. Khách sạn](khach-san.md) — cách quản lý theo phòng rất giống, có hướng dẫn chi tiết hơn.
-- [3.1. Địa điểm](dia-diem.md) — nơi khai báo các vịnh/khu vực trước khi gắn vào du thuyền.
-- [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt du thuyền.
+* [3.2. Khách sạn](khach-san.md) — cách quản lý theo phòng rất giống, có hướng dẫn chi tiết hơn.
+* [3.1. Địa điểm](dia-diem.md) — nơi khai báo các vịnh/khu vực trước khi gắn vào du thuyền.
+* [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt du thuyền.
