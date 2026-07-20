@@ -6,8 +6,6 @@ Nếu các mục khác trong hệ thống là để **làm việc**, thì mục 
 
 > **Đường dẫn:** Menu bên trái > **Báo cáo**
 
-![](../.gitbook/assets/pg123-0.png)
-
 > **Con số nhỏ bên cạnh chữ "Báo cáo" là gì?** Nếu bạn thấy một huy hiệu số hiện cạnh tên menu (ví dụ **Báo cáo 3**), đó là **số yêu cầu mua tín dụng đang chờ bạn duyệt**. Con số này nhắc bạn có việc cần xử lý. Duyệt xong thì nó tự về 0 và biến mất.
 
 > **Không thấy mục "Báo cáo" trong menu?** Mục này cần quyền xem báo cáo. Nếu tài khoản của bạn chưa được cấp quyền, mục này sẽ ẩn hoàn toàn. Hãy liên hệ quản trị viên của đơn vị bạn.

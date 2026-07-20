@@ -18,8 +18,8 @@ Bài này hướng dẫn bạn **tự sắp xếp lại các khối đó** mà k
 
 Sau khi vào, màn hình chia làm 2 phần:
 
-- **Cột bên trái** — danh sách các khối đang có trên trang chủ, xếp đúng thứ tự từ trên xuống như khách nhìn thấy.
-- **Phần giữa/phải** — bảng thiết lập của khối bạn đang chọn, và khu vực xem trước.
+* **Cột bên trái** — danh sách các khối đang có trên trang chủ, xếp đúng thứ tự từ trên xuống như khách nhìn thấy.
+* **Phần giữa/phải** — bảng thiết lập của khối bạn đang chọn, và khu vực xem trước.
 
 ## Chỉnh sửa một khối có sẵn
 
@@ -29,12 +29,12 @@ Tất cả các khối nội dung trên hệ thống đều có thao tác chỉn
 
 **Bước 2:** Tại bảng **"Hiển thị dữ liệu theo post type"** bên phải, thực hiện chỉnh sửa các thông tin:
 
-- **Tiêu đề & Mô tả** — nhập nội dung văn bản để thay đổi nhãn hiển thị trên trang chủ. Đây chính là dòng chữ lớn khách đọc thấy, ví dụ "Khách sạn nổi bật" hay "Ưu đãi tháng 7".
-- **Loại dịch vụ** — chọn nguồn dữ liệu muốn hiển thị (ví dụ: `hotel`, `tour`, `news`...). Đây là chỗ quyết định khối này lấy **tour** ra khoe hay lấy **khách sạn** ra khoe.
-- **Kiểu hiển thị** — chọn giữa:
-  - **Lưới (Grid)** — các mục xếp thành bảng ô vuông, khách thấy hết cùng lúc, phải cuộn xuống.
-  - **Trượt (Slider)** — các mục chạy ngang, khách bấm mũi tên để xem tiếp. Tiết kiệm chiều cao trang.
-- **Số lượng** — thiết lập số lượng bài viết/dịch vụ muốn hiển thị trong khối này.
+* **Tiêu đề & Mô tả** — nhập nội dung văn bản để thay đổi nhãn hiển thị trên trang chủ. Đây chính là dòng chữ lớn khách đọc thấy, ví dụ "Khách sạn nổi bật" hay "Ưu đãi tháng 7".
+* **Loại dịch vụ** — chọn nguồn dữ liệu muốn hiển thị (ví dụ: `hotel`, `tour`, `news`...). Đây là chỗ quyết định khối này lấy **tour** ra khoe hay lấy **khách sạn** ra khoe.
+* **Kiểu hiển thị** — chọn giữa:
+  * **Lưới (Grid)** — các mục xếp thành bảng ô vuông, khách thấy hết cùng lúc, phải cuộn xuống.
+  * **Trượt (Slider)** — các mục chạy ngang, khách bấm mũi tên để xem tiếp. Tiết kiệm chiều cao trang.
+* **Số lượng** — thiết lập số lượng bài viết/dịch vụ muốn hiển thị trong khối này.
 
 > **Mẹo về số lượng:** đừng để số quá lớn. Đặt 4, 6 hoặc 8 là hợp lý. Nếu đặt 50, trang chủ sẽ dài lê thê và **tải rất chậm**, khách dễ thoát ra trước khi trang hiện xong.
 
@@ -44,11 +44,9 @@ Tất cả các khối nội dung trên hệ thống đều có thao tác chỉn
 
 ## Thêm một khối mới
 
-Bên cạnh đó, khi bạn nhấn nút **"Thêm mới"** (Add layer), các thao tác thiết lập
+Bên cạnh đó, khi bạn nhấn nút **"Thêm mới"** (Add layer), các thao tác thiết lập nội dung cũng hoàn toàn tương tự như khi chỉnh sửa một khối có sẵn.
 
-![](.gitbook/assets/pg154-1.png)
-
-nội dung cũng hoàn toàn tương tự như khi chỉnh sửa một khối có sẵn.
+{% embed url="https://youtu.be/I8udJLiF2p0?si=lTxYyW1cWsx2OYZH" %}
 
 Nghĩa là bạn chỉ cần: bấm **"Thêm mới"** → chọn loại khối muốn thêm → điền tiêu đề, chọn loại dịch vụ, kiểu hiển thị, số lượng → bấm **"Lưu Khối"**.
 
@@ -67,8 +65,4 @@ Nghĩa là bạn chỉ cần: bấm **"Thêm mới"** → chọn loại khối m
 
 > **Lời khuyên quan trọng:** trước khi sửa nhiều thứ cùng lúc, hãy **sửa từng khối một và lưu ngay**. Nếu có sự cố, bạn biết chính xác khối nào gây ra. Sửa 5 khối rồi mới lưu sẽ rất khó tìm lỗi.
 
-*📺 Video hướng dẫn: TourkitWeb | Hướng dẫn tạo trang Chỉnh sửa thông tin*
-
-![](.gitbook/assets/pg155-0.png)
-
-*📺 Video hướng dẫn: TourkitWeb | Hướng dẫn tạo trang Chỉnh sửa banner, t*
+{% embed url="https://youtu.be/L-0I7tz0QD8?si=L6apV_vGVbNfuBtO" %}
