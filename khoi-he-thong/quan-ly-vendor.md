@@ -17,7 +17,7 @@ Từ đó phát sinh 2 việc phải quản lý, và đó chính là nội dung 
 
 > **Lưu ý:** Tính năng này có thể chưa được bật trên website của bạn. Nếu không thấy mục này trong menu, hãy liên hệ đơn vị triển khai.
 
-![](../.gitbook/assets/pg124-0.png)
+![](../.gitbook/assets/pg123-0.png)
 
 ## Nếu bạn không thấy mục "Quản lý Vendor"
 
@@ -27,8 +27,8 @@ Từ đó phát sinh 2 việc phải quản lý, và đó chính là nội dung 
 
 **2. Bạn thấy mục "Thanh toán" đứng riêng thay vì "Quản lý Vendor".** Đây là điểm rất hay gây bối rối, nên giải thích rõ:
 
-- Nếu website **chưa bật** gói quản lý nâng cao, bạn sẽ thấy một mục tên **"Thanh toán"** đứng độc lập trong nhóm Hệ thống. Nó lo đúng một việc: trả tiền cho Vendor.
-- Nếu website **đã bật** gói nâng cao, mục "Thanh toán" đó **biến mất khỏi vị trí cũ** và chui vào **bên trong "Quản lý Vendor"**, cùng với các mục về gói dịch vụ.
+* Nếu website **chưa bật** gói quản lý nâng cao, bạn sẽ thấy một mục tên **"Thanh toán"** đứng độc lập trong nhóm Hệ thống. Nó lo đúng một việc: trả tiền cho Vendor.
+* Nếu website **đã bật** gói nâng cao, mục "Thanh toán" đó **biến mất khỏi vị trí cũ** và chui vào **bên trong "Quản lý Vendor"**, cùng với các mục về gói dịch vụ.
 
 Nói cách khác: **hai mục này không bao giờ cùng xuất hiện.** Nếu hôm nay bạn thấy "Thanh toán" mà mai lại thấy "Quản lý Vendor", nghĩa là đơn vị triển khai vừa bật gói nâng cao cho bạn — không phải bạn làm mất mục nào cả.
 
@@ -38,12 +38,12 @@ Nói cách khác: **hai mục này không bao giờ cùng xuất hiện.** Nếu
 
 Khi mục **"Quản lý Vendor"** được bật, bên trong thường gồm các phần sau:
 
-- **Gói dịch vụ** — các "gói cước" bạn bán cho Vendor. Ví dụ: gói cho đăng 5 khách sạn/tháng, gói cho đăng không giới hạn.
-- **Yêu cầu mua gói** — hàng chờ các Vendor đăng ký mua gói, chờ bạn duyệt.
-- **Thanh toán Vendor** — danh sách các yêu cầu đòi tiền từ Vendor. Đây là phần bạn dùng nhiều nhất, mô tả kỹ bên dưới.
-- **Cài đặt** — các thiết lập chung cho mô hình Vendor.
+* **Gói dịch vụ** — các "gói cước" bạn bán cho Vendor. Ví dụ: gói cho đăng 5 khách sạn/tháng, gói cho đăng không giới hạn.
+* **Yêu cầu mua gói** — hàng chờ các Vendor đăng ký mua gói, chờ bạn duyệt.
+* **Thanh toán Vendor** — danh sách các yêu cầu đòi tiền từ Vendor. Đây là phần bạn dùng nhiều nhất, mô tả kỹ bên dưới.
+* **Cài đặt** — các thiết lập chung cho mô hình Vendor.
 
-> **Lưu ý:** Danh sách "các Vendor của bạn là ai" **không nằm ở đây**. Vendor bản chất vẫn là người dùng, nên bạn quản lý họ tại **[4.1. Người dùng](nguoi-dung.md) > Tất cả người dùng**, rồi lọc theo vai trò **Vendor**.
+> **Lưu ý:** Danh sách "các Vendor của bạn là ai" **không nằm ở đây**. Vendor bản chất vẫn là người dùng, nên bạn quản lý họ tại [**4.1. Người dùng**](nguoi-dung.md) **> Tất cả người dùng**, rồi lọc theo vai trò **Vendor**.
 
 ## Gói dịch vụ và Yêu cầu mua gói
 
@@ -79,22 +79,22 @@ Số đó khác 0 nghĩa là **có người đang chờ bạn**. Số đó về 
 
 Mỗi dòng là một yêu cầu đòi tiền, với các cột:
 
-- **ID** — mã số của yêu cầu, dùng để đối chiếu khi trao đổi với Vendor.
-- **Vendor** — ai đang đòi tiền.
-- **Ghi chú** — có 2 loại: ghi chú Vendor gửi cho bạn, và ghi chú bạn gửi lại cho Vendor.
-- **Số tiền (Amount)** — số tiền họ yêu cầu.
-- **Phương thức thanh toán (Payout Method)** — họ muốn nhận tiền bằng cách nào (chuyển khoản ngân hàng, ví điện tử…).
-- **Ngày tạo** — lúc họ gửi yêu cầu.
-- **Trạng thái (Status)** — yêu cầu này đang ở bước nào. Đọc kỹ phần dưới.
+* **ID** — mã số của yêu cầu, dùng để đối chiếu khi trao đổi với Vendor.
+* **Vendor** — ai đang đòi tiền.
+* **Ghi chú** — có 2 loại: ghi chú Vendor gửi cho bạn, và ghi chú bạn gửi lại cho Vendor.
+* **Số tiền (Amount)** — số tiền họ yêu cầu.
+* **Phương thức thanh toán (Payout Method)** — họ muốn nhận tiền bằng cách nào (chuyển khoản ngân hàng, ví điện tử…).
+* **Ngày tạo** — lúc họ gửi yêu cầu.
+* **Trạng thái (Status)** — yêu cầu này đang ở bước nào. Đọc kỹ phần dưới.
 
 ### 4 trạng thái của một yêu cầu thanh toán
 
 Hãy hiểu 4 trạng thái này như 4 chặng của một quy trình:
 
-- **Initial** (Mới gửi) — Vendor vừa gửi yêu cầu, **bạn chưa xem gì cả**. Đây chính là những cái được đếm vào con số cạnh menu. Đây là việc của bạn.
-- **Confirmed** (Đã xác nhận) — bạn đã kiểm tra và đồng ý là số tiền này đúng, **nhưng chưa chuyển khoản**. Giống như "đã duyệt chi, đang chờ kế toán chuyển".
-- **Paid** (Đã trả) — **tiền đã ra khỏi tài khoản của bạn**, việc xong. Chỉ đổi sang trạng thái này **sau khi đã chuyển khoản thật**.
-- **Rejected** (Từ chối) — bạn không đồng ý trả yêu cầu này. Ví dụ số tiền sai, hoặc đơn hàng đó khách đã hủy.
+* **Initial** (Mới gửi) — Vendor vừa gửi yêu cầu, **bạn chưa xem gì cả**. Đây chính là những cái được đếm vào con số cạnh menu. Đây là việc của bạn.
+* **Confirmed** (Đã xác nhận) — bạn đã kiểm tra và đồng ý là số tiền này đúng, **nhưng chưa chuyển khoản**. Giống như "đã duyệt chi, đang chờ kế toán chuyển".
+* **Paid** (Đã trả) — **tiền đã ra khỏi tài khoản của bạn**, việc xong. Chỉ đổi sang trạng thái này **sau khi đã chuyển khoản thật**.
+* **Rejected** (Từ chối) — bạn không đồng ý trả yêu cầu này. Ví dụ số tiền sai, hoặc đơn hàng đó khách đã hủy.
 
 ### Cách xử lý một yêu cầu thanh toán
 
@@ -106,9 +106,9 @@ Việc duyệt được làm theo kiểu **hành động hàng loạt** — tứ
 
 **Bước 3: Mở hộp thoại xử lý.** Một cửa sổ hiện ra để bạn điền:
 
-- **Trạng thái (Status)** — chọn một trong 4 trạng thái ở trên.
-- **Ngày thanh toán (Pay date)** — ngày bạn chuyển khoản thật. Điền đúng ngày để sau này đối chiếu sổ ngân hàng.
-- **Ghi chú gửi Vendor (Note to vendor)** — lời nhắn cho Vendor. **Đặc biệt quan trọng khi bạn từ chối**: hãy viết rõ lý do, ví dụ *"Đơn #123 khách đã hủy nên không tính hoa hồng"*. Vendor sẽ nhận được lời nhắn này.
+* **Trạng thái (Status)** — chọn một trong 4 trạng thái ở trên.
+* **Ngày thanh toán (Pay date)** — ngày bạn chuyển khoản thật. Điền đúng ngày để sau này đối chiếu sổ ngân hàng.
+* **Ghi chú gửi Vendor (Note to vendor)** — lời nhắn cho Vendor. **Đặc biệt quan trọng khi bạn từ chối**: hãy viết rõ lý do, ví dụ _"Đơn #123 khách đã hủy nên không tính hoa hồng"_. Vendor sẽ nhận được lời nhắn này.
 
 **Bước 4: Nhấn nút áp dụng** để lưu lại. **Không nhấn nút này thì không có gì xảy ra.**
 
@@ -118,28 +118,22 @@ Việc duyệt được làm theo kiểu **hành động hàng loạt** — tứ
 
 ## Lưu ý & xử lý sự cố
 
-**Tôi tìm mãi không thấy danh sách các Vendor của mình ở đâu.**
-Vì nó không nằm trong mục này. Vào **[4.1. Người dùng](nguoi-dung.md) > Tất cả người dùng**, rồi lọc theo vai trò **Vendor**.
+**Tôi tìm mãi không thấy danh sách các Vendor của mình ở đâu.** Vì nó không nằm trong mục này. Vào [**4.1. Người dùng**](nguoi-dung.md) **> Tất cả người dùng**, rồi lọc theo vai trò **Vendor**.
 
-**Hôm trước tôi thấy mục "Thanh toán" riêng, giờ không thấy nữa.**
-Không phải bạn làm mất. Website vừa được bật gói quản lý nâng cao, nên mục "Thanh toán" đã chuyển vào bên trong **"Quản lý Vendor"**. Xem lại phần đầu bài.
+**Hôm trước tôi thấy mục "Thanh toán" riêng, giờ không thấy nữa.** Không phải bạn làm mất. Website vừa được bật gói quản lý nâng cao, nên mục "Thanh toán" đã chuyển vào bên trong **"Quản lý Vendor"**. Xem lại phần đầu bài.
 
-**Vendor báo họ đã gửi yêu cầu mà tôi không thấy.**
-Kiểm tra bộ lọc trạng thái — có thể bạn đang xem trạng thái khác. Hãy xem ở trạng thái **"Initial"** (Mới gửi). Nếu vẫn không có, nhấn **Ctrl + F5** để tải lại trang.
+**Vendor báo họ đã gửi yêu cầu mà tôi không thấy.** Kiểm tra bộ lọc trạng thái — có thể bạn đang xem trạng thái khác. Hãy xem ở trạng thái **"Initial"** (Mới gửi). Nếu vẫn không có, nhấn **Ctrl + F5** để tải lại trang.
 
-**Tôi lỡ đánh dấu "Paid" nhưng thực tế chưa chuyển tiền.**
-Chọn lại yêu cầu đó và đổi trạng thái về **"Confirmed"**. Nhưng lưu ý: **Vendor có thể đã nhận email báo đã trả tiền rồi**. Hãy chủ động nhắn cho họ giải thích, đừng để họ tưởng bạn nợ mà không trả.
+**Tôi lỡ đánh dấu "Paid" nhưng thực tế chưa chuyển tiền.** Chọn lại yêu cầu đó và đổi trạng thái về **"Confirmed"**. Nhưng lưu ý: **Vendor có thể đã nhận email báo đã trả tiền rồi**. Hãy chủ động nhắn cho họ giải thích, đừng để họ tưởng bạn nợ mà không trả.
 
-**Tôi từ chối nhầm một yêu cầu.**
-Chọn lại và đổi trạng thái về **"Confirmed"** hoặc **"Initial"**. Vendor đã nhận email từ chối, nên hãy nhắn giải thích cho họ.
+**Tôi từ chối nhầm một yêu cầu.** Chọn lại và đổi trạng thái về **"Confirmed"** hoặc **"Initial"**. Vendor đã nhận email từ chối, nên hãy nhắn giải thích cho họ.
 
-**Con số cạnh mục thanh toán không giảm dù tôi đã xử lý.**
-Tải lại trang bằng **Ctrl + F5**. Con số chỉ cập nhật khi trang được nạp mới.
+**Con số cạnh mục thanh toán không giảm dù tôi đã xử lý.** Tải lại trang bằng **Ctrl + F5**. Con số chỉ cập nhật khi trang được nạp mới.
 
 > **Mẹo quản lý:** Hãy đặt lịch cố định — ví dụ **thứ Sáu hằng tuần** — để vào xử lý toàn bộ yêu cầu thanh toán một lượt. Vendor biết trước lịch thì họ không sốt ruột gọi điện, còn bạn thì không bị việc này cắt ngang mỗi ngày.
 
 ## Xem thêm
 
-- [4. Khối HỆ THỐNG](README.md)
-- [4.1. Người dùng](nguoi-dung.md)
-- [4.4. Kết nối khách sạn](ket-noi-khach-san.md)
+* [4. Khối HỆ THỐNG](./)
+* [4.1. Người dùng](nguoi-dung.md)
+* [4.4. Kết nối khách sạn](ket-noi-khach-san.md)

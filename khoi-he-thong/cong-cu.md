@@ -6,15 +6,15 @@ Người dùng hằng ngày gần như không cần vào đây. Bạn chỉ mở
 
 > **Đường dẫn:** Menu bên trái > **Công cụ**
 
-![](../.gitbook/assets/pg149-0.png)
+![](../.gitbook/assets/pg123-0.png)
 
 ## Trong mục này có gì?
 
 Nhấn vào **Công cụ** ở menu bên trái, bạn sẽ thấy 3 mục con:
 
-- **Ngôn ngữ** — khai báo website của bạn hỗ trợ những thứ tiếng nào (Tiếng Việt, English, 中文…).
-- **Quản lý dịch thuật** — dịch từng dòng chữ trên website sang các thứ tiếng đó.
-- **Nhật ký hệ thống** — sổ ghi chép lại các lỗi kỹ thuật đã xảy ra.
+* **Ngôn ngữ** — khai báo website của bạn hỗ trợ những thứ tiếng nào (Tiếng Việt, English, 中文…).
+* **Quản lý dịch thuật** — dịch từng dòng chữ trên website sang các thứ tiếng đó.
+* **Nhật ký hệ thống** — sổ ghi chép lại các lỗi kỹ thuật đã xảy ra.
 
 > **Không thấy mục "Công cụ" trong menu?** Mỗi mục con ở trên cần một quyền riêng. Nếu tài khoản của bạn **không có quyền nào trong cả 3 mục**, thì **toàn bộ menu "Công cụ" sẽ biến mất** khỏi thanh bên trái — không phải website bị lỗi. Hãy liên hệ quản trị viên để được cấp quyền.
 >
@@ -24,8 +24,8 @@ Nhấn vào **Công cụ** ở menu bên trái, bạn sẽ thấy 3 mục con:
 
 Hai mục này luôn đi cùng nhau và rất dễ lẫn. Hãy hình dung như việc **xuất bản một cuốn sách sang tiếng nước ngoài**:
 
-- **Ngôn ngữ** = **quyết định sẽ dịch sang tiếng gì**. Bạn tuyên bố: "Cuốn sách này sẽ có bản tiếng Anh." Chỉ là khai báo, chưa dịch chữ nào.
-- **Quản lý dịch thuật** = **ngồi dịch từng câu**. Đây mới là nơi làm việc thật.
+* **Ngôn ngữ** = **quyết định sẽ dịch sang tiếng gì**. Bạn tuyên bố: "Cuốn sách này sẽ có bản tiếng Anh." Chỉ là khai báo, chưa dịch chữ nào.
+* **Quản lý dịch thuật** = **ngồi dịch từng câu**. Đây mới là nơi làm việc thật.
 
 Thứ tự bắt buộc: **khai báo ngôn ngữ trước, dịch sau.** Chưa khai báo tiếng Anh thì không có chỗ để dịch sang tiếng Anh.
 
@@ -39,10 +39,10 @@ Thứ tự bắt buộc: **khai báo ngôn ngữ trước, dịch sau.** Chưa k
 
 Khi vào trang, bạn thấy bảng liệt kê các ngôn ngữ đã khai báo, với các cột:
 
-- **Name** (Tên) — tên ngôn ngữ hiển thị cho khách chọn, ví dụ `Tiếng Việt`, `English`.
-- **Locale** (Mã ngôn ngữ) — mã kỹ thuật ngắn của ngôn ngữ, ví dụ `vi`, `en`, `zh`. Máy dùng mã này để phân biệt.
-- **Status** (Trạng thái) — đang bật (Publish) hay đang nháp (Draft).
-- **Date** (Ngày) — ngày tạo.
+* **Name** (Tên) — tên ngôn ngữ hiển thị cho khách chọn, ví dụ `Tiếng Việt`, `English`.
+* **Locale** (Mã ngôn ngữ) — mã kỹ thuật ngắn của ngôn ngữ, ví dụ `vi`, `en`, `zh`. Máy dùng mã này để phân biệt.
+* **Status** (Trạng thái) — đang bật (Publish) hay đang nháp (Draft).
+* **Date** (Ngày) — ngày tạo.
 
 Bạn có thể **tìm kiếm** theo tên hoặc mã khi danh sách dài.
 
@@ -50,13 +50,13 @@ Bạn có thể **tìm kiếm** theo tên hoặc mã khi danh sách dài.
 
 Điền form thêm ngôn ngữ với 3 thông tin:
 
-- **Name** (Tên) — tên hiển thị. Ví dụ: `English`.
-  > **Mẹo:** Nên viết tên bằng chính ngôn ngữ đó (`English` chứ không phải `Tiếng Anh`, `中文` chứ không phải `Tiếng Trung`). Khách Trung Quốc vào website không đọc được chữ "Tiếng Trung", nhưng nhìn `中文` là hiểu ngay.
+*   **Name** (Tên) — tên hiển thị. Ví dụ: `English`.
 
-- **Flag** (Cờ) — chọn lá cờ quốc gia hiển thị kèm tên, giúp khách nhận ra nhanh.
+    > **Mẹo:** Nên viết tên bằng chính ngôn ngữ đó (`English` chứ không phải `Tiếng Anh`, `中文` chứ không phải `Tiếng Trung`). Khách Trung Quốc vào website không đọc được chữ "Tiếng Trung", nhưng nhìn `中文` là hiểu ngay.
+* **Flag** (Cờ) — chọn lá cờ quốc gia hiển thị kèm tên, giúp khách nhận ra nhanh.
+*   **Locale** (Mã ngôn ngữ) — **quan trọng nhất, và không được trùng**. Mỗi ngôn ngữ một mã duy nhất.
 
-- **Locale** (Mã ngôn ngữ) — **quan trọng nhất, và không được trùng**. Mỗi ngôn ngữ một mã duy nhất.
-  > **Cẩn thận:** Đây là mã kỹ thuật theo chuẩn quốc tế, **không phải bạn tự nghĩ ra**. Tiếng Anh là `en`, tiếng Việt là `vi`, tiếng Trung là `zh`, tiếng Hàn là `ko`, tiếng Nhật là `ja`. Nếu bạn tự đặt `tienganh` thì hệ thống vẫn cho lưu nhưng sẽ không hoạt động đúng. Không chắc mã nào, hãy hỏi đơn vị triển khai.
+    > **Cẩn thận:** Đây là mã kỹ thuật theo chuẩn quốc tế, **không phải bạn tự nghĩ ra**. Tiếng Anh là `en`, tiếng Việt là `vi`, tiếng Trung là `zh`, tiếng Hàn là `ko`, tiếng Nhật là `ja`. Nếu bạn tự đặt `tienganh` thì hệ thống vẫn cho lưu nhưng sẽ không hoạt động đúng. Không chắc mã nào, hãy hỏi đơn vị triển khai.
 
 Sau khi thêm, bạn cần chuyển ngôn ngữ sang trạng thái **Publish** thì khách mới chọn được trên website.
 
@@ -73,22 +73,23 @@ Tích vào ô vuông đầu mỗi dòng để chọn nhiều ngôn ngữ, rồi 
 > **Đường dẫn:** Menu bên trái > **Công cụ** > **Quản lý dịch thuật**
 
 **Khi nào cần dùng?**
-- Website có khách nước ngoài, bạn cần bản tiếng Anh.
-- Hoặc: **có một vài dòng trên website đang hiện tiếng Anh mà bạn muốn đổi thành tiếng Việt**. Đây là lý do phổ biến nhất khiến người Việt vào mục này. Ví dụ chữ **"Custom Fields"** trong menu — bạn có thể dịch nó tại đây.
+
+* Website có khách nước ngoài, bạn cần bản tiếng Anh.
+* Hoặc: **có một vài dòng trên website đang hiện tiếng Anh mà bạn muốn đổi thành tiếng Việt**. Đây là lý do phổ biến nhất khiến người Việt vào mục này. Ví dụ chữ **"Custom Fields"** trong menu — bạn có thể dịch nó tại đây.
 
 ### Màn hình chính
 
 Bạn thấy bảng liệt kê tất cả các ngôn ngữ với các cột:
 
-- **Name** — tên ngôn ngữ.
-- **Percent** — **phần trăm đã dịch xong**. Đây là con số bạn nên nhìn đầu tiên: 100% là đã dịch hết, 40% nghĩa là còn 60% số dòng đang hiện tiếng gốc.
-- **Translated** — số dòng đã dịch.
-- **Last build at** — **lần cuối bạn bấm "Build"**. Xem giải thích ở dưới, đây là cột quan trọng.
-- **Actions** — các nút thao tác.
+* **Name** — tên ngôn ngữ.
+* **Percent** — **phần trăm đã dịch xong**. Đây là con số bạn nên nhìn đầu tiên: 100% là đã dịch hết, 40% nghĩa là còn 60% số dòng đang hiện tiếng gốc.
+* **Translated** — số dòng đã dịch.
+* **Last build at** — **lần cuối bạn bấm "Build"**. Xem giải thích ở dưới, đây là cột quan trọng.
+* **Actions** — các nút thao tác.
 
 ### Quy trình dịch — 3 bước, làm đúng thứ tự
 
-Đây là phần quan trọng nhất của cả trang. Rất nhiều người dịch xong rồi thắc mắc *"sao website vẫn y như cũ?"* — vì họ bỏ qua bước 3.
+Đây là phần quan trọng nhất của cả trang. Rất nhiều người dịch xong rồi thắc mắc _"sao website vẫn y như cũ?"_ — vì họ bỏ qua bước 3.
 
 #### Bước 1: Nạp danh sách chữ cần dịch
 
@@ -100,14 +101,15 @@ Bạn chỉ cần làm bước này **lần đầu tiên**, hoặc sau khi websi
 
 Trong hàng của ngôn ngữ bạn muốn dịch, bấm nút **"Translate"**. Một màn hình mới mở ra, hiển thị **30 dòng mỗi trang**, mỗi dòng gồm:
 
-- **Bên trái:** dòng chữ gốc.
-- **Bên phải:** ô trống để bạn gõ bản dịch.
+* **Bên trái:** dòng chữ gốc.
+* **Bên phải:** ô trống để bạn gõ bản dịch.
 
 Bạn gõ bản dịch vào ô bên phải cho từng dòng.
 
 **Công cụ giúp bạn tìm nhanh:**
-- **Bộ lọc:** chọn **"not_translated"** để chỉ hiện các dòng **chưa dịch** — cực kỳ hữu ích, bạn không phải cuộn qua những dòng đã xong. Chọn **"translated"** để xem lại các dòng đã dịch.
-- **Ô tìm kiếm:** gõ chữ cần tìm. Bạn có thể chọn tìm theo **chữ gốc** hoặc theo **bản dịch**.
+
+* **Bộ lọc:** chọn **"not\_translated"** để chỉ hiện các dòng **chưa dịch** — cực kỳ hữu ích, bạn không phải cuộn qua những dòng đã xong. Chọn **"translated"** để xem lại các dòng đã dịch.
+* **Ô tìm kiếm:** gõ chữ cần tìm. Bạn có thể chọn tìm theo **chữ gốc** hoặc theo **bản dịch**.
 
 > **Mẹo cho việc "sửa một dòng đang hiện tiếng Anh":** Bạn thấy chữ **"Add New Group"** trên giao diện và muốn nó thành tiếng Việt? Vào đây, dùng ô tìm kiếm gõ đúng `Add New Group`, tìm thấy dòng đó, gõ `Thêm nhóm mới` vào ô bên phải. Xong bước 2.
 
@@ -129,7 +131,7 @@ Cuối cùng, ra ngoài website nhấn **Ctrl + F5** để tải lại trang cho
 
 Trong menu **"More"** (Thêm) còn có:
 
-- **"Load translate JSON"** — nhập bản dịch từ một tệp có sẵn. Dùng khi bạn nhận được tệp dịch từ đơn vị triển khai hoặc từ website khác, thay vì gõ tay lại từ đầu.
+* **"Load translate JSON"** — nhập bản dịch từ một tệp có sẵn. Dùng khi bạn nhận được tệp dịch từ đơn vị triển khai hoặc từ website khác, thay vì gõ tay lại từ đầu.
 
 > **Các nút kỹ thuật khác trong trang này không dành cho người dùng thường.** Nếu bạn không chắc một nút làm gì, **đừng bấm thử** — hãy hỏi đơn vị triển khai. Riêng nút **"Translate"** và **"Build"** thì bấm thoải mái, hai nút này an toàn.
 
@@ -157,6 +159,7 @@ Với 3 thông tin đó, người kỹ thuật thường tìm ra nguyên nhân t
 ## Lưu ý & xử lý sự cố
 
 **Dịch xong nhưng website vẫn hiện chữ cũ.** Theo thứ tự:
+
 1. **Bạn đã bấm "Build" chưa?** — 90% trường hợp là do quên bước này. Kiểm tra cột "Last build at".
 2. Đã nhấn **Ctrl + F5** ngoài website chưa? Trình duyệt hay giữ bản cũ.
 3. Chờ khoảng 1 phút rồi thử lại.
@@ -166,6 +169,7 @@ Với 3 thông tin đó, người kỹ thuật thường tìm ra nguyên nhân t
 **Thêm ngôn ngữ mới nhưng khách không thấy trên website.** Kiểm tra: ngôn ngữ đó đang ở trạng thái **Publish** hay **Draft**? Draft thì khách không thấy.
 
 **Tìm mãi không thấy dòng chữ cần dịch.** Ba khả năng:
+
 1. Bạn chưa bấm **"Find Translations"** để nạp danh sách.
 2. Bạn gõ tìm kiếm không khớp chính xác — hãy thử gõ **ít chữ hơn**, ví dụ chỉ gõ `Custom` thay vì cả cụm `Custom Fields`.
 3. Dòng chữ đó không nằm trong hệ thống dịch (ví dụ nó là nội dung bạn tự nhập cho tour, không phải nhãn giao diện) — trường hợp này bạn sửa trực tiếp ở nơi nhập tour, không phải ở đây.
@@ -174,6 +178,6 @@ Với 3 thông tin đó, người kỹ thuật thường tìm ra nguyên nhân t
 
 ## Xem thêm
 
-- [4.8. Custom Fields](custom-fields.md) — mục đang hiển thị tiếng Anh, bạn có thể dịch nó tại "Quản lý dịch thuật"
-- [4.9. Cài đặt](cai-dat.md) — cấu hình chung của website
-- [4.12. Bảo mật 2 lớp](bao-mat-2-lop.md) — bảo vệ tài khoản quản trị
+* [4.8. Custom Fields](custom-fields.md) — mục đang hiển thị tiếng Anh, bạn có thể dịch nó tại "Quản lý dịch thuật"
+* [4.9. Cài đặt](cai-dat.md) — cấu hình chung của website
+* [4.12. Bảo mật 2 lớp](bao-mat-2-lop.md) — bảo vệ tài khoản quản trị
