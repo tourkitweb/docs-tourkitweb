@@ -12,23 +12,23 @@ Bạn chuyển khoản qua app ngân hàng chưa? Nhập xong số tiền, app h
 
 Chỉ có **một điểm khác** so với ngân hàng, và bạn cần nhớ điều này:
 
-| | **Ngân hàng (OTP qua SMS)** | **Ở đây (ứng dụng xác thực)** |
-|---|---|---|
-| Mã đến từ đâu? | Tin nhắn SMS gửi về máy | **Ứng dụng tự sinh ra ngay trên điện thoại** |
+|                      | **Ngân hàng (OTP qua SMS)**      | **Ở đây (ứng dụng xác thực)**                                          |
+| -------------------- | -------------------------------- | ---------------------------------------------------------------------- |
+| Mã đến từ đâu?       | Tin nhắn SMS gửi về máy          | **Ứng dụng tự sinh ra ngay trên điện thoại**                           |
 | Cần sóng/mạng không? | **Có**, phải có sóng để nhận tin | **Không cần**. Máy bay, ra nước ngoài, hết tiền điện thoại — vẫn có mã |
-| Mã sống bao lâu? | Vài phút | **30 giây**, hết 30 giây tự đổi mã mới |
+| Mã sống bao lâu?     | Vài phút                         | **30 giây**, hết 30 giây tự đổi mã mới                                 |
 
 Điểm cần nhớ: **mã KHÔNG được gửi tới bạn**. Bạn phải **tự mở ứng dụng ra để xem**. Rất nhiều người ngồi chờ tin nhắn SMS mãi không thấy — vì sẽ **không bao giờ có** tin nhắn nào cả.
 
-> 📷 *[Cần chụp màn hình: trang "2FA của tôi" tại Bảo mật 2 lớp > 2FA của tôi, hiển thị mã QR và ô nhập mã 6 số]*
+> 📷 _\[Cần chụp màn hình: trang "2FA của tôi" tại Bảo mật 2 lớp > 2FA của tôi, hiển thị mã QR và ô nhập mã 6 số]_
 
 ## Trong mục này có gì?
 
 Nhấn vào **Bảo mật 2 lớp** ở menu bên trái, bạn sẽ thấy tối đa 3 mục con:
 
-- **2FA của tôi** — nơi **bạn** thiết lập bảo mật 2 lớp cho chính tài khoản mình. Đây là mục hầu hết mọi người dùng.
-- **Quản lý admin** — dành cho **quản trị viên cấp cao**, để cấp/gỡ bảo mật 2 lớp cho các tài khoản khác.
-- **Cấu hình** — dành cho **quản trị viên cấp cao**, chỉnh các thông số kỹ thuật.
+* **2FA của tôi** — nơi **bạn** thiết lập bảo mật 2 lớp cho chính tài khoản mình. Đây là mục hầu hết mọi người dùng.
+* **Quản lý admin** — dành cho **quản trị viên cấp cao**, để cấp/gỡ bảo mật 2 lớp cho các tài khoản khác.
+* **Cấu hình** — dành cho **quản trị viên cấp cao**, chỉnh các thông số kỹ thuật.
 
 > **Bạn chỉ thấy 1 mục "2FA của tôi"?** Đó là bình thường và đúng — bạn là người dùng thường, chỉ quản lý được tài khoản của mình.
 >
@@ -60,11 +60,10 @@ Nghĩa là: **mất điện thoại, đổi điện thoại mới, hay lỡ tay 
 
 Vì không có mã dự phòng, hãy tự lo trước:
 
-1. **Chụp màn hình mã QR và cất giữ nơi an toàn** ngay khi được cấp. Có ảnh QR này, bạn cài lại lên điện thoại mới lúc nào cũng được.
-   > **Nơi an toàn nghĩa là:** một thư mục riêng tư trên máy tính có mật khẩu, hoặc in ra cất trong két. **KHÔNG** gửi vào nhóm Zalo, **KHÔNG** để trong album ảnh chung, **KHÔNG** đăng lên đâu cả. Ai có ảnh QR đó là **có luôn quyền sinh mã như bạn**.
+1.  **Chụp màn hình mã QR và cất giữ nơi an toàn** ngay khi được cấp. Có ảnh QR này, bạn cài lại lên điện thoại mới lúc nào cũng được.
 
+    > **Nơi an toàn nghĩa là:** một thư mục riêng tư trên máy tính có mật khẩu, hoặc in ra cất trong két. **KHÔNG** gửi vào nhóm Zalo, **KHÔNG** để trong album ảnh chung, **KHÔNG** đăng lên đâu cả. Ai có ảnh QR đó là **có luôn quyền sinh mã như bạn**.
 2. **Chép lại "khóa bí mật" (dãy chữ và số hiện cạnh mã QR)** và cất cùng chỗ. Nó có tác dụng y hệt mã QR, dùng khi bạn không quét được QR mà phải gõ tay.
-
 3. **Đảm bảo có ÍT NHẤT HAI quản trị viên cấp cao** trong đơn vị. Nếu chỉ có một người và người đó mất điện thoại, cả công ty mắc kẹt. Có hai người thì họ cấp lại QR cho nhau được.
 
 ## Cài ứng dụng xác thực trên điện thoại
@@ -75,8 +74,8 @@ Trước khi làm gì, bạn cần có ứng dụng này trên điện thoại. 
 
 Hệ thống hướng dẫn dùng **Google Authenticator**. Hãy dùng đúng ứng dụng này cho khớp với hướng dẫn.
 
-- **Điện thoại Android:** mở **CH Play** (Google Play), gõ tìm `Google Authenticator`.
-- **Điện thoại iPhone:** mở **App Store**, gõ tìm `Google Authenticator`.
+* **Điện thoại Android:** mở **CH Play** (Google Play), gõ tìm `Google Authenticator`.
+* **Điện thoại iPhone:** mở **App Store**, gõ tìm `Google Authenticator`.
 
 Nhận diện: biểu tượng hình **dấu hoa thị / ngôi sao nhiều cánh màu xanh dương và xám**, nhà phát hành ghi rõ là **Google LLC**.
 
@@ -88,13 +87,11 @@ Mở ra, nếu nó hỏi đăng nhập tài khoản Google thì bạn có thể 
 
 Lần đầu mở, màn hình sẽ trống trơn. **Đúng rồi đấy**, chưa có gì cả. Bạn sẽ thêm ở bước sau.
 
-> 📷 *[Cần chụp màn hình: giao diện ứng dụng Google Authenticator trên điện thoại, hiển thị mã 6 số kèm vòng tròn đếm ngược]*
-
 ## Thiết lập bảo mật 2 lớp cho tài khoản của bạn
 
 ### Bước 1: Xin mã QR từ quản trị viên
 
-Như đã nói ở trên, bạn không tự tạo được. Hãy nhắn cho quản trị viên cấp cao của đơn vị: *"Anh/chị cấp QR bảo mật 2 lớp cho tài khoản của em nhé."*
+Như đã nói ở trên, bạn không tự tạo được. Hãy nhắn cho quản trị viên cấp cao của đơn vị: _"Anh/chị cấp QR bảo mật 2 lớp cho tài khoản của em nhé."_
 
 Họ sẽ vào **Bảo mật 2 lớp > Quản lý admin**, tìm tên bạn và bấm **"Cấp QR"**, rồi gửi mã QR cho bạn.
 
@@ -108,7 +105,7 @@ Bạn sẽ thấy **một hình vuông đen trắng loang lổ** — đó chính
 >
 > **Ngay lúc này, hãy chụp màn hình trang này lại** và cất nơi an toàn, như đã dặn ở phần cảnh báo phía trên. Đừng bỏ qua, đây là "phao cứu sinh" duy nhất của bạn.
 
-> 📷 *[Cần chụp màn hình: trang 2FA của tôi hiển thị mã QR cùng khóa bí mật dạng chữ và số]*
+> 📷 _\[Cần chụp màn hình: trang 2FA của tôi hiển thị mã QR cùng khóa bí mật dạng chữ và số]_
 
 ### Bước 3: Quét mã QR bằng điện thoại
 
@@ -133,9 +130,10 @@ Nhìn vào ứng dụng trên điện thoại, bạn thấy **6 chữ số** —
 Gõ 6 số đó vào **ô nhập mã** trên màn hình máy tính, rồi bấm nút xác nhận.
 
 **Lưu ý khi gõ:**
-- **Không gõ dấu cách.** Ứng dụng hiển thị `284 913` cho dễ đọc, nhưng bạn gõ liền: `284913`.
-- **Nhìn vòng tròn đếm ngược.** Nếu nó sắp hết (chỉ còn vài giây), **hãy chờ mã mới rồi hãy gõ**. Gõ đúng lúc mã đổi thì hệ thống sẽ báo sai.
-- Gõ xong bấm xác nhận **ngay**, đừng đi pha trà rồi quay lại.
+
+* **Không gõ dấu cách.** Ứng dụng hiển thị `284 913` cho dễ đọc, nhưng bạn gõ liền: `284913`.
+* **Nhìn vòng tròn đếm ngược.** Nếu nó sắp hết (chỉ còn vài giây), **hãy chờ mã mới rồi hãy gõ**. Gõ đúng lúc mã đổi thì hệ thống sẽ báo sai.
+* Gõ xong bấm xác nhận **ngay**, đừng đi pha trà rồi quay lại.
 
 Nếu thành công, hệ thống sẽ báo tài khoản của bạn đã được xác nhận. **Xong!** Từ giờ mỗi lần thực hiện thao tác quan trọng, bạn chỉ cần mở ứng dụng lấy mã.
 
@@ -171,16 +169,16 @@ Trang này liệt kê **tất cả những người có quyền vào trang quả
 
 Với mỗi người, bạn có các thao tác:
 
-- **"Cấp QR" / "Cấp lại QR"** — tạo mã QR mới cho người đó. Đây là việc bạn làm khi có nhân viên mới, hoặc khi ai đó mất điện thoại.
-  > **Cẩn thận:** Bấm **"Cấp lại QR"** sẽ **hủy ngay lập tức** mã QR cũ của người đó. Nếu họ đang dùng bình thường mà bạn lỡ tay bấm, **họ sẽ không đăng nhập được nữa** cho đến khi quét lại mã mới. Hãy chắc chắn bạn đang bấm đúng dòng của đúng người.
+*   **"Cấp QR" / "Cấp lại QR"** — tạo mã QR mới cho người đó. Đây là việc bạn làm khi có nhân viên mới, hoặc khi ai đó mất điện thoại.
 
-- **"Xem QR"** — mở lại mã QR đã cấp để gửi cho người dùng.
-  > **Cẩn thận khi gửi QR cho nhân viên:** mã QR này giống như **chìa khóa tài khoản của họ**. Hãy gửi qua kênh **riêng tư** (nhắn riêng, hoặc tốt nhất là gọi họ đến tận nơi cho quét trực tiếp trên màn hình của bạn). **Tuyệt đối không đăng vào nhóm chat chung** — cả nhóm sẽ quét được và ai cũng sinh được mã của người đó.
+    > **Cẩn thận:** Bấm **"Cấp lại QR"** sẽ **hủy ngay lập tức** mã QR cũ của người đó. Nếu họ đang dùng bình thường mà bạn lỡ tay bấm, **họ sẽ không đăng nhập được nữa** cho đến khi quét lại mã mới. Hãy chắc chắn bạn đang bấm đúng dòng của đúng người.
+*   **"Xem QR"** — mở lại mã QR đã cấp để gửi cho người dùng.
 
-- **"Xóa thiết bị"** — gỡ bỏ bảo mật 2 lớp của người đó.
-  > **⚠️ Đặc biệt lưu ý:** thao tác này **không cần nhập mã xác thực** để thực hiện. Nghĩa là ai có quyền quản trị đều gỡ được lớp bảo vệ của người khác chỉ bằng một cú bấm. Vì vậy, hãy **rất cẩn trọng khi trao quyền quản trị** — chỉ trao cho người bạn thật sự tin tưởng.
+    > **Cẩn thận khi gửi QR cho nhân viên:** mã QR này giống như **chìa khóa tài khoản của họ**. Hãy gửi qua kênh **riêng tư** (nhắn riêng, hoặc tốt nhất là gọi họ đến tận nơi cho quét trực tiếp trên màn hình của bạn). **Tuyệt đối không đăng vào nhóm chat chung** — cả nhóm sẽ quét được và ai cũng sinh được mã của người đó.
+*   **"Xóa thiết bị"** — gỡ bỏ bảo mật 2 lớp của người đó.
 
-- **"Mở khóa"** — dùng khi một người bị **khóa vì nhập sai mã quá nhiều lần**. Bấm nút này để họ thử lại được ngay, không cần chờ hết thời gian phạt.
+    > **⚠️ Đặc biệt lưu ý:** thao tác này **không cần nhập mã xác thực** để thực hiện. Nghĩa là ai có quyền quản trị đều gỡ được lớp bảo vệ của người khác chỉ bằng một cú bấm. Vì vậy, hãy **rất cẩn trọng khi trao quyền quản trị** — chỉ trao cho người bạn thật sự tin tưởng.
+* **"Mở khóa"** — dùng khi một người bị **khóa vì nhập sai mã quá nhiều lần**. Bấm nút này để họ thử lại được ngay, không cần chờ hết thời gian phạt.
 
 > **Mỗi người chỉ dùng được MỘT thiết bị.** Bạn không thể cấp cho một người dùng cả điện thoại lẫn máy tính bảng. Cấp mã mới là mã cũ tự hủy.
 
@@ -190,34 +188,34 @@ Với mỗi người, bạn có các thao tác:
 
 Trang này chỉnh 4 thông số kỹ thuật. **Giá trị mặc định đã hợp lý cho hầu hết trường hợp — bạn nên để yên, chỉ sửa khi thật sự cần.**
 
-- **Issuer** (Tên đơn vị phát hành) — tên hiển thị trong ứng dụng xác thực trên điện thoại. Đặt tên công ty bạn để nhân viên dễ nhận ra, nhất là khi họ dùng ứng dụng cho nhiều nơi khác nhau.
-  > **Lưu ý:** đổi tên này **chỉ ảnh hưởng đến các mã QR cấp mới về sau**. Những người đã quét mã trước đó vẫn thấy tên cũ trên điện thoại của họ — đây là bình thường, không cần sửa gì.
+*   **Issuer** (Tên đơn vị phát hành) — tên hiển thị trong ứng dụng xác thực trên điện thoại. Đặt tên công ty bạn để nhân viên dễ nhận ra, nhất là khi họ dùng ứng dụng cho nhiều nơi khác nhau.
 
-- **Window** (Độ co giãn thời gian) — cho phép chấp nhận mã lệch bao nhiêu so với đồng hồ máy chủ. Chọn 1 (±30 giây), 2 (±60 giây), hoặc 3 (±90 giây).
-  > **Khi nào cần tăng?** Nếu nhân viên **liên tục than mã đúng mà báo sai**, nguyên nhân thường là đồng hồ điện thoại của họ bị lệch. Tăng thông số này lên 2 hoặc 3 sẽ dễ thở hơn. Nhưng **cách đúng đắn hơn** là bảo họ chỉnh điện thoại về **tự động cập nhật giờ theo mạng**.
+    > **Lưu ý:** đổi tên này **chỉ ảnh hưởng đến các mã QR cấp mới về sau**. Những người đã quét mã trước đó vẫn thấy tên cũ trên điện thoại của họ — đây là bình thường, không cần sửa gì.
+*   **Window** (Độ co giãn thời gian) — cho phép chấp nhận mã lệch bao nhiêu so với đồng hồ máy chủ. Chọn 1 (±30 giây), 2 (±60 giây), hoặc 3 (±90 giây).
 
-- **Max attempts** (Số lần sai tối đa) — nhập sai bao nhiêu lần thì bị khóa. Chọn từ 1 đến 20.
-  > Để quá thấp (như 1-2) sẽ khiến nhân viên gõ nhầm một cái là bị khóa, rất phiền. Để quá cao thì kẻ gian có nhiều cơ hội dò. Khoảng 5 là hợp lý.
+    > **Khi nào cần tăng?** Nếu nhân viên **liên tục than mã đúng mà báo sai**, nguyên nhân thường là đồng hồ điện thoại của họ bị lệch. Tăng thông số này lên 2 hoặc 3 sẽ dễ thở hơn. Nhưng **cách đúng đắn hơn** là bảo họ chỉnh điện thoại về **tự động cập nhật giờ theo mạng**.
+*   **Max attempts** (Số lần sai tối đa) — nhập sai bao nhiêu lần thì bị khóa. Chọn từ 1 đến 20.
 
-- **Lockout seconds** (Thời gian khóa) — bị khóa bao lâu thì tự mở, tính bằng giây. Từ 60 giây đến 86400 giây (24 giờ).
+    > Để quá thấp (như 1-2) sẽ khiến nhân viên gõ nhầm một cái là bị khóa, rất phiền. Để quá cao thì kẻ gian có nhiều cơ hội dò. Khoảng 5 là hợp lý.
+* **Lockout seconds** (Thời gian khóa) — bị khóa bao lâu thì tự mở, tính bằng giây. Từ 60 giây đến 86400 giây (24 giờ).
 
 > **Lưu ý:** Hệ thống **không có nút "bắt buộc tất cả admin dùng 2FA"**. Việc yêu cầu mã được áp dụng theo **từng thao tác quan trọng** (như hoàn tiền, thanh toán lại) và theo phân quyền, chứ không phải bật một công tắc chung.
 
 ## Lưu ý & xử lý sự cố
 
-**Nhập mã đúng mà cứ báo sai — lỗi phổ biến nhất.**
-Gần như luôn là do **đồng hồ điện thoại bị lệch giờ**. Ứng dụng tính mã dựa vào thời gian, lệch vài chục giây là ra mã khác hoàn toàn. Cách sửa:
-- **Android:** vào **Cài đặt > Hệ thống > Ngày và giờ** → bật **"Ngày và giờ tự động"**.
-- **iPhone:** vào **Cài đặt > Cài đặt chung > Ngày & Giờ** → bật **"Đặt tự động"**.
-Sau đó thử lại. Nếu vẫn không được, hãy báo quản trị viên tăng thông số **Window** lên.
+**Nhập mã đúng mà cứ báo sai — lỗi phổ biến nhất.** Gần như luôn là do **đồng hồ điện thoại bị lệch giờ**. Ứng dụng tính mã dựa vào thời gian, lệch vài chục giây là ra mã khác hoàn toàn. Cách sửa:
+
+* **Android:** vào **Cài đặt > Hệ thống > Ngày và giờ** → bật **"Ngày và giờ tự động"**.
+* **iPhone:** vào **Cài đặt > Cài đặt chung > Ngày & Giờ** → bật **"Đặt tự động"**. Sau đó thử lại. Nếu vẫn không được, hãy báo quản trị viên tăng thông số **Window** lên.
 
 **Gõ mã xong thì báo hết hạn.** Bạn gõ quá chậm, mã đã đổi giữa chừng. Hãy nhìn vòng tròn đếm ngược — **nếu sắp hết, chờ mã mới rồi hãy gõ**, đừng cố dùng mã sắp chết.
 
 **Bị khóa vì nhập sai nhiều lần.** Hai lựa chọn: **chờ hết thời gian khóa** rồi thử lại, hoặc nhờ **quản trị viên bấm "Mở khóa"** cho bạn ngay.
 
 **Đổi điện thoại mới.**
-- **Nếu bạn đã chụp ảnh mã QR như đã dặn:** chỉ cần mở ảnh ra, cài Google Authenticator trên máy mới rồi quét lại. Xong trong 1 phút.
-- **Nếu không có:** phải nhờ quản trị viên **cấp lại QR mới**. Không có cách nào khác.
+
+* **Nếu bạn đã chụp ảnh mã QR như đã dặn:** chỉ cần mở ảnh ra, cài Google Authenticator trên máy mới rồi quét lại. Xong trong 1 phút.
+* **Nếu không có:** phải nhờ quản trị viên **cấp lại QR mới**. Không có cách nào khác.
 
 > **Mẹo trước khi đổi/bán điện thoại cũ:** hãy **thiết lập xong trên máy mới trước**, kiểm tra chạy được rồi mới xóa dữ liệu máy cũ. Đừng xóa sạch máy cũ rồi mới nhớ ra chuyện này.
 
@@ -229,6 +227,6 @@ Sau đó thử lại. Nếu vẫn không được, hãy báo quản trị viên 
 
 ## Xem thêm
 
-- [Hướng dẫn đăng nhập tài khoản](../huong-dan-dang-nhap-tai-khoan.md) — nếu bạn bị hỏi mã 6 số khi đăng nhập
-- [4.11. Công cụ](cong-cu.md) — nhật ký hệ thống, nơi ghi lại các hoạt động
-- [4.9. Cài đặt](cai-dat.md) — cấu hình chung của hệ thống
+* [Hướng dẫn đăng nhập tài khoản](../huong-dan-dang-nhap-tai-khoan.md) — nếu bạn bị hỏi mã 6 số khi đăng nhập
+* [4.11. Công cụ](cong-cu.md) — nhật ký hệ thống, nơi ghi lại các hoạt động
+* [4.9. Cài đặt](cai-dat.md) — cấu hình chung của hệ thống

@@ -17,8 +17,6 @@ Vậy dùng mục này khi nào? Khi bạn muốn:
 
 > **Đường dẫn:** Menu bên trái > **Hệ thống** > **Menu**
 
-![](../.gitbook/assets/pg123-0.png)
-
 ## Trong mục này có gì?
 
 * **Danh sách menu** — nơi bạn tạo và sửa nội dung các menu.

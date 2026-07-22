@@ -8,8 +8,6 @@ Hãy hình dung website của bạn như một chiếc điện thoại mới mua
 
 > **Đường dẫn:** Menu bên trái > **Kho ứng dụng**
 
-![](../.gitbook/assets/pg123-0.png)
-
 > **Lưu ý:** Tính năng này có thể chưa được bật trên website của bạn. Nếu không thấy mục này trong menu, hãy liên hệ đơn vị triển khai.
 
 ## Vì sao website của tôi không có sẵn hết mọi thứ?

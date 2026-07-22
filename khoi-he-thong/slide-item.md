@@ -14,25 +14,21 @@ Mục này là nơi bạn thêm, sửa, xóa từng ảnh trong các dải đó.
 
 > **Nếu bạn không thấy mục này:** tài khoản của bạn chưa được cấp quyền — hãy liên hệ quản trị viên.
 
-> 📷 *[Cần chụp màn hình: dải logo đối tác đang chạy ngang trên trang chủ website — để khách hình dung "slide item" là cái gì]*
-
 ## Trong mục này có gì?
 
 Nhấn vào **Slide item** ở menu bên trái, 3 mục con sẽ xổ xuống:
 
-- **Tất cả item** — danh sách toàn bộ ảnh bạn đang có. Nơi bạn vào thường xuyên nhất.
-- **Thêm item** — thêm một ảnh mới vào dải.
-- **Danh mục** — phân nhóm các ảnh. Đây là phần **quan trọng nhất phải hiểu trước**, xem giải thích ngay bên dưới.
-
-> 📷 *[Cần chụp màn hình: menu Slide item đang mở ra ở cột bên trái, thấy đủ 3 mục con]*
+* **Tất cả item** — danh sách toàn bộ ảnh bạn đang có. Nơi bạn vào thường xuyên nhất.
+* **Thêm item** — thêm một ảnh mới vào dải.
+* **Danh mục** — phân nhóm các ảnh. Đây là phần **quan trọng nhất phải hiểu trước**, xem giải thích ngay bên dưới.
 
 ## Hiểu Danh mục trước khi làm bất cứ việc gì
 
 Website của bạn thường có **nhiều dải ảnh khác nhau** chạy ở nhiều chỗ khác nhau. Ví dụ:
 
-- Một dải **logo đối tác** ở cuối trang chủ.
-- Một dải **chứng nhận, giải thưởng** ở phần giới thiệu.
-- Một dải **logo ngân hàng** ở khu vực thanh toán.
+* Một dải **logo đối tác** ở cuối trang chủ.
+* Một dải **chứng nhận, giải thưởng** ở phần giới thiệu.
+* Một dải **logo ngân hàng** ở khu vực thanh toán.
 
 **Danh mục chính là cái tên của từng dải.** Mỗi ảnh bạn thêm vào đều phải được xếp vào đúng danh mục, nếu không hệ thống không biết nên cho ảnh đó chạy ở dải nào.
 
@@ -57,11 +53,11 @@ Nếu bảng hiện dòng **"Chưa có danh mục nào."** nghĩa là bạn chư
 
 Vào **Slide item > Tất cả item**. Đây là bảng liệt kê toàn bộ ảnh, mỗi ảnh một dòng gồm:
 
-- **Ảnh** — hình đang dùng.
-- **Tiêu đề** — tên của ảnh đó.
-- **Danh mục** — ảnh này đang thuộc dải nào.
-- **Thứ tự** — con số quyết định ảnh nào chạy trước.
-- **Trạng thái** — đang **Hiển thị** hay đang **Ẩn**.
+* **Ảnh** — hình đang dùng.
+* **Tiêu đề** — tên của ảnh đó.
+* **Danh mục** — ảnh này đang thuộc dải nào.
+* **Thứ tự** — con số quyết định ảnh nào chạy trước.
+* **Trạng thái** — đang **Hiển thị** hay đang **Ẩn**.
 
 Nếu bảng hiện **"Chưa có item nào"** nghĩa là bạn chưa thêm ảnh nào cả.
 
@@ -69,8 +65,8 @@ Nếu bảng hiện **"Chưa có item nào"** nghĩa là bạn chưa thêm ảnh
 
 ### Tìm và lọc
 
-- **Ô tìm kiếm** phía trên bảng — tìm theo **tiêu đề**. Gõ tên rồi nhấn **"Tìm kiếm"**.
-- **Bộ lọc danh mục** — chọn **"Tất cả danh mục"** để xem hết, hoặc chọn một danh mục cụ thể để chỉ xem các ảnh trong dải đó.
+* **Ô tìm kiếm** phía trên bảng — tìm theo **tiêu đề**. Gõ tên rồi nhấn **"Tìm kiếm"**.
+* **Bộ lọc danh mục** — chọn **"Tất cả danh mục"** để xem hết, hoặc chọn một danh mục cụ thể để chỉ xem các ảnh trong dải đó.
 
 > **Mẹo:** Khi cần sắp lại thứ tự cho một dải, hãy lọc theo đúng danh mục đó trước. Bạn sẽ nhìn thấy riêng dải mình cần và dễ đánh số hơn nhiều.
 
@@ -106,9 +102,9 @@ Nhấn vào ô **"Hình ảnh"** để chọn ảnh.
 
 > **Mẹo chọn ảnh:**
 >
-> - Nếu đây là **logo**, hãy dùng file có **nền trong suốt** (đuôi `.png`). Nếu dùng ảnh nền trắng, logo sẽ hiện ra như một miếng vá trắng vuông vức trên nền màu — rất xấu.
-> - Hãy dùng **các ảnh cùng chiều cao** trong một dải. Nếu cái cao cái thấp, dải logo sẽ hiện ra lệch lạc.
-> - Ảnh logo không cần nặng. Giữ dưới 200 KB là đủ. Ảnh nặng làm trang chủ tải chậm — mà trang chủ là chỗ khách nhìn đầu tiên.
+> * Nếu đây là **logo**, hãy dùng file có **nền trong suốt** (đuôi `.png`). Nếu dùng ảnh nền trắng, logo sẽ hiện ra như một miếng vá trắng vuông vức trên nền màu — rất xấu.
+> * Hãy dùng **các ảnh cùng chiều cao** trong một dải. Nếu cái cao cái thấp, dải logo sẽ hiện ra lệch lạc.
+> * Ảnh logo không cần nặng. Giữ dưới 200 KB là đủ. Ảnh nặng làm trang chủ tải chậm — mà trang chủ là chỗ khách nhìn đầu tiên.
 
 ### Bước 5: Nhập URL liên kết (không bắt buộc)
 
@@ -134,8 +130,8 @@ Nếu bạn không muốn ảnh bấm được, cứ để trống.
 
 Ô **"Trạng thái"**:
 
-- **Hiển thị** — ảnh sẽ chạy ngoài website.
-- **Ẩn** — đã lưu nhưng khách chưa thấy.
+* **Hiển thị** — ảnh sẽ chạy ngoài website.
+* **Ẩn** — đã lưu nhưng khách chưa thấy.
 
 > **Mẹo:** Khi hết hạn hợp tác với một đối tác, **đừng xóa logo của họ**. Hãy chuyển sang **Ẩn**. Nếu sau này ký lại, chỉ việc bật hiển thị — không phải đi xin lại file logo.
 
@@ -198,5 +194,5 @@ Kiểm tra cột **Thứ tự**. Nhớ: **số nhỏ chạy trước**. Nếu nh
 
 ## Xem thêm
 
-- [4.15. Đội ngũ](doi-ngu.md) — quản lý trang giới thiệu nhân sự, cách làm rất giống mục này.
-- [4.7. Giao diện](giao-dien.md) — nơi thiết lập bố cục và các khối hiển thị trên trang chủ.
+* [4.15. Đội ngũ](doi-ngu.md) — quản lý trang giới thiệu nhân sự, cách làm rất giống mục này.
+* [4.7. Giao diện](giao-dien.md) — nơi thiết lập bố cục và các khối hiển thị trên trang chủ.

@@ -1,8 +1,6 @@
 # 1. Bảng điều khiển
 
-Bảng điều khiển là màn hình đầu tiên bạn nhìn thấy ngay sau khi đăng nhập vào trang quản trị. Hãy hình dung nó giống như **mặt đồng hồ trên xe hơi**: chỉ cần liếc mắt một cái là biết hôm nay bán được bao nhiêu, có đơn mới nào chưa xử lý, việc kinh doanh đang lên hay đang xuống.
-
-Bạn không nhập liệu gì ở đây cả. Đây là màn hình **chỉ để xem**. Mọi con số hiện ra đều do hệ thống tự động tính từ các đơn hàng thật.
+Bảng điều khiển là màn hình đầu tiên bạn nhìn thấy ngay sau khi đăng nhập vào trang quản trị.&#x20;
 
 > **Đường dẫn:** Đăng nhập > hệ thống tự đưa bạn vào Bảng điều khiển. Nếu bạn đang ở màn hình khác và muốn quay về, nhấn dòng **"Bảng điều khiển"** ở trên cùng cột menu bên trái.
 
@@ -18,13 +16,10 @@ Chúng ta sẽ đi qua từng khu vực một.
 
 Đây là bốn ô vuông màu nằm ngang trên cùng màn hình. Mỗi ô là một con số tổng kết:
 
-- **Doanh thu** — Tổng số tiền khách đã trả cho bạn qua các đơn đặt dịch vụ. Đây là tiền **thu vào**, chưa trừ bất cứ chi phí nào.
-
-- **Lợi nhuận** — Số tiền còn lại sau khi đã trừ các chi phí liên quan (hoa hồng cho đối tác, chiết khấu đại lý…). Đây mới là số tiền **thực sự lãi**. Vì vậy Lợi nhuận luôn nhỏ hơn Doanh thu — nếu bạn thấy hai số bằng nhau, nghĩa là kỳ đó chưa phát sinh chi phí nào.
-
-- **Đặt chỗ** — Tổng số **đơn hàng** khách đã đặt. Lưu ý: đây là số đơn, không phải số tiền. Một đơn 50 triệu và một đơn 500 nghìn đều được tính là 1.
-
-- **Dịch vụ** — Tổng số sản phẩm bạn đang có để bán (tour, khách sạn, du thuyền, vé máy bay…). Con số này chỉ thay đổi khi bạn thêm hoặc gỡ sản phẩm, không liên quan đến việc bán được hay không.
+* **Doanh thu** — Tổng số tiền khách đã trả cho bạn qua các đơn đặt dịch vụ. Đây là tiền **thu vào**, chưa trừ bất cứ chi phí nào.
+* **Lợi nhuận** — Số tiền còn lại sau khi đã trừ các chi phí liên quan (hoa hồng cho đối tác, chiết khấu đại lý…). Đây mới là số tiền **thực sự lãi**. Vì vậy Lợi nhuận luôn nhỏ hơn Doanh thu — nếu bạn thấy hai số bằng nhau, nghĩa là kỳ đó chưa phát sinh chi phí nào.
+* **Đặt chỗ** — Tổng số **đơn hàng** khách đã đặt. Lưu ý: đây là số đơn, không phải số tiền. Một đơn 50 triệu và một đơn 500 nghìn đều được tính là 1.
+* **Dịch vụ** — Tổng số sản phẩm bạn đang có để bán (tour, khách sạn, du thuyền, vé máy bay…). Con số này chỉ thay đổi khi bạn thêm hoặc gỡ sản phẩm, không liên quan đến việc bán được hay không.
 
 ![](../.gitbook/assets/pg009-0.png)
 
@@ -34,13 +29,13 @@ Chúng ta sẽ đi qua từng khu vực một.
 
 Các thẻ chỉ số ở trên chỉ cho bạn biết **con số hiện tại**. Biểu đồ cho bạn biết điều quan trọng hơn: **con số đó đang đi lên hay đi xuống**.
 
-- **Biểu đồ doanh thu & lợi nhuận** — Mỗi cột đứng là một mốc thời gian (một giờ trong ngày, hoặc một ngày trong tháng). Có hai màu cột đặt cạnh nhau:
-  - **Cột màu tím** là doanh thu (tiền thu vào).
-  - **Cột màu xanh** là lợi nhuận (tiền lãi thật).
+*   **Biểu đồ doanh thu & lợi nhuận** — Mỗi cột đứng là một mốc thời gian (một giờ trong ngày, hoặc một ngày trong tháng). Có hai màu cột đặt cạnh nhau:
 
-  Khoảng chênh lệch giữa hai cột chính là chi phí bạn đã bỏ ra. Cột tím cao vống lên mà cột xanh lè tè bên dưới là dấu hiệu bạn đang bán nhiều nhưng lãi mỏng.
+    * **Cột màu tím** là doanh thu (tiền thu vào).
+    * **Cột màu xanh** là lợi nhuận (tiền lãi thật).
 
-- **Bộ lọc thời gian** — Nằm ở **góc trên bên phải** của biểu đồ. Nhấn vào đó để đổi khoảng thời gian muốn xem: theo ngày, theo tuần, hoặc theo tháng cụ thể. Biểu đồ sẽ tự vẽ lại ngay, bạn không cần bấm Lưu gì cả.
+    Khoảng chênh lệch giữa hai cột chính là chi phí bạn đã bỏ ra. Cột tím cao vống lên mà cột xanh lè tè bên dưới là dấu hiệu bạn đang bán nhiều nhưng lãi mỏng.
+* **Bộ lọc thời gian** — Nằm ở **góc trên bên phải** của biểu đồ. Nhấn vào đó để đổi khoảng thời gian muốn xem: theo ngày, theo tuần, hoặc theo tháng cụ thể. Biểu đồ sẽ tự vẽ lại ngay, bạn không cần bấm Lưu gì cả.
 
 ![](../.gitbook/assets/pg010-0.png)
 
@@ -52,16 +47,13 @@ Các thẻ chỉ số ở trên chỉ cho bạn biết **con số hiện tại**
 
 Mỗi dòng trong bảng là một đơn hàng, gồm các cột:
 
-- **Mã & Dịch vụ** — Mã đơn hàng (dãy số/chữ để tra cứu) và tên dịch vụ khách đã đặt. Ví dụ: *EnVision Hotel Boston*, *Castello Casole Hotel*.
-
-- **Tổng tiền** — Số tiền của riêng đơn hàng đó.
-
-- **Trạng thái** — Đơn đang ở giai đoạn nào. Bạn sẽ hay gặp:
-  - **Chưa thanh toán** — khách đã đặt nhưng chưa trả tiền. Đây là đơn cần bạn liên hệ nhắc khách.
-  - **Đang xử lý** — đơn đã có tiền hoặc đang chờ xác nhận từ phía bạn.
-  - **Đã hủy** — đơn không còn hiệu lực, không tính vào doanh thu.
-
-- **Xem tất cả** — Dòng chữ liên kết ở **góc phải** của bảng. Nhấn vào đây để sang trang Quản lý Booking đầy đủ, nơi bạn xem được toàn bộ đơn hàng chứ không chỉ vài đơn mới nhất.
+* **Mã & Dịch vụ** — Mã đơn hàng (dãy số/chữ để tra cứu) và tên dịch vụ khách đã đặt. Ví dụ: _EnVision Hotel Boston_, _Castello Casole Hotel_.
+* **Tổng tiền** — Số tiền của riêng đơn hàng đó.
+* **Trạng thái** — Đơn đang ở giai đoạn nào. Bạn sẽ hay gặp:
+  * **Chưa thanh toán** — khách đã đặt nhưng chưa trả tiền. Đây là đơn cần bạn liên hệ nhắc khách.
+  * **Đang xử lý** — đơn đã có tiền hoặc đang chờ xác nhận từ phía bạn.
+  * **Đã hủy** — đơn không còn hiệu lực, không tính vào doanh thu.
+* **Xem tất cả** — Dòng chữ liên kết ở **góc phải** của bảng. Nhấn vào đây để sang trang Quản lý Booking đầy đủ, nơi bạn xem được toàn bộ đơn hàng chứ không chỉ vài đơn mới nhất.
 
 ![](../.gitbook/assets/pg010-1.png)
 
@@ -81,7 +73,7 @@ Mỗi dòng trong bảng là một đơn hàng, gồm các cột:
 
 ## Xem thêm
 
-- [1.1. Mã giảm giá](ma-giam-gia.md) — tạo mã khuyến mãi để kéo thêm đơn hàng về.
-- [1.2. Quản lý đại lý](quan-ly-dai-ly.md) — quản lý các đối tác bán hàng cho bạn.
-- [1.4. Đánh giá](danh-gia.md) — duyệt các nhận xét khách để lại trên website.
-- [Hướng dẫn đăng nhập tài khoản](../huong-dan-dang-nhap-tai-khoan.md) — nếu bạn chưa vào được hệ thống.
+* [1.1. Mã giảm giá](ma-giam-gia.md) — tạo mã khuyến mãi để kéo thêm đơn hàng về.
+* [1.2. Quản lý đại lý](quan-ly-dai-ly.md) — quản lý các đối tác bán hàng cho bạn.
+* [1.4. Đánh giá](danh-gia.md) — duyệt các nhận xét khách để lại trên website.
+* [Hướng dẫn đăng nhập tài khoản](../huong-dan-dang-nhap-tai-khoan.md) — nếu bạn chưa vào được hệ thống.

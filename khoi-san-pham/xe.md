@@ -10,25 +10,21 @@ Bạn cần dùng mục này khi doanh nghiệp của bạn có dịch vụ cho 
 
 > **Nếu bạn không thấy mục này:** tài khoản của bạn chưa được cấp quyền — hãy liên hệ quản trị viên.
 
-> 📷 *[Cần chụp màn hình: menu Xe đang mở ra ở cột bên trái, thấy đủ 5 mục con]*
-
 ## Trong mục này có gì?
 
 Nhấn vào chữ **Xe** ở menu bên trái, danh sách 5 mục con sẽ xổ xuống:
 
-- **Tất cả xe** — danh sách toàn bộ xe bạn đang có. Đây là nơi bạn vào thường xuyên nhất: xem xe nào đang hiển thị, xe nào đang ẩn, sửa hoặc xóa xe.
-- **Thêm xe mới** — đăng một chiếc xe mới lên website.
-- **Thuộc tính** — các tiêu chí để khách lọc tìm xe, ví dụ: số chỗ ngồi, hộp số tự động, có điều hòa, có tài xế. Khách dùng những tiêu chí này để lọc nhanh thay vì xem hết cả trăm xe.
-- **Cập nhật giá** — lịch mở bán theo ngày: ngày nào xe còn trống, ngày đó giá bao nhiêu.
-- **Khôi phục** — thùng rác: nơi chứa các xe bạn đã xóa. Xóa nhầm thì vào đây lấy lại được.
+* **Tất cả xe** — danh sách toàn bộ xe bạn đang có. Đây là nơi bạn vào thường xuyên nhất: xem xe nào đang hiển thị, xe nào đang ẩn, sửa hoặc xóa xe.
+* **Thêm xe mới** — đăng một chiếc xe mới lên website.
+* **Thuộc tính** — các tiêu chí để khách lọc tìm xe, ví dụ: số chỗ ngồi, hộp số tự động, có điều hòa, có tài xế. Khách dùng những tiêu chí này để lọc nhanh thay vì xem hết cả trăm xe.
+* **Cập nhật giá** — lịch mở bán theo ngày: ngày nào xe còn trống, ngày đó giá bao nhiêu.
+* **Khôi phục** — thùng rác: nơi chứa các xe bạn đã xóa. Xóa nhầm thì vào đây lấy lại được.
 
 > **Lưu ý:** Mục Xe **không có "Danh mục"** như Tour hay Khách sạn. Việc phân loại xe được làm qua mục **Thuộc tính**.
 
 ## Tất cả xe
 
 Đây là màn hình danh sách. Mỗi dòng là một chiếc xe, kèm ảnh, tên, giá và trạng thái đang hiển thị hay đang ẩn.
-
-> 📷 *[Cần chụp màn hình: trang danh sách xe tại Xe > Tất cả xe, thấy rõ ô tìm kiếm, cột chọn và danh sách xe]*
 
 ### Tìm một chiếc xe cụ thể
 
@@ -59,17 +55,15 @@ Khi cần xóa hoặc đổi trạng thái nhiều xe một lượt, bạn khôn
 
 Vào **Xe > Thêm xe mới**. Trang nhập liệu chia thành nhiều tab (thẻ) nằm ngang. Bạn điền lần lượt từng tab.
 
-> 📷 *[Cần chụp màn hình: trang Thêm xe mới tại Xe > Thêm xe mới, thấy rõ các tab Nội dung, Địa điểm, Giá, Thuộc tính]*
-
 ### Bước 1: Nhập nội dung giới thiệu xe
 
 Ở tab **"Nội dung"** (Content), bạn điền:
 
-- **Tên xe** — đặt tên khách dễ hiểu, ví dụ: `Toyota Innova 7 chỗ có tài xế`.
-- **Mô tả** — giới thiệu chi tiết: xe đời nào, tình trạng ra sao, đi được cung đường nào, có kèm tài xế không.
-- **Ảnh đại diện** — ảnh chính hiện ở danh sách ngoài website. Chọn ảnh sáng, chụp rõ cả chiếc xe.
-- **Bộ sưu tập ảnh** — thêm nhiều ảnh khác: nội thất, khoang hành lý, ghế ngồi.
-- **Câu hỏi thường gặp** (FAQs) — nơi bạn trả lời sẵn các thắc mắc hay gặp, ví dụ "Có được mang thú cưng lên xe không?". Trả lời sẵn ở đây sẽ đỡ được rất nhiều cuộc gọi hỏi đi hỏi lại.
+* **Tên xe** — đặt tên khách dễ hiểu, ví dụ: `Toyota Innova 7 chỗ có tài xế`.
+* **Mô tả** — giới thiệu chi tiết: xe đời nào, tình trạng ra sao, đi được cung đường nào, có kèm tài xế không.
+* **Ảnh đại diện** — ảnh chính hiện ở danh sách ngoài website. Chọn ảnh sáng, chụp rõ cả chiếc xe.
+* **Bộ sưu tập ảnh** — thêm nhiều ảnh khác: nội thất, khoang hành lý, ghế ngồi.
+* **Câu hỏi thường gặp** (FAQs) — nơi bạn trả lời sẵn các thắc mắc hay gặp, ví dụ "Có được mang thú cưng lên xe không?". Trả lời sẵn ở đây sẽ đỡ được rất nhiều cuộc gọi hỏi đi hỏi lại.
 
 > **Mẹo về ảnh:** Ảnh chụp từ điện thoại đời mới thường rất nặng (5–10 MB), tải lên sẽ lâu và làm website chậm khi khách xem. Nên giảm dung lượng ảnh xuống dưới 1 MB trước khi tải lên.
 
@@ -83,9 +77,9 @@ Vào **Xe > Thêm xe mới**. Trang nhập liệu chia thành nhiều tab (thẻ
 
 Ở tab **"Giá"** (Pricing), bạn nhập:
 
-- **Giá** — giá thuê cơ bản của xe.
-- **Phụ phí** (Extra Price) — các khoản tính thêm ngoài giá gốc, ví dụ: thuê thêm ghế trẻ em, thuê thêm tài xế. Bạn bật ô **"Enable extra price"** (Bật phụ phí) rồi nhấn **"Add item"** (Thêm mục) để thêm từng khoản.
-- **Phí dịch vụ** (Service fee) — khoản phí cố định bạn muốn cộng vào mỗi đơn.
+* **Giá** — giá thuê cơ bản của xe.
+* **Phụ phí** (Extra Price) — các khoản tính thêm ngoài giá gốc, ví dụ: thuê thêm ghế trẻ em, thuê thêm tài xế. Bạn bật ô **"Enable extra price"** (Bật phụ phí) rồi nhấn **"Add item"** (Thêm mục) để thêm từng khoản.
+* **Phí dịch vụ** (Service fee) — khoản phí cố định bạn muốn cộng vào mỗi đơn.
 
 > **Lưu ý:** Giá ở đây là giá mặc định. Nếu ngày lễ, cuối tuần bạn muốn bán giá khác, đừng sửa giá gốc — hãy dùng mục **"Cập nhật giá"** (xem bên dưới).
 
@@ -109,8 +103,8 @@ Thuộc tính là các tiêu chí giúp khách lọc tìm xe nhanh. Nếu bạn 
 
 Cách hoạt động chia làm 2 tầng:
 
-- **Nhóm thuộc tính** — cái tên lớn, ví dụ: `Số chỗ ngồi`, `Loại hộp số`, `Tiện nghi`.
-- **Giá trị bên trong nhóm** — các lựa chọn cụ thể, ví dụ trong nhóm `Số chỗ ngồi` sẽ có `4 chỗ`, `7 chỗ`, `16 chỗ`.
+* **Nhóm thuộc tính** — cái tên lớn, ví dụ: `Số chỗ ngồi`, `Loại hộp số`, `Tiện nghi`.
+* **Giá trị bên trong nhóm** — các lựa chọn cụ thể, ví dụ trong nhóm `Số chỗ ngồi` sẽ có `4 chỗ`, `7 chỗ`, `16 chỗ`.
 
 ![](../.gitbook/assets/xe-04.png)
 
@@ -128,13 +122,11 @@ Vào **Xe > Cập nhật giá**.
 
 Tên menu là "Cập nhật giá", nhưng thực chất đây là **lịch mở bán**: một tấm lịch theo tháng cho bạn biết ngày nào xe còn trống, ngày đó bán giá bao nhiêu.
 
-> 📷 *[Cần chụp màn hình: lịch cập nhật giá tại Xe > Cập nhật giá, thấy rõ lưới lịch theo tháng và giá trên từng ô ngày]*
-
 Bạn dùng màn hình này để:
 
-- **Tăng giá ngày cao điểm** — ví dụ dịp lễ 30/4, cuối tuần bạn muốn bán cao hơn ngày thường. Nhấn vào đúng ngày đó trên lịch và nhập giá riêng. Giá gốc của xe vẫn giữ nguyên.
-- **Khóa ngày đã có khách** — khi xe đã được thuê qua điện thoại hoặc kênh khác, hãy đóng ngày đó lại để khách trên website không đặt trùng.
-- **Cập nhật số lượng xe còn trống** — nếu bạn có nhiều xe cùng loại.
+* **Tăng giá ngày cao điểm** — ví dụ dịp lễ 30/4, cuối tuần bạn muốn bán cao hơn ngày thường. Nhấn vào đúng ngày đó trên lịch và nhập giá riêng. Giá gốc của xe vẫn giữ nguyên.
+* **Khóa ngày đã có khách** — khi xe đã được thuê qua điện thoại hoặc kênh khác, hãy đóng ngày đó lại để khách trên website không đặt trùng.
+* **Cập nhật số lượng xe còn trống** — nếu bạn có nhiều xe cùng loại.
 
 > **Cẩn thận nhất ở đây:** Không khóa ngày xe đã bận sẽ dẫn tới **đặt trùng** — hai khách cùng đặt một xe trong cùng một ngày. Đây là lỗi gây mất uy tín nặng nhất. Mỗi khi nhận đơn ngoài website, hãy vào đây khóa ngày ngay.
 
@@ -174,6 +166,6 @@ Thường xảy ra khi bạn copy tên từ file Word hoặc Zalo dán vào. Hã
 
 ## Xem thêm
 
-- [3.13. Thuyền](thuyen.md) — quản lý thuyền cho thuê, cách làm gần giống Xe.
-- [3.3. Tour](tour.md) — module sản phẩm đầy đủ nhất, có thêm phần Danh mục.
-- [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt.
+* [3.13. Thuyền](thuyen.md) — quản lý thuyền cho thuê, cách làm gần giống Xe.
+* [3.3. Tour](tour.md) — module sản phẩm đầy đủ nhất, có thêm phần Danh mục.
+* [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt.

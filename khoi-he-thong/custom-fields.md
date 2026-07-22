@@ -14,8 +14,6 @@ Nói ngắn gọn: **hệ thống thiếu ô nào, bạn tự thêm ô đó**.
 > * **"Field Groups"** — Danh sách nhóm trường
 > * **"Add New Group"** — Thêm nhóm mới
 
-![](../.gitbook/assets/pg123-0.png)
-
 ## Trong mục này có gì?
 
 Khi nhấn vào **Custom Fields** ở menu bên trái, bạn sẽ thấy 2 mục con:

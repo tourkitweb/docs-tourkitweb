@@ -6,8 +6,6 @@ Bạn sẽ vào đây **nhiều nhất lúc mới nhận website** (để khai b
 
 > **Đường dẫn:** Menu bên trái > **Cài đặt**
 
-![](../.gitbook/assets/pg123-0.png)
-
 > **Không thấy mục "Cài đặt" trong menu?** Đây là mục dành cho quản trị viên, cần quyền riêng. Nếu tài khoản của bạn chưa được cấp quyền, mục này sẽ **ẩn hoàn toàn**. Hãy liên hệ quản trị viên của đơn vị bạn.
 
 ## "Cài đặt" khác gì "Tích hợp"?

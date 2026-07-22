@@ -10,14 +10,12 @@ Khách vào website sẽ xem được thông tin căn nhà, giá, hình ảnh, v
 
 > **Nếu bạn không thấy mục này:** tài khoản của bạn chưa được cấp quyền — hãy liên hệ quản trị viên.
 
-> 📷 *[Cần chụp màn hình: menu Tài sản đang mở ra ở cột bên trái, thấy đủ 5 mục con]*
-
 ## "Tài sản" khác "Khách sạn" ở chỗ nào?
 
 Nhiều người hay nhầm hai mục này. Phân biệt cho dễ:
 
-- **Khách sạn** — bạn bán **theo phòng, theo đêm**. Một cơ sở có nhiều loại phòng, quản lý phòng trống từng ngày.
-- **Tài sản** — bạn cho thuê hoặc bán **nguyên căn**. Không chia phòng để bán lẻ. Khách thường không đặt ngay mà **gửi yêu cầu liên hệ** để bạn gọi lại tư vấn.
+* **Khách sạn** — bạn bán **theo phòng, theo đêm**. Một cơ sở có nhiều loại phòng, quản lý phòng trống từng ngày.
+* **Tài sản** — bạn cho thuê hoặc bán **nguyên căn**. Không chia phòng để bán lẻ. Khách thường không đặt ngay mà **gửi yêu cầu liên hệ** để bạn gọi lại tư vấn.
 
 **Cách nhớ:** bán theo đêm, theo phòng → dùng **Khách sạn**. Cho thuê hoặc bán cả căn → dùng **Tài sản**.
 
@@ -25,19 +23,17 @@ Nhiều người hay nhầm hai mục này. Phân biệt cho dễ:
 
 Nhấn vào chữ **Tài sản** ở menu bên trái, 5 mục con sẽ xổ xuống:
 
-- **Tất cả các tài sản** — danh sách toàn bộ bất động sản bạn đang đăng. Nơi bạn vào thường xuyên nhất.
-- **Thêm tài sản mới** — đăng một bất động sản mới lên website.
-- **Thuộc tính** — các tiêu chí để khách lọc tìm, ví dụ: số phòng ngủ, có hồ bơi, có chỗ để ô tô, hướng nhà.
-- **Danh mục** — phân nhóm theo loại hình, ví dụ: `Villa nghỉ dưỡng`, `Căn hộ chung cư`, `Nhà phố`.
-- **Liên hệ tài sản** — **nơi nhận yêu cầu liên hệ từ khách**. Đây là mục quan trọng nhất, xem chi tiết bên dưới.
+* **Tất cả các tài sản** — danh sách toàn bộ bất động sản bạn đang đăng. Nơi bạn vào thường xuyên nhất.
+* **Thêm tài sản mới** — đăng một bất động sản mới lên website.
+* **Thuộc tính** — các tiêu chí để khách lọc tìm, ví dụ: số phòng ngủ, có hồ bơi, có chỗ để ô tô, hướng nhà.
+* **Danh mục** — phân nhóm theo loại hình, ví dụ: `Villa nghỉ dưỡng`, `Căn hộ chung cư`, `Nhà phố`.
+* **Liên hệ tài sản** — **nơi nhận yêu cầu liên hệ từ khách**. Đây là mục quan trọng nhất, xem chi tiết bên dưới.
 
 > **Lưu ý:** Mục Tài sản **không có "Khôi phục"** (thùng rác) và **không có "Cập nhật giá"** (lịch mở bán theo ngày) như Tour hay Khách sạn. Vì tài sản bán/cho thuê nguyên căn, không cần lịch giá từng ngày.
 
 ## Tất cả các tài sản
 
 Mỗi dòng trong danh sách là một bất động sản, kèm ảnh, tên, giá và trạng thái đang hiển thị hay đang ẩn.
-
-> 📷 *[Cần chụp màn hình: trang danh sách tài sản tại Tài sản > Tất cả các tài sản]*
 
 ### Tìm một tài sản
 
@@ -63,16 +59,14 @@ Gõ tên vào **ô tìm kiếm** phía trên danh sách rồi nhấn nút **"Tì
 
 Vào **Tài sản > Thêm tài sản mới**. Trang nhập liệu chia thành nhiều tab nằm ngang, bạn điền lần lượt.
 
-> 📷 *[Cần chụp màn hình: trang Thêm tài sản mới, thấy rõ các tab Nội dung, Địa điểm, Giá, Thuộc tính]*
-
 ### Bước 1: Nhập nội dung giới thiệu
 
 Ở tab **"Nội dung"** (Content):
 
-- **Tên tài sản** — đặt tên khách hình dung được ngay, ví dụ: `Villa 4 phòng ngủ có hồ bơi view biển Mũi Né`.
-- **Mô tả** — diện tích bao nhiêu, mấy phòng ngủ, nội thất thế nào, gần cái gì, pháp lý ra sao.
-- **Ảnh đại diện** — ảnh chính hiện ngoài danh sách website. Chọn ảnh chụp mặt tiền đẹp nhất.
-- **Bộ sưu tập ảnh** — đây là phần quan trọng nhất với bất động sản. Hãy tải đủ ảnh từng phòng, bếp, nhà tắm, sân vườn. Khách xem nhà qua ảnh trước khi quyết định gọi cho bạn.
+* **Tên tài sản** — đặt tên khách hình dung được ngay, ví dụ: `Villa 4 phòng ngủ có hồ bơi view biển Mũi Né`.
+* **Mô tả** — diện tích bao nhiêu, mấy phòng ngủ, nội thất thế nào, gần cái gì, pháp lý ra sao.
+* **Ảnh đại diện** — ảnh chính hiện ngoài danh sách website. Chọn ảnh chụp mặt tiền đẹp nhất.
+* **Bộ sưu tập ảnh** — đây là phần quan trọng nhất với bất động sản. Hãy tải đủ ảnh từng phòng, bếp, nhà tắm, sân vườn. Khách xem nhà qua ảnh trước khi quyết định gọi cho bạn.
 
 > **Mẹo về ảnh:** Ảnh chụp từ điện thoại đời mới thường 5–10 MB. Đăng 20 ảnh nặng như vậy sẽ khiến trang tải rất chậm và khách bỏ đi. Hãy giảm mỗi ảnh xuống dưới 1 MB trước khi tải lên.
 
@@ -80,9 +74,9 @@ Vào **Tài sản > Thêm tài sản mới**. Trang nhập liệu chia thành nh
 
 Ở tab **"Địa điểm"** (Location):
 
-- Chọn **tỉnh/thành** nơi có bất động sản.
-- Nhập **địa chỉ thật** vào ô địa chỉ.
-- **Ghim vị trí trên bản đồ** — kéo ghim đến đúng vị trí căn nhà.
+* Chọn **tỉnh/thành** nơi có bất động sản.
+* Nhập **địa chỉ thật** vào ô địa chỉ.
+* **Ghim vị trí trên bản đồ** — kéo ghim đến đúng vị trí căn nhà.
 
 > **Rất quan trọng với bất động sản:** Vị trí là thứ khách quan tâm số một. Nếu bạn không ghim bản đồ, khách sẽ không hình dung được nhà nằm ở đâu, gần biển hay xa biển — và sẽ không gọi cho bạn.
 
@@ -90,16 +84,16 @@ Vào **Tài sản > Thêm tài sản mới**. Trang nhập liệu chia thành nh
 
 Ở tab **"Giá"** (Pricing):
 
-- **Giá** — giá thuê hoặc giá bán.
-- **Phụ phí** (Extra Price) — các khoản tính thêm ngoài giá gốc, ví dụ: dọn dẹp, phụ phí thú cưng. Bật ô **"Enable extra price"** rồi nhấn **"Add item"** để thêm từng khoản.
-- **Giảm giá theo số người** (Discount by number of people) — cho phép đặt mức giảm khi khách thuê đông người, khai báo theo khoảng **From** (Từ) – **To** (Đến).
+* **Giá** — giá thuê hoặc giá bán.
+* **Phụ phí** (Extra Price) — các khoản tính thêm ngoài giá gốc, ví dụ: dọn dẹp, phụ phí thú cưng. Bật ô **"Enable extra price"** rồi nhấn **"Add item"** để thêm từng khoản.
+* **Giảm giá theo số người** (Discount by number of people) — cho phép đặt mức giảm khi khách thuê đông người, khai báo theo khoảng **From** (Từ) – **To** (Đến).
 
 > **Lưu ý:** Ô giá chỉ nhận **số thuần**. Gõ `5000000`, không gõ `5.000.000đ`.
 
 ### Bước 4: Chọn danh mục và thuộc tính
 
-- Chọn **Danh mục** để tài sản được xếp đúng nhóm loại hình.
-- Ở tab **"Thuộc tính"** (Attributes), tích chọn các đặc điểm: số phòng ngủ, có hồ bơi, có gara…
+* Chọn **Danh mục** để tài sản được xếp đúng nhóm loại hình.
+* Ở tab **"Thuộc tính"** (Attributes), tích chọn các đặc điểm: số phòng ngủ, có hồ bơi, có gara…
 
 Nếu chưa thấy danh mục hoặc tiêu chí bạn cần, hãy tạo trước ở **Tài sản > Danh mục** và **Tài sản > Thuộc tính**, rồi quay lại.
 
@@ -117,10 +111,8 @@ Thuộc tính là các tiêu chí giúp khách lọc tìm. Với bất động s
 
 Chia làm 2 tầng:
 
-- **Nhóm thuộc tính** — tên lớn, ví dụ: `Số phòng ngủ`, `Tiện ích`.
-- **Giá trị bên trong nhóm** — lựa chọn cụ thể, ví dụ trong nhóm `Số phòng ngủ` có `1 phòng`, `2 phòng`, `3 phòng trở lên`.
-
-> 📷 *[Cần chụp màn hình: trang Thuộc tính tại Tài sản > Thuộc tính]*
+* **Nhóm thuộc tính** — tên lớn, ví dụ: `Số phòng ngủ`, `Tiện ích`.
+* **Giá trị bên trong nhóm** — lựa chọn cụ thể, ví dụ trong nhóm `Số phòng ngủ` có `1 phòng`, `2 phòng`, `3 phòng trở lên`.
 
 ### Cách thêm
 
@@ -135,8 +127,6 @@ Chia làm 2 tầng:
 Vào **Tài sản > Danh mục**.
 
 Danh mục phân nhóm bất động sản theo loại hình để khách tìm nhanh.
-
-> 📷 *[Cần chụp màn hình: trang Danh mục tại Tài sản > Danh mục]*
 
 ### Cách thêm danh mục
 
@@ -156,16 +146,14 @@ Vào **Tài sản > Liên hệ tài sản**.
 
 **Đây là mục bạn phải kiểm tra hằng ngày.** Khi khách xem một căn trên website và bấm nút liên hệ để hỏi thêm, thông tin của họ sẽ rơi vào đây.
 
-> 📷 *[Cần chụp màn hình: trang Liên hệ tài sản tại Tài sản > Liên hệ tài sản, thấy rõ bảng danh sách các yêu cầu liên hệ]*
-
 Mỗi dòng trong bảng là một khách đã để lại thông tin, gồm:
 
-- **Tên** — tên khách để lại.
-- **Email** và **Số điện thoại** — cách bạn liên lạc lại với khách.
-- **Nội dung tin nhắn** — khách hỏi gì, quan tâm điều gì.
-- **Tài sản** — khách đang hỏi về căn nào.
-- **Nhà cung cấp** — ai là người đăng căn đó.
-- **Trang** — khách gửi từ trang nào trên website.
+* **Tên** — tên khách để lại.
+* **Email** và **Số điện thoại** — cách bạn liên lạc lại với khách.
+* **Nội dung tin nhắn** — khách hỏi gì, quan tâm điều gì.
+* **Tài sản** — khách đang hỏi về căn nào.
+* **Nhà cung cấp** — ai là người đăng căn đó.
+* **Trang** — khách gửi từ trang nào trên website.
 
 > **Đây là khách hàng tiềm năng, không phải thư rác.** Người đã bỏ công điền tên và số điện thoại là người đang thực sự quan tâm. Gọi lại càng sớm càng dễ chốt — để vài ngày thì họ đã đi xem nhà chỗ khác.
 
@@ -205,6 +193,6 @@ Hãy nhập lại địa chỉ đầy đủ (số nhà, đường, phường, qu
 
 ## Xem thêm
 
-- [3.2. Khách sạn](khach-san.md) — dùng khi bạn bán theo phòng, theo đêm.
-- [3.3. Tour](tour.md) — module sản phẩm đầy đủ nhất.
-- [4.9. Cài đặt](../khoi-he-thong/cai-dat.md) — nơi có trang cài đặt riêng của Tài sản.
+* [3.2. Khách sạn](khach-san.md) — dùng khi bạn bán theo phòng, theo đêm.
+* [3.3. Tour](tour.md) — module sản phẩm đầy đủ nhất.
+* [4.9. Cài đặt](../khoi-he-thong/cai-dat.md) — nơi có trang cài đặt riêng của Tài sản.
