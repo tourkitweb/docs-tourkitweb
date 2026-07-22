@@ -4,6 +4,13 @@
 * [Hướng dẫn đăng ký tài khoản](huong-dan-dang-ky-tai-khoan.md)
 * [Hướng dẫn đăng nhập tài khoản](huong-dan-dang-nhap-tai-khoan.md)
 
+## Nhà cung cấp
+
+* [Khu Nhà cung cấp](nha-cung-cap/README.md)
+  * [Nhập & quản lý khách sạn](nha-cung-cap/khach-san.md)
+  * [Nhập & quản lý phòng](nha-cung-cap/phong.md)
+  * [Nhập & quản lý tour](nha-cung-cap/tour.md)
+
 ## Bảng điều khiển
 
 * [1. Bảng điều khiển](bang-dieu-khien/README.md)
