@@ -17,13 +17,13 @@ Mỗi tour hiện dưới dạng **thẻ**, cho biết: điểm đến, giá, th
 - Với tour đã đăng: **"Xem"**, **"Chỉnh sửa"**, **"Lịch giá & chỗ"**.
 - Nút **ba chấm (⋮)**: *Nhân bản*, *Ẩn khỏi website*, *Xoá tour*.
 
-> 📷 *[Cần chụp màn hình: danh sách tour khu vendor — 3 thẻ thống kê và các card tour]*
+![](../.gitbook/assets/ncc-tour-danh-sach.png)
 
 ## Thêm tour mới — Trình nhập 8 bước
 
 Bấm **"Thêm tour"**. Hệ thống tạo ngay một bản nháp và mở trình nhập theo bước gồm **8 bước**. Như mọi wizard khác, bạn dừng giữa chừng được, thông tin tự lưu ngầm; cuối mỗi bước có **"Quay lại"**, **"Lưu nháp"**, **"Tiếp tục"** (bước cuối là **"Hoàn tất & Đăng"**).
 
-> 📷 *[Cần chụp màn hình: giao diện wizard thêm tour — thanh 8 bước ở trên và nội dung bước đang nhập]*
+![](../.gitbook/assets/ncc-tour-wizard.png)
 
 ### 8 bước nhập tour
 
@@ -104,7 +104,7 @@ Màn hình chia hai cột:
 
 > **"Số khách tối đa" ở đây khống chế theo từng ngày khởi hành.** Ví dụ đặt 20, thì suất ngày đó bán tối đa 20 chỗ rồi báo hết.
 
-> 📷 *[Cần chụp màn hình: màn "Lịch giá & chỗ" của tour — cột trái danh sách tour, cột phải là lịch; và cửa sổ "Thông tin ngày" hiện bảng giá theo từng loại khách]*
+![](../.gitbook/assets/ncc-tour-lich-gia.png)
 
 ## Sửa, tạm ẩn & xoá tour
 

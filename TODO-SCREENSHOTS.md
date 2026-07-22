@@ -143,23 +143,16 @@ Tất cả ảnh để chung trong thư mục `.gitbook/assets/`.
 
 > Các trang này chụp bằng **tài khoản nhà cung cấp đã mua gói dịch vụ** (không phải admin). Nếu tài khoản chưa có gói còn hiệu lực, thanh menu chỉ hiện 3 mục và không vào được Hotel/Tour để chụp.
 
-### `nha-cung-cap/README.md` — 2 ảnh
-- [ ] dòng 50 — trang `/vendor/register`, form đăng ký nhà cung cấp 3 bước
-- [ ] dòng 59 — `/vendor/dashboard`, thẻ thống kê + biểu đồ doanh thu ("Earning statistics")
+**HOÀN TẤT (22/07/2026).** Đã chèn 8 ảnh. 2 ảnh còn lại (form đăng ký NCC + wizard thêm phòng) — user quyết định **bỏ, không cần ảnh**, đã xoá placeholder khỏi trang. Mục Nhà cung cấp không còn chỗ nào chờ ảnh.
 
-### `nha-cung-cap/khach-san.md` — 2 ảnh
-- [ ] dòng 30 — danh sách khách sạn khu vendor (`/vendor/khach-san`): 3 thẻ thống kê, tab trạng thái, card khách sạn
-- [ ] dòng 56 — wizard thêm khách sạn (`hotel.vendor.wizard`): thanh 8 bước + 3 nút Quay lại/Lưu nháp/Tiếp tục
-
-### `nha-cung-cap/phong.md` — 3 ảnh
-- [ ] dòng 21 — danh sách phòng của một khách sạn: nút "Về danh sách khách sạn" / "Giá & phòng trống" / "Thêm phòng"
-- [ ] dòng 29 — wizard thêm phòng: thanh 5 bước
-- [ ] dòng 93 — lịch "Giá & phòng trống": kéo chọn khoảng ngày, ô Giá/đêm + Số lượng phòng
-
-### `nha-cung-cap/tour.md` — 3 ảnh
-- [ ] dòng 20 — danh sách tour khu vendor (`/vendor/tour`): 3 thẻ thống kê + card tour
-- [ ] dòng 26 — wizard thêm tour: thanh 8 bước
-- [ ] dòng 107 — màn "Lịch giá & chỗ" (`tour.vendor.availability`): cột trái danh sách tour, cột phải lịch, cửa sổ "Thông tin ngày" hiện bảng giá theo từng loại khách (person types động)
+- [x] README — `/vendor/dashboard` → `ncc-dashboard.webp`
+- [x] khách sạn — danh sách → `ncc-ks-danh-sach.png`
+- [x] khách sạn — wizard → `ncc-ks-wizard.png`
+- [x] phòng — danh sách → `ncc-ks-phong-danh-sach.png`
+- [x] phòng — lịch "Giá & phòng trống" → `ncc-phong-lich-gia.webp`
+- [x] tour — danh sách → `ncc-tour-danh-sach.png`
+- [x] tour — wizard → `ncc-tour-wizard.png`
+- [x] tour — "Lịch giá & chỗ" → `ncc-tour-lich-gia.png`
 
 ## Khối Hệ thống
 

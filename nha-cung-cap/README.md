@@ -47,8 +47,6 @@ Có hai con đường, tùy cấu hình website:
 >
 > Nếu sau khi đăng nhập bạn thấy màn hình không giống các ảnh trong mục này, rất có thể tài khoản của bạn đang là Đại lý chứ không phải Nhà cung cấp.
 
-> 📷 *[Cần chụp màn hình: trang /vendor/register, thấy rõ form đăng ký 3 bước của nhà cung cấp]*
-
 ## Sau khi đăng nhập: Bảng điều khiển nhà cung cấp
 
 Đăng nhập bằng tài khoản nhà cung cấp, bạn vào thẳng **Bảng điều khiển** tại `/vendor/dashboard`. Đây là màn hình tổng quan việc kinh doanh của riêng bạn:
@@ -56,7 +54,7 @@ Có hai con đường, tùy cấu hình website:
 - **Các thẻ thống kê** ở trên cùng — tổng quan nhanh về đơn và doanh thu của bạn.
 - **Biểu đồ doanh thu** ("Earning statistics") — có bộ chọn khoảng thời gian để xem theo tuần, tháng, quý.
 
-> 📷 *[Cần chụp màn hình: /vendor/dashboard — thẻ thống kê phía trên và biểu đồ doanh thu phía dưới]*
+![](../.gitbook/assets/ncc-dashboard.webp)
 
 ### Thanh menu của nhà cung cấp
 

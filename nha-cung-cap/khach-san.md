@@ -27,7 +27,7 @@ Bên dưới là các công cụ lọc danh sách:
 - **Tab trạng thái** — *Tất cả* / *Đang xuất bản* / *Bản nháp*, mỗi tab kèm con số đếm.
 - **Sắp xếp** — *Mới cập nhật*, *Tên A → Z*, *Giá cao → thấp*, *Giá thấp → cao*.
 
-> 📷 *[Cần chụp màn hình: danh sách khách sạn khu vendor — 3 thẻ thống kê phía trên, tab trạng thái và danh sách card khách sạn phía dưới]*
+![](../.gitbook/assets/ncc-ks-danh-sach.png)
 
 ### Mỗi thẻ khách sạn có gì?
 
@@ -53,7 +53,7 @@ Bấm nút **"Thêm khách sạn"** ở đầu trang. Hệ thống **tạo ngay 
 - **"Lưu nháp"** — lưu lại rồi thoát, chưa cần điền đủ.
 - **"Tiếp tục: [tên bước sau]"** — kiểm tra thông tin bước hiện tại rồi sang bước kế. Ở bước cuối, nút này đổi thành **"Hoàn tất & Đăng"**.
 
-> 📷 *[Cần chụp màn hình: giao diện wizard thêm khách sạn — thanh các bước ở trên, nội dung bước đang nhập, và 3 nút Quay lại / Lưu nháp / Tiếp tục ở dưới]*
+![](../.gitbook/assets/ncc-ks-wizard.png)
 
 ### 8 bước nhập khách sạn
 

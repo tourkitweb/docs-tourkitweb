@@ -18,15 +18,13 @@ Các nút quan trọng ở đầu trang:
 - **"Giá & phòng trống"** — mở lịch để đặt giá và số phòng theo từng ngày (xem phần cuối bài).
 - **"Thêm phòng"** — tạo một loại phòng mới.
 
-> 📷 *[Cần chụp màn hình: danh sách phòng của một khách sạn — tiêu đề có tên khách sạn, 3 thẻ thống kê, các nút "Về danh sách khách sạn" / "Giá & phòng trống" / "Thêm phòng"]*
+![](../.gitbook/assets/ncc-ks-phong-danh-sach.png)
 
 ## Thêm phòng mới — Trình nhập 5 bước
 
 Bấm **"Thêm phòng"**. Giống như khi thêm khách sạn, hệ thống **tạo ngay một phòng nháp** rồi đưa bạn vào trình nhập theo bước — lần này gồm **5 bước**. Bạn có thể dừng giữa chừng, thông tin vẫn được lưu ngầm.
 
 Cuối mỗi bước vẫn là ba nút quen thuộc: **"Quay lại"**, **"Lưu nháp"**, **"Tiếp tục"** (bước cuối là **"Hoàn tất"**).
-
-> 📷 *[Cần chụp màn hình: giao diện wizard thêm phòng — thanh 5 bước ở trên]*
 
 ### 5 bước nhập phòng
 
@@ -90,7 +88,7 @@ Giá bạn nhập ở Bước 5 là **giá gốc**, áp dụng cho mọi ngày. 
 
 > **Mẹo tiết kiệm thời gian:** thay vì bấm từng ngày, hãy làm theo đợt — ví dụ đầu mỗi tháng bôi cả tháng sau một lượt để mở bán và định giá.
 
-> 📷 *[Cần chụp màn hình: lịch "Giá & phòng trống" của phòng — kéo chọn khoảng ngày, khung nhập Giá/đêm và Số lượng phòng]*
+![](../.gitbook/assets/ncc-phong-lich-gia.webp)
 
 ## Lưu ý & xử lý sự cố
 
