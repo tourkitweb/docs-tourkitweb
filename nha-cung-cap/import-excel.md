@@ -42,6 +42,15 @@ Vài quy tắc quan trọng khi điền:
 
 > **Tên phải khớp đúng.** Địa điểm, danh mục, tiện ích bạn điền phải trùng với tên trong sheet DANH MỤC. Nếu điền một cái tên hệ thống không có (ví dụ địa điểm chưa được tạo), sản phẩm **vẫn được tạo** nhưng phần đó bị **bỏ trống** và hệ thống báo cảnh báo cho bạn biết.
 
+### Giới hạn dung lượng & số dòng
+
+Mỗi lần import chỉ nhận:
+
+- File tối đa **10MB**, định dạng **.xlsx** hoặc **.xls**.
+- Mỗi sheet tối đa **2.000 dòng** dữ liệu.
+
+> **Vượt giới hạn thì file bị từ chối HOÀN TOÀN — không có dữ liệu nào được tạo.** Hệ thống báo rõ sheet nào và bao nhiêu dòng, bạn không phải lo import "nửa vời". Nếu danh sách dài hơn 2.000 dòng, hãy **tách thành nhiều file** rồi import lần lượt.
+
 ## Nhập khách sạn
 
 File mẫu khách sạn có hai sheet dữ liệu:
@@ -120,6 +129,8 @@ Bên dưới là chi tiết:
 **Tải file mẫu mà không tải được / báo lỗi:** thử lại; nếu vẫn lỗi, kiểm tra thanh menu còn mục Hotel/Tour không (không có nghĩa là bạn chưa mua gói dịch vụ).
 
 **Import báo "Không đọc được file":** bạn đang tải nhầm file không phải Excel, hoặc file hỏng. Hãy tải lại **file mẫu mới**, điền lại và thử lại. Chỉ nhận đuôi **.xlsx** hoặc **.xls**, tối đa 10MB.
+
+**Import báo "vượt giới hạn 2.000 dòng mỗi sheet":** danh sách của bạn quá dài cho một lần import. Hãy chia file thành nhiều phần (mỗi phần dưới 2.000 dòng) rồi import lần lượt. Lưu ý cắt trọn bộ: nếu tách sheet KHÁCH SẠN thì các dòng PHÒNG tương ứng phải nằm cùng file (vì phòng nối với khách sạn qua Mã khách sạn).
 
 **Import xong nhưng thiếu sản phẩm:** mở bảng kết quả xem mục "dòng bị bỏ qua" — thường do thiếu cột bắt buộc (dấu *) hoặc mã khách sạn/tour ở sheet con không trùng mã ở sheet chính.
 
