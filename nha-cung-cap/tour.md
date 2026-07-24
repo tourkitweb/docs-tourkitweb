@@ -128,8 +128,15 @@ Màn hình chia hai cột:
 
 **Nhập giá bị sai số:** gõ số thuần, không thêm dấu chấm hay chữ "đ".
 
+## Có nhiều tour? Nhập hàng loạt bằng Excel
+
+Nếu bạn cần đăng nhiều tour cùng lúc — kèm **bảng giá theo loại khách** và **lịch khởi hành** — hãy dùng nút **"Tải file mẫu"** và **"Import Excel"** ở đầu màn danh sách tour. Import còn có ô **"Thay thế toàn bộ lịch khởi hành"** để làm mới lịch theo tháng mà vẫn giữ ngày đã có khách đặt.
+
+👉 Xem chi tiết ở bài [Nhập hàng loạt bằng Excel](import-excel.md).
+
 ## Xem thêm
 
 - [Khu Nhà cung cấp (tổng quan)](README.md)
 - [Nhập & quản lý khách sạn](khach-san.md)
 - [Nhập & quản lý phòng](phong.md)
+- [Nhập hàng loạt bằng Excel](import-excel.md)

@@ -10,6 +10,7 @@
   * [Nhập & quản lý khách sạn](nha-cung-cap/khach-san.md)
   * [Nhập & quản lý phòng](nha-cung-cap/phong.md)
   * [Nhập & quản lý tour](nha-cung-cap/tour.md)
+  * [Nhập hàng loạt bằng Excel](nha-cung-cap/import-excel.md)
 
 ## Bảng điều khiển
 

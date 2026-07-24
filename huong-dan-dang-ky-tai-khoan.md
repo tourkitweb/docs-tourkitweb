@@ -2,14 +2,17 @@
 
 Đăng ký là bước tạo tài khoản mới trên website. Bạn chỉ cần làm **một lần duy nhất**, sau đó dùng tài khoản này để đăng nhập mãi về sau.
 
-Hệ thống có **2 loại tài khoản khác nhau**, bạn cần chọn đúng loại ngay từ đầu:
+Hệ thống có **3 loại tài khoản khác nhau**, bạn cần chọn đúng loại ngay từ đầu:
 
-| Loại tài khoản | Dành cho ai | Dùng để làm gì |
-|---|---|---|
-| **Khách hàng** | Người đi du lịch bình thường | Đặt tour, đặt phòng, theo dõi đơn của mình |
-| **Đại lý** | Đơn vị bán tour, cộng tác viên | Bán dịch vụ cho khách và nhận hoa hồng |
+| Loại tài khoản | Dành cho ai | Dùng để làm gì | Đăng ký ở đâu |
+|---|---|---|---|
+| **Khách hàng** | Người đi du lịch bình thường | Đặt tour, đặt phòng, theo dõi đơn của mình | Cửa sổ "Đăng ký", tab **Khách hàng** |
+| **Đại lý** | Đơn vị bán tour, cộng tác viên | Bán lại dịch vụ của người khác để nhận hoa hồng | Cửa sổ "Đăng ký", tab **Đại lý** |
+| **Nhà cung cấp** | Chủ khách sạn, homestay, công ty tour | Tự đăng sản phẩm **của chính mình** lên website để bán | Trang đăng ký riêng (xem [mục c](#c-dang-ky-tai-khoan-nha-cung-cap)) |
 
-> **Chọn nhầm loại thì sao?** Bạn sẽ không có các chức năng bán hàng và hoa hồng. Hãy cân nhắc kỹ trước khi bấm, vì đổi loại tài khoản sau cần nhờ quản trị viên hỗ trợ.
+> **Đại lý và Nhà cung cấp khác nhau thế nào?** Đại lý *bán hộ* sản phẩm của người khác và ăn hoa hồng; Nhà cung cấp *tự đăng và bán sản phẩm của chính mình* (khách sạn, tour của họ). Hai vai trò dùng hai khu làm việc khác nhau, đừng nhầm.
+
+> **Chọn nhầm loại thì sao?** Bạn sẽ thiếu các chức năng tương ứng (bán hàng, hoa hồng, hoặc đăng sản phẩm). Hãy cân nhắc kỹ trước khi bấm, vì đổi loại tài khoản sau cần nhờ quản trị viên hỗ trợ.
 
 ## Chuẩn bị trước khi đăng ký
 
@@ -68,6 +71,41 @@ Tài khoản Đại lý dành cho đơn vị/cá nhân muốn bán dịch vụ v
 - **Bước 6:** Nhấn nút **"ĐĂNG KÝ ĐẠI LÝ"** màu vàng phía dưới để gửi yêu cầu đăng ký.
 
 > **Quan trọng:** Tài khoản Đại lý thường **cần được quản trị viên duyệt** trước khi dùng được đầy đủ chức năng. Nếu đăng ký xong mà chưa bán hàng được ngay, đó là chuyện bình thường — bạn hãy chờ hoặc liên hệ đơn vị quản lý để được duyệt sớm.
+
+## c, Đăng ký tài khoản Nhà cung cấp
+
+Nhà cung cấp là đối tác **tự đăng sản phẩm của mình** — chủ khách sạn, homestay, hoặc công ty lữ hành — để bán trực tiếp trên website. Khác với Khách hàng và Đại lý (đăng ký ngay trong cửa sổ "Đăng ký"), Nhà cung cấp đăng ký theo **một đường riêng**. Có hai cách, tùy tình huống của bạn.
+
+### Cách 1 — Đăng ký nhà cung cấp mới
+
+Dùng khi bạn **chưa có tài khoản nào** trên website.
+
+**Bước 1:** Truy cập trang đăng ký nhà cung cấp tại địa chỉ `website-cua-ban.com/vendor/register` — hoặc bấm nút/liên kết **"Trở thành nhà cung cấp"** nếu website của bạn có sẵn.
+
+**Bước 2:** Làm theo form hiện ra, gồm **3 bước ngắn**:
+
+1. Nhập **địa chỉ email**.
+2. Nhập **Họ**, **Tên** và **Số điện thoại**.
+3. Đặt **mật khẩu** (yêu cầu giống tài khoản thường: tối thiểu 8 ký tự, có chữ in HOA, chữ thường, số và ký tự đặc biệt).
+
+**Bước 3:** Hoàn tất đăng ký. Điều xảy ra tiếp theo tùy cấu hình website:
+
+- Nếu website bật **tự động duyệt**: tài khoản dùng được ngay, hệ thống tự đăng nhập bạn vào khu nhà cung cấp.
+- Nếu **tắt**: tài khoản ở trạng thái **chờ duyệt**, bạn thấy thông báo đại ý *"Đăng ký thành công, vui lòng chờ quản trị viên phê duyệt"*. Khi được duyệt, bạn mới vào khu nhà cung cấp được.
+
+### Cách 2 — Nâng cấp từ tài khoản đang có
+
+Dùng khi bạn **đã là khách hàng** trên website và muốn chuyển sang bán hàng — không cần tạo tài khoản mới.
+
+**Bước 1:** [Đăng nhập](huong-dan-dang-nhap-tai-khoan.md) bằng tài khoản hiện có.
+
+**Bước 2:** Truy cập `website-cua-ban.com/user/upgrade-vendor` để gửi yêu cầu nâng cấp thành nhà cung cấp.
+
+**Bước 3:** Việc duyệt cũng theo cùng quy tắc **tự động duyệt / chờ duyệt** như Cách 1.
+
+> **Sau khi thành nhà cung cấp thì làm gì?** Bạn sẽ có một khu làm việc riêng để đăng khách sạn, phòng và tour. Xem hướng dẫn đầy đủ ở mục [Khu Nhà cung cấp](nha-cung-cap/README.md).
+
+> **Lưu ý — cần có gói dịch vụ mới đăng bán được.** Sau khi được duyệt, nếu chưa mua gói dịch vụ, bạn chỉ thấy vài mục cơ bản; các mục đăng khách sạn/tour sẽ bị ẩn cho tới khi có gói còn hiệu lực. Đây không phải lỗi — chi tiết ở [Khu Nhà cung cấp](nha-cung-cap/README.md).
 
 ## Lưu ý & xử lý sự cố
 

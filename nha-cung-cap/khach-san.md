@@ -144,8 +144,15 @@ Mở nút **ba chấm (⋮)** trên thẻ khách sạn:
 
 **Bị đá sang trang Gói dịch vụ khi đăng:** gói của bạn hết hạn hoặc hết lượt. Vào mục **Gói dịch vụ** để gia hạn/nâng gói.
 
+## Có nhiều khách sạn? Nhập hàng loạt bằng Excel
+
+Nếu bạn cần đăng nhiều khách sạn cùng lúc, thay vì điền từng cái qua 8 bước, hãy dùng nút **"Tải file mẫu"** và **"Import Excel"** ở đầu màn danh sách để khai báo hàng loạt trong một file bảng tính rồi tải lên một lần.
+
+👉 Xem chi tiết ở bài [Nhập hàng loạt bằng Excel](import-excel.md).
+
 ## Xem thêm
 
 - [Khu Nhà cung cấp (tổng quan)](README.md)
 - [Nhập & quản lý phòng](phong.md)
 - [Nhập & quản lý tour](tour.md)
+- [Nhập hàng loạt bằng Excel](import-excel.md)

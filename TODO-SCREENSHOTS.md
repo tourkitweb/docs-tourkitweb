@@ -154,6 +154,14 @@ Tất cả ảnh để chung trong thư mục `.gitbook/assets/`.
 - [x] tour — wizard → `ncc-tour-wizard.png`
 - [x] tour — "Lịch giá & chỗ" → `ncc-tour-lich-gia.png`
 
+### Nhập hàng loạt bằng Excel (`import-excel.md` — thêm 24/07/2026) — CHỜ 3 ẢNH
+
+> Chụp ở màn `/vendor/khach-san` hoặc `/vendor/tour` bằng tài khoản NCC có gói.
+
+- [ ] 2 nút "Tải file mẫu" + "Import Excel" ở đầu màn danh sách → `ncc-import-nut.png`
+- [ ] Cửa sổ Import (ô chọn file + ô tích "Thay thế toàn bộ lịch khởi hành" — chụp ở màn Tour) → `ncc-import-cua-so.png`
+- [ ] Bảng kết quả sau khi import (các ô thống kê tạo mới/cập nhật/bỏ qua) → `ncc-import-ket-qua.png`
+
 ## Khối Hệ thống
 
 ### `khoi-he-thong/slide-item.md` — 5 ảnh
