@@ -4,8 +4,8 @@ Nếu bạn có **nhiều khách sạn hoặc nhiều tour** cần đăng cùng 
 
 Tính năng này có ở cả hai màn quản lý:
 
-- **Khu nhà cung cấp > Hotel** — nhập hàng loạt khách sạn và phòng.
-- **Khu nhà cung cấp > Tour** — nhập hàng loạt tour, bảng giá theo khách và lịch khởi hành.
+* **Khu nhà cung cấp > Hotel** — nhập hàng loạt khách sạn và phòng.
+* **Khu nhà cung cấp > Tour** — nhập hàng loạt tour, bảng giá theo khách và lịch khởi hành.
 
 > **Khi nào nên dùng?** Khi bạn có sẵn danh sách (thường là một file Excel của riêng bạn) và muốn đưa lên nhanh. Nếu chỉ thêm một hai sản phẩm, dùng nút **"Thêm khách sạn" / "Thêm tour"** như bình thường sẽ nhanh hơn.
 
@@ -19,10 +19,8 @@ Dù là khách sạn hay tour, cách làm đều giống nhau:
 
 Ở đầu màn danh sách khách sạn (hoặc tour), cạnh nút "Thêm…", bạn sẽ thấy hai nút:
 
-- **"Tải file mẫu"** — tải về file Excel mẫu.
-- **"Import Excel"** — mở cửa sổ để chọn file đã điền và tải lên.
-
-![](../.gitbook/assets/ncc-import-nut.png)
+* **"Tải file mẫu"** — tải về file Excel mẫu.
+* **"Import Excel"** — mở cửa sổ để chọn file đã điền và tải lên.
 
 > **Luôn tải file mẫu MỚI mỗi lần làm.** File mẫu được tạo lại theo dữ liệu hệ thống tại thời điểm bạn tải — danh sách địa điểm, tiện ích, danh mục… luôn cập nhật. Đừng dùng lại file mẫu cũ từ nhiều tháng trước.
 
@@ -30,15 +28,15 @@ Dù là khách sạn hay tour, cách làm đều giống nhau:
 
 Mở file mẫu ra, bạn sẽ thấy nhiều **sheet** (thẻ ở đáy bảng tính):
 
-- **HƯỚNG DẪN** — đọc trang này trước tiên, có giải thích từng cột.
-- **Các sheet dữ liệu** (KHÁCH SẠN, PHÒNG… hoặc TOUR, LỊCH KHỞI HÀNH…) — nơi bạn nhập.
-- **DANH MỤC** — danh sách các giá trị hợp lệ (địa điểm, tiện ích, danh mục…) **lấy trực tiếp từ hệ thống**. Chỉ để tra cứu, **không sửa** sheet này.
+* **HƯỚNG DẪN** — đọc trang này trước tiên, có giải thích từng cột.
+* **Các sheet dữ liệu** (KHÁCH SẠN, PHÒNG… hoặc TOUR, LỊCH KHỞI HÀNH…) — nơi bạn nhập.
+* **DANH MỤC** — danh sách các giá trị hợp lệ (địa điểm, tiện ích, danh mục…) **lấy trực tiếp từ hệ thống**. Chỉ để tra cứu, **không sửa** sheet này.
 
 Vài quy tắc quan trọng khi điền:
 
-- **Cột có dấu (*)** ở tiêu đề là **bắt buộc**, được tô nền vàng nhạt. Các cột khác có thể bỏ trống.
-- **Các dòng màu xám** ở đầu mỗi sheet là **dòng ví dụ** (mã bắt đầu bằng "VD"). Chúng chỉ để bạn xem cách điền — hệ thống **tự bỏ qua** khi import, bạn giữ hay xoá đều được. Nhập dữ liệu thật vào các dòng trắng bên dưới.
-- **Ô có mũi tên thả xuống** (địa điểm, danh mục, tiện ích, trạng thái…) — bấm vào và **chọn từ danh sách**, đừng gõ tay. Gõ sai tên sẽ bị bỏ qua.
+* **Cột có dấu (\*)** ở tiêu đề là **bắt buộc**, được tô nền vàng nhạt. Các cột khác có thể bỏ trống.
+* **Các dòng màu xám** ở đầu mỗi sheet là **dòng ví dụ** (mã bắt đầu bằng "VD"). Chúng chỉ để bạn xem cách điền — hệ thống **tự bỏ qua** khi import, bạn giữ hay xoá đều được. Nhập dữ liệu thật vào các dòng trắng bên dưới.
+* **Ô có mũi tên thả xuống** (địa điểm, danh mục, tiện ích, trạng thái…) — bấm vào và **chọn từ danh sách**, đừng gõ tay. Gõ sai tên sẽ bị bỏ qua.
 
 > **Tên phải khớp đúng.** Địa điểm, danh mục, tiện ích bạn điền phải trùng với tên trong sheet DANH MỤC. Nếu điền một cái tên hệ thống không có (ví dụ địa điểm chưa được tạo), sản phẩm **vẫn được tạo** nhưng phần đó bị **bỏ trống** và hệ thống báo cảnh báo cho bạn biết.
 
@@ -46,8 +44,8 @@ Vài quy tắc quan trọng khi điền:
 
 Mỗi lần import chỉ nhận:
 
-- File tối đa **10MB**, định dạng **.xlsx** hoặc **.xls**.
-- Mỗi sheet tối đa **2.000 dòng** dữ liệu.
+* File tối đa **10MB**, định dạng **.xlsx** hoặc **.xls**.
+* Mỗi sheet tối đa **2.000 dòng** dữ liệu.
 
 > **Vượt giới hạn thì file bị từ chối HOÀN TOÀN — không có dữ liệu nào được tạo.** Hệ thống báo rõ sheet nào và bao nhiêu dòng, bạn không phải lo import "nửa vời". Nếu danh sách dài hơn 2.000 dòng, hãy **tách thành nhiều file** rồi import lần lượt.
 
@@ -55,8 +53,8 @@ Mỗi lần import chỉ nhận:
 
 File mẫu khách sạn có hai sheet dữ liệu:
 
-- **KHÁCH SẠN** — mỗi dòng là một khách sạn. Cần đặt một **"Mã khách sạn"** bất kỳ (ví dụ KS001, KS002…) để nối sang phòng.
-- **PHÒNG** — mỗi dòng là một loại phòng. Cột **"Mã khách sạn"** ở đây phải **trùng** mã đã đặt ở sheet KHÁCH SẠN, để hệ thống biết phòng thuộc khách sạn nào.
+* **KHÁCH SẠN** — mỗi dòng là một khách sạn. Cần đặt một **"Mã khách sạn"** bất kỳ (ví dụ KS001, KS002…) để nối sang phòng.
+* **PHÒNG** — mỗi dòng là một loại phòng. Cột **"Mã khách sạn"** ở đây phải **trùng** mã đã đặt ở sheet KHÁCH SẠN, để hệ thống biết phòng thuộc khách sạn nào.
 
 Các cột chính của khách sạn: tên, loại hình, hạng sao, địa chỉ, địa điểm, số điện thoại, giá cơ bản, và **6 cột "Tiện ích khách sạn 1…6"** — mỗi cột chọn một tiện ích. Các cột chính của phòng: tên loại phòng, giá/đêm, số lượng phòng, sức chứa, và **6 cột "Tiện nghi phòng 1…6"**.
 
@@ -66,41 +64,40 @@ Các cột chính của khách sạn: tên, loại hình, hạng sao, địa ch�
 
 File mẫu tour có ba sheet dữ liệu:
 
-- **TOUR** — mỗi dòng là một tour. Đặt một **"Mã tour"** bất kỳ (ví dụ T001) để nối sang hai sheet kia. Có **"Giá cơ bản"** (dùng khi tour chỉ một mức giá), 3 cột **"Phong cách"** và 6 cột **"Tiện ích"**.
-- **BẢNG GIÁ THEO KHÁCH** (không bắt buộc) — nơi khai báo **giá theo nhiều loại khách**. Mỗi dòng là một loại khách + giá; **tên loại khách do bạn tự đặt** (Người lớn, Trẻ em, Người cao tuổi, Khách VIP, Đoàn…). Nhiều dòng cùng một "Mã tour" = nhiều mức giá cho tour đó.
-- **LỊCH KHỞI HÀNH** (không bắt buộc) — mỗi dòng là một ngày đi: ngày bắt đầu, ngày kết thúc, số chỗ, Bật/Tắt.
+* **TOUR** — mỗi dòng là một tour. Đặt một **"Mã tour"** bất kỳ (ví dụ T001) để nối sang hai sheet kia. Có **"Giá cơ bản"** (dùng khi tour chỉ một mức giá), 3 cột **"Phong cách"** và 6 cột **"Tiện ích"**.
+* **BẢNG GIÁ THEO KHÁCH** (không bắt buộc) — nơi khai báo **giá theo nhiều loại khách**. Mỗi dòng là một loại khách + giá; **tên loại khách do bạn tự đặt** (Người lớn, Trẻ em, Người cao tuổi, Khách VIP, Đoàn…). Nhiều dòng cùng một "Mã tour" = nhiều mức giá cho tour đó.
+* **LỊCH KHỞI HÀNH** (không bắt buộc) — mỗi dòng là một ngày đi: ngày bắt đầu, ngày kết thúc, số chỗ, Bật/Tắt.
 
 > **Giá cơ bản và bảng giá theo khách khác nhau thế nào?**
-> - Nếu tour **chỉ một giá** cho mọi khách: chỉ cần điền **"Giá cơ bản"** ở sheet TOUR, bỏ trống sheet bảng giá.
-> - Nếu tour có **nhiều mức giá** (người lớn/trẻ em/VIP…): điền ở sheet **BẢNG GIÁ THEO KHÁCH**. Khi đó tour tự bật chế độ giá theo loại khách, và **loại đầu tiên** trong bảng được lấy làm giá khởi điểm (thay cho ô Giá cơ bản).
+>
+> * Nếu tour **chỉ một giá** cho mọi khách: chỉ cần điền **"Giá cơ bản"** ở sheet TOUR, bỏ trống sheet bảng giá.
+> * Nếu tour có **nhiều mức giá** (người lớn/trẻ em/VIP…): điền ở sheet **BẢNG GIÁ THEO KHÁCH**. Khi đó tour tự bật chế độ giá theo loại khách, và **loại đầu tiên** trong bảng được lấy làm giá khởi điểm (thay cho ô Giá cơ bản).
 
 > **Ngày khởi hành phải là ngày sắp tới.** Ngày đã qua (trước hôm nay) điền trong file sẽ bị **bỏ qua** — chỉ nhập ngày trong tương lai. Định dạng ngày là **YYYY-MM-DD** (ví dụ 2026-09-15).
 
-> **Tour nhập bằng Excel mặc định là "chỉ bán theo ngày cụ thể".** Nghĩa là khách chỉ đặt được vào các ngày bạn khai trong sheet LỊCH KHỞI HÀNH. Muốn tour bán mọi ngày, vào sửa tour ở bước **Giá** và đổi thành *"Luôn có sẵn"*.
+> **Tour nhập bằng Excel mặc định là "chỉ bán theo ngày cụ thể".** Nghĩa là khách chỉ đặt được vào các ngày bạn khai trong sheet LỊCH KHỞI HÀNH. Muốn tour bán mọi ngày, vào sửa tour ở bước **Giá** và đổi thành _"Luôn có sẵn"_.
 
 ### Thay thế toàn bộ lịch khởi hành
 
 Trong cửa sổ Import tour có một ô tích **"Thay thế toàn bộ lịch khởi hành"**. Ô này dành cho việc **làm mới lịch theo kỳ** (ví dụ mỗi tháng):
 
-- **Để TẮT (mặc định):** import chỉ **thêm và cập nhật**. Ngày cũ trong hệ thống không bị đụng tới.
-- **BẬT:** sau khi import, các ngày khởi hành **tương lai** không có trong file sẽ bị **xoá** để lịch trên web khớp đúng file bạn vừa tải lên.
+* **Để TẮT (mặc định):** import chỉ **thêm và cập nhật**. Ngày cũ trong hệ thống không bị đụng tới.
+* **BẬT:** sau khi import, các ngày khởi hành **tương lai** không có trong file sẽ bị **xoá** để lịch trên web khớp đúng file bạn vừa tải lên.
 
 > **Bật ô này KHÔNG làm mất đơn khách.** Hai loại ngày luôn được giữ lại kể cả khi không có trong file: ngày **đã qua** (để còn báo cáo) và ngày **đã có đơn khách đặt**. Với ngày đã có khách, hệ thống báo cảnh báo và không xoá.
 
 **Cách dùng theo tháng:** mỗi kỳ, trong file bạn chỉ để **những ngày sắp mở bán**, tích "Thay thế toàn bộ lịch khởi hành" rồi import. Hệ thống tự dọn các ngày cũ không còn bán và giữ nguyên ngày đã có khách.
 
-![](../.gitbook/assets/ncc-import-cua-so.png)
-
 ## Import lại để cập nhật
 
 Bạn có thể sửa lại file rồi **import lại nhiều lần**. Hệ thống **khớp theo tên**:
 
-- **Khách sạn / tour** khớp theo **tên** — trùng tên thì **cập nhật**, tên mới thì **tạo mới**. Không tạo trùng.
-- **Phòng** khớp theo tên trong cùng khách sạn; **ngày khởi hành** khớp theo ngày.
+* **Khách sạn / tour** khớp theo **tên** — trùng tên thì **cập nhật**, tên mới thì **tạo mới**. Không tạo trùng.
+* **Phòng** khớp theo tên trong cùng khách sạn; **ngày khởi hành** khớp theo ngày.
 
 > **File Excel nên là "bản gốc" của bạn.** Khi import lại, dữ liệu trong file sẽ **ghi đè** những gì bạn đã chỉnh tay ở màn quản lý (giá, tiện ích, bảng giá khách…). Vì vậy nếu quản lý bằng import, hãy sửa trong file rồi import lại, đừng sửa lẻ ở web rồi lại import file cũ (sẽ mất phần sửa lẻ đó).
 
-> **Đổi tên hoặc đổi ngày sẽ sinh bản trùng.** Nếu bạn đổi *tên tour* trong file, import sẽ tạo một tour **mới** (vì không khớp tên cũ). Tương tự, đổi ngày khởi hành trong cùng một dòng sẽ tạo ngày mới mà ngày cũ vẫn còn. Muốn đổi thì thêm mới và xử lý cái cũ riêng.
+> **Đổi tên hoặc đổi ngày sẽ sinh bản trùng.** Nếu bạn đổi _tên tour_ trong file, import sẽ tạo một tour **mới** (vì không khớp tên cũ). Tương tự, đổi ngày khởi hành trong cùng một dòng sẽ tạo ngày mới mà ngày cũ vẫn còn. Muốn đổi thì thêm mới và xử lý cái cũ riêng.
 
 ## Đọc kết quả sau khi import
 
@@ -108,21 +105,19 @@ Import xong, màn danh sách hiện một **bảng kết quả** với các con 
 
 Bên dưới là chi tiết:
 
-- **Dòng bị bỏ qua** — kèm số dòng và lý do (ví dụ thiếu tên, không tìm thấy mã khách sạn/tour).
-- **Cảnh báo** — những dòng vẫn tạo được nhưng có phần bị bỏ (ví dụ ngày đã có khách nên không xoá).
-- **Tên không khớp** — các địa điểm / danh mục / tiện ích bạn điền mà hệ thống không có (đã bỏ qua).
+* **Dòng bị bỏ qua** — kèm số dòng và lý do (ví dụ thiếu tên, không tìm thấy mã khách sạn/tour).
+* **Cảnh báo** — những dòng vẫn tạo được nhưng có phần bị bỏ (ví dụ ngày đã có khách nên không xoá).
+* **Tên không khớp** — các địa điểm / danh mục / tiện ích bạn điền mà hệ thống không có (đã bỏ qua).
 
 > **Kiểm tra bảng kết quả sau mỗi lần import.** Con số "tạo mới / cập nhật" giúp bạn biết import có đúng như mong đợi không. Nếu thấy "dòng bị bỏ qua" nhiều, mở chi tiết đọc lý do rồi sửa file và import lại.
-
-![](../.gitbook/assets/ncc-import-ket-qua.png)
 
 ## Những gì Import KHÔNG làm
 
 Để tránh hiểu nhầm, có vài thứ import không xử lý — bạn làm thủ công sau:
 
-- **Ảnh** — import không tải ảnh. Sau khi import, vào **"Chỉnh sửa"** từng sản phẩm để thêm ảnh đại diện, thư viện ảnh. (Khách sạn/tour không có ảnh vẫn hiển thị nhưng kém hấp dẫn.)
-- **Địa điểm / danh mục mới** — import không tạo địa điểm hay danh mục mới. Tên bạn điền phải **đã có sẵn** trong hệ thống (xem sheet DANH MỤC). Cần thêm địa điểm mới thì liên hệ quản trị viên.
-- **Giá theo loại khách của khách sạn** — phần này của tour làm được qua file; còn khách sạn nhập giá ở cấp phòng.
+* **Ảnh** — import không tải ảnh. Sau khi import, vào **"Chỉnh sửa"** từng sản phẩm để thêm ảnh đại diện, thư viện ảnh. (Khách sạn/tour không có ảnh vẫn hiển thị nhưng kém hấp dẫn.)
+* **Địa điểm / danh mục mới** — import không tạo địa điểm hay danh mục mới. Tên bạn điền phải **đã có sẵn** trong hệ thống (xem sheet DANH MỤC). Cần thêm địa điểm mới thì liên hệ quản trị viên.
+* **Giá theo loại khách của khách sạn** — phần này của tour làm được qua file; còn khách sạn nhập giá ở cấp phòng.
 
 ## Lưu ý & xử lý sự cố
 
@@ -132,7 +127,7 @@ Bên dưới là chi tiết:
 
 **Import báo "vượt giới hạn 2.000 dòng mỗi sheet":** danh sách của bạn quá dài cho một lần import. Hãy chia file thành nhiều phần (mỗi phần dưới 2.000 dòng) rồi import lần lượt. Lưu ý cắt trọn bộ: nếu tách sheet KHÁCH SẠN thì các dòng PHÒNG tương ứng phải nằm cùng file (vì phòng nối với khách sạn qua Mã khách sạn).
 
-**Import xong nhưng thiếu sản phẩm:** mở bảng kết quả xem mục "dòng bị bỏ qua" — thường do thiếu cột bắt buộc (dấu *) hoặc mã khách sạn/tour ở sheet con không trùng mã ở sheet chính.
+**Import xong nhưng thiếu sản phẩm:** mở bảng kết quả xem mục "dòng bị bỏ qua" — thường do thiếu cột bắt buộc (dấu \*) hoặc mã khách sạn/tour ở sheet con không trùng mã ở sheet chính.
 
 **Địa điểm / tiện ích không được gán:** tên điền không khớp sheet DANH MỤC. Mở sheet DANH MỤC, **copy đúng** tên dán vào, hoặc dùng ô thả xuống để chọn.
 
@@ -142,6 +137,6 @@ Bên dưới là chi tiết:
 
 ## Xem thêm
 
-- [Nhập & quản lý khách sạn](khach-san.md)
-- [Nhập & quản lý phòng](phong.md)
-- [Nhập & quản lý tour](tour.md)
+* [Nhập & quản lý khách sạn](khach-san.md)
+* [Nhập & quản lý phòng](phong.md)
+* [Nhập & quản lý tour](tour.md)
