@@ -40,12 +40,8 @@
   * [3.7. Thẻ visa](khoi-san-pham/the-visa.md)
   * [3.8. Booking](khoi-san-pham/booking.md)
   * [3.9. Du thuyền](khoi-san-pham/du-thuyen.md)
-  * [3.10. Không gian](khoi-san-pham/khoi-san-pham/khong-gian.md)
   * [3.11. Chuyến bay](khoi-san-pham/chuyen-bay.md)
   * [3.12. Xe](khoi-san-pham/xe.md)
-  * [3.13. Thuyền](khoi-san-pham/khoi-san-pham/thuyen.md)
-  * [3.14. Khóa học](khoi-san-pham/khoi-san-pham/khoa-hoc.md)
-  * [3.15. Tài sản](khoi-san-pham/khoi-san-pham/tai-san.md)
   * [3.16. Đơn hàng](khoi-san-pham/don-hang.md)
 
 ## Khối Hệ thống

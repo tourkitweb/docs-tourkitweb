@@ -51,20 +51,20 @@ Xem chi tiết tại bài [3.4. Yêu cầu báo giá](yeu-cau-bao-gia.md).
 
 Tùy theo gói dịch vụ và cấu hình website, trong nhóm SẢN PHẨM có thể còn có thêm các mục sau:
 
-| Mục                                             | Dùng để bán gì                                 |
-| ----------------------------------------------- | ---------------------------------------------- |
-| [3.5. Sự kiện](su-kien.md)                      | Vé sự kiện, lễ hội, show diễn                  |
-| [3.6. Vé máy bay BGT](ve-may-bay-bgt.md)        | Vé máy bay qua tích hợp bên thứ ba             |
-| [3.7. Thẻ visa](the-visa.md)                    | Nhận yêu cầu tư vấn làm visa                   |
-| [3.8. Booking](booking.md)                      | Xem chi tiết từng lượt khách đặt dịch vụ       |
-| [3.9. Du thuyền](du-thuyen.md)                  | Tàu ngủ đêm, bán theo phòng/cabin              |
-| [3.10. Không gian](khoi-san-pham/khong-gian.md) | Homestay, villa cho thuê theo không gian       |
-| [3.11. Chuyến bay](chuyen-bay.md)               | Tự quản lý chuyến bay, hãng, sân bay, loại ghế |
-| [3.12. Xe](xe.md)                               | Xe cho thuê, đưa đón sân bay                   |
-| [3.13. Thuyền](khoi-san-pham/thuyen.md)         | Thuê nguyên chiếc theo chuyến, không có phòng  |
-| [3.14. Khóa học](khoi-san-pham/khoa-hoc.md)     | Khóa đào tạo, lớp học                          |
-| [3.15. Tài sản](khoi-san-pham/tai-san.md)       | Bất động sản cho thuê hoặc rao bán             |
-| [3.16. Đơn hàng](don-hang.md)                   | Xử lý đơn và thanh toán của khách              |
+| Mục                                      | Dùng để bán gì                                 |
+| ---------------------------------------- | ---------------------------------------------- |
+| [3.5. Sự kiện](su-kien.md)               | Vé sự kiện, lễ hội, show diễn                  |
+| [3.6. Vé máy bay BGT](ve-may-bay-bgt.md) | Vé máy bay qua tích hợp bên thứ ba             |
+| [3.7. Thẻ visa](the-visa.md)             | Nhận yêu cầu tư vấn làm visa                   |
+| [3.8. Booking](booking.md)               | Xem chi tiết từng lượt khách đặt dịch vụ       |
+| [3.9. Du thuyền](du-thuyen.md)           | Tàu ngủ đêm, bán theo phòng/cabin              |
+| [3.10. Không gian](khong-gian.md)        | Homestay, villa cho thuê theo không gian       |
+| [3.11. Chuyến bay](chuyen-bay.md)        | Tự quản lý chuyến bay, hãng, sân bay, loại ghế |
+| [3.12. Xe](xe.md)                        | Xe cho thuê, đưa đón sân bay                   |
+| [3.13. Thuyền](thuyen.md)                | Thuê nguyên chiếc theo chuyến, không có phòng  |
+| [3.14. Khóa học](khoa-hoc.md)            | Khóa đào tạo, lớp học                          |
+| [3.15. Tài sản](tai-san.md)              | Bất động sản cho thuê hoặc rao bán             |
+| [3.16. Đơn hàng](don-hang.md)            | Xử lý đơn và thanh toán của khách              |
 
 > **Lưu ý:** Các tính năng này có thể chưa được bật trên website của bạn. Nếu không thấy mục nào đó trong menu, hãy liên hệ đơn vị triển khai để được bật thêm.
 

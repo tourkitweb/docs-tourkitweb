@@ -166,6 +166,6 @@ Thường xảy ra khi bạn copy tên từ file Word hoặc Zalo dán vào. Hã
 
 ## Xem thêm
 
-* [3.13. Thuyền](khoi-san-pham/thuyen.md) — quản lý thuyền cho thuê, cách làm gần giống Xe.
+* [3.13. Thuyền](thuyen.md) — quản lý thuyền cho thuê, cách làm gần giống Xe.
 * [3.3. Tour](tour.md) — module sản phẩm đầy đủ nhất, có thêm phần Danh mục.
 * [3.8. Booking](booking.md) — nơi xem các đơn khách đã đặt.
