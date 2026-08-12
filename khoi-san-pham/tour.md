@@ -231,6 +231,17 @@ Nhấn trực tiếp vào một ngày trên lịch, một khung nhỏ mở ra ch
 
 ![](../.gitbook/assets/pg090-1.png)
 
+### Riêng với tour kéo về từ CRM
+
+Nếu website có nối với phần mềm CRM, những tour ở cột **Kênh = CRM** sẽ **tự có lịch khởi hành** mà không ai nhập tay — **hệ thống tự cập nhật lúc 0 giờ mỗi đêm**.
+
+Bạn không cần đụng vào lịch của chúng. Hai điều nên biết:
+
+* **Ngày bạn tự thêm không bị mất**, kể cả giá và số chỗ bạn đặt.
+* **Số chỗ trống của ngày do CRM gửi sẽ tự cập nhật lại mỗi đêm.** Muốn đổi con số đó thì phải sửa bên CRM.
+
+> Cách bật và chạy đồng bộ nằm ở mục **Tích hợp → Tourkit CRM**.
+
 ## c, Bộ lọc tiện lợi
 
 *   **Danh sách tour bên trái:** nhấn chọn từng tour cụ thể (ví dụ: Tour Hàng Châu, Tour Hà Nội – Hà Khẩu…) để xem và quản lý lịch riêng của tour đó.

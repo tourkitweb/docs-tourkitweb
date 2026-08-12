@@ -100,30 +100,49 @@ Mục này dùng để thiết lập kết nối kỹ thuật giữa website/h�
 
 ## b, Đồng bộ Tours từ CRM về hệ thống (Đồng bộ Tours từ CRM)
 
-Mục này hỗ trợ bạn chủ động **kéo các chương trình Tour mẫu đã có sẵn trên CRM về** lưu trữ và hiển thị trên hệ thống website hiện tại.
+Mục này **kéo các chương trình Tour mẫu đã có sẵn trên CRM về** website.
 
 Nói dễ hiểu: phần **a** ở trên là **đẩy đơn hàng đi** (website → CRM). Phần **b** này là **kéo tour về** (CRM → website). Hai chiều ngược nhau.
 
-*   **Ngày bắt đầu / Ngày kết thúc (dd/mm/yyyy):** Chọn khoảng thời gian để giới hạn dữ liệu tour muốn kéo về. Hệ thống sẽ chỉ quét các tour được tạo hoặc cập nhật trong khoảng thời gian này.
+> ### Hệ thống tự cập nhật mỗi đêm
+>
+> **Đúng 0 giờ hàng ngày, website tự động kéo lịch khởi hành mới nhất từ CRM về.** Bạn không phải bấm gì, không phải nhớ ngày nào, không phải cắt cử ai ngồi canh.
+>
+> Mỗi đêm hệ thống tự làm:
+>
+> * Chuyến khởi hành mới xuất hiện trên CRM → tự thêm vào website.
+> * Số chỗ còn trống thay đổi → tự cập nhật lại.
+>
+> Nút bấm ở màn hình này chỉ dùng cho **lần chạy đầu tiên**, hoặc khi bạn **muốn có ngay** mà không đợi tới đêm.
 
-    > **Mẹo:** Lần đầu làm, hãy chọn khoảng thời gian **ngắn thôi** (ví dụ 1 tuần gần nhất) để kéo về vài tour xem có ổn không. Chọn cả năm ngay lần đầu, nếu dữ liệu sai thì bạn phải dọn dẹp hàng trăm tour lỗi.
-*   **Force update (cập nhật lại tour đã tồn tại):**
+### Bước 1: Chạy thử để chắc chắn kết nối thông
 
-    * **Tích chọn:** Nếu muốn **ghi đè**, cập nhật thông tin mới nhất từ CRM cho các tour đã từng đồng bộ về hệ thống trước đó.
-    * **Bỏ tích:** Hệ thống sẽ bỏ qua và **chỉ tải về các tour mới hoàn toàn**.
+Tích ô **Dry run (xem trước, không lưu)** rồi bấm nút vàng **\[Đồng bộ Tours từ CRM]**.
 
-    > **Cẩn thận:** Nếu bạn đã **sửa nội dung tour trên website** (viết lại mô tả cho hay hơn, thêm ảnh đẹp) mà bây giờ tích **Force update**, thì bản từ CRM sẽ **đè lên và xóa mất công sức chỉnh sửa của bạn**. Chỉ tích ô này khi bạn chắc chắn muốn lấy bản CRM làm chuẩn.
-*   **Dry run (xem trước, không lưu):** Tích chọn nếu bạn chỉ muốn **chạy thử nghiệm** để kiểm tra xem dữ liệu có lỗi gì không mà **không muốn lưu** trực tiếp vào cơ sở dữ liệu.
+Đây là chạy thử không tải — hệ thống chỉ đọc dữ liệu về rồi báo kết quả, **không lưu gì cả**, không thể làm hỏng gì.
 
-    > **Mẹo an toàn — hãy luôn làm theo thứ tự này:**
-    >
-    > 1. Lần 1: **tích Dry run** → bấm chạy → xem kết quả báo về.
-    > 2. Kết quả trông đúng → **bỏ tích Dry run** → chạy lại để lưu thật.
-    >
-    > Dry run giống như "chạy thử không tải" — an toàn tuyệt đối, không làm hỏng gì cả. Không có lý do gì để bỏ qua bước này.
-*   **Thực hiện:** Nhấp nút màu vàng **\[Đồng bộ Tours từ CRM]** để bắt đầu quá trình quét dữ liệu.
+* **Thấy bảng kết quả hiện ra** → kết nối tốt, sang bước 2.
+* **Báo lỗi kết nối** → Endpoint hoặc API Key ở phần **a** chưa đúng. Xem lại, hoặc liên hệ đơn vị vận hành CRM.
 
-    > **Trong lúc chạy, đừng đóng trang hay bấm nút nhiều lần.** Bấm nhiều lần có thể khiến hệ thống chạy chồng chéo. Hãy kiên nhẫn chờ trang báo kết quả.
+### Bước 2: Bấm đồng bộ thật
+
+**Bỏ tích Dry run**, bấm lại nút vàng **\[Đồng bộ Tours từ CRM]**.
+
+> **Đang chạy thì đừng đóng trang hay bấm nút nhiều lần.** Bấm nhiều lần khiến hệ thống chạy chồng chéo. Kiên nhẫn chờ trang báo kết quả.
+
+### Bước 3: Bổ sung thông tin rồi xuất bản
+
+**Toàn bộ tour kéo về đều ở trạng thái Nháp** — khách chưa nhìn thấy. Đây là chủ ý, vì CRM chỉ có phần dữ liệu bán hàng, thiếu hẳn phần nội dung để khách xem và quyết định đặt.
+
+Vào **Tour → Tất cả Tour**, lọc cột **Kênh = CRM**, mở từng tour và bổ sung:
+
+* **Ảnh** — ảnh đại diện và bộ ảnh giới thiệu. CRM không có ảnh, tour không ảnh thì gần như không ai bấm vào.
+* **Lịch trình từng ngày** — ngày 1 đi đâu, ăn gì, nghỉ ở đâu. Đây là thứ khách đọc kỹ nhất trước khi xuống tiền.
+* **Mô tả tour** — vài dòng giới thiệu điểm hấp dẫn.
+
+Xong thì chuyển tour sang **Công khai**.
+
+> **Đây là việc bạn chỉ làm một lần cho mỗi tour.** Sau khi tour đã công khai, bạn không cần quay lại màn hình đồng bộ nữa — mỗi đêm hệ thống tự cập nhật lịch khởi hành và số chỗ cho tour đó. Phần nội dung bạn đã viết **không bị ghi đè**.
 
 ## c, Kiểm tra thử nghiệm đồng bộ (Test đồng bộ CRM)
 
@@ -174,7 +193,7 @@ Tính năng này giúp bạn chủ động kéo toàn bộ danh sách phòng/kh�
   * **Tích chọn:** Nếu muốn cập nhật lại toàn bộ thông tin mới nhất cho các khách sạn/phòng đã từng được đồng bộ trước đó.
 *   **Bỏ tích:** Hệ thống chỉ tải về những khách sạn hoặc phòng **mới được thêm** trên PMS.
 
-    > **Cẩn thận:** Giống như phần CRM ở trên — nếu bạn đã bỏ công viết mô tả hay, chọn ảnh đẹp cho phòng trên website, thì **Force update có thể ghi đè** lên công sức đó bằng dữ liệu thô từ PMS. Cân nhắc kỹ trước khi tích.
+    > **Cẩn thận:** Nếu bạn đã bỏ công viết mô tả hay, chọn ảnh đẹp cho phòng trên website, thì **Force update có thể ghi đè** lên công sức đó bằng dữ liệu thô từ PMS. Cân nhắc kỹ trước khi tích.
 *   **Dry run (xem trước, không lưu):** Tích chọn nếu bạn muốn hệ thống chạy thử nghiệm để kiểm tra tính ổn định của dữ liệu mà **không lưu đè** vào cơ sở dữ liệu thật.
 
     > **Mẹo:** Vẫn nguyên tắc cũ — **lần đầu luôn chạy Dry run trước**, xem kết quả ổn rồi mới bỏ tích và chạy thật.
