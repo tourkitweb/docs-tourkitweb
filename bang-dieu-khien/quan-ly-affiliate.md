@@ -40,7 +40,7 @@ Trước khi kiếm được đồng hoa hồng nào, bạn phải được admi
 
 ### b. Tạo link giới thiệu
 
-Được duyệt rồi, giờ bạn cần link để chia sẻ.
+**CÁCH 1:**
 
 Vào **Dashboard** → **Quản lý link**, rồi làm 3 bước:
 
@@ -55,6 +55,18 @@ Vào **Dashboard** → **Quản lý link**, rồi làm 3 bước:
 > **Cẩn thận — sai lầm khiến bạn mất trắng hoa hồng:** phải chia sẻ **đúng link ngắn** hệ thống tạo ra. Nếu bạn tiện tay copy địa chỉ tour từ thanh trình duyệt rồi gửi cho khách, link đó **không mang mã giới thiệu của bạn** — khách có đặt tour thì bạn cũng không được đồng nào. Hãy luôn quay lại Quản lý link để lấy đúng link ngắn.
 >
 > **Mẹo:** hãy tự bấm thử link mình vừa tạo xem nó có mở đúng trang tour không, trước khi đăng cho hàng nghìn người xem.
+
+**CÁCH 2:**
+
+**Bước 1:** Chọn sản phẩm bạn muốn tiếp thị.
+
+**Bước 2:** Tại giao diện này, bạn chọn "lấy link aff" để xuất link
+
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+**Bước 3:** Chọn sao chép hoặc xuất mã QR để tiếp thị
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 ### c. Theo dõi hoa hồng
 

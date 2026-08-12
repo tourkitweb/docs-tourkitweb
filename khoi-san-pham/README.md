@@ -4,9 +4,9 @@ Khối **SẢN PHẨM** là "kho hàng" của website du lịch. Mọi thứ b�
 
 Bạn hãy hình dung khối này giống như một cửa hàng ngoài đời thật:
 
-- **Địa điểm** là tấm bản đồ treo trên tường — dùng để nói rõ hàng của bạn ở đâu (Hà Nội, Đà Nẵng, Nhật Bản…).
-- **Khách sạn** và **Tour** là hàng hóa bày trên kệ — thứ khách hàng thực sự mua.
-- **Yêu cầu báo giá** là cuốn sổ ghi lại lời nhắn của khách khi họ muốn hỏi thêm trước khi mua.
+* **Địa điểm** là tấm bản đồ treo trên tường — dùng để nói rõ hàng của bạn ở đâu (Hà Nội, Đà Nẵng, Nhật Bản…).
+* **Khách sạn** và **Tour** là hàng hóa bày trên kệ — thứ khách hàng thực sự mua.
+* **Yêu cầu báo giá** là cuốn sổ ghi lại lời nhắn của khách khi họ muốn hỏi thêm trước khi mua.
 
 > **Đường dẫn:** Menu bên trái > nhóm **SẢN PHẨM**
 
@@ -51,28 +51,28 @@ Xem chi tiết tại bài [3.4. Yêu cầu báo giá](yeu-cau-bao-gia.md).
 
 Tùy theo gói dịch vụ và cấu hình website, trong nhóm SẢN PHẨM có thể còn có thêm các mục sau:
 
-| Mục | Dùng để bán gì |
-|---|---|
-| [3.5. Sự kiện](su-kien.md) | Vé sự kiện, lễ hội, show diễn |
-| [3.6. Vé máy bay BGT](ve-may-bay-bgt.md) | Vé máy bay qua tích hợp bên thứ ba |
-| [3.7. Thẻ visa](the-visa.md) | Nhận yêu cầu tư vấn làm visa |
-| [3.8. Booking](booking.md) | Xem chi tiết từng lượt khách đặt dịch vụ |
-| [3.9. Du thuyền](du-thuyen.md) | Tàu ngủ đêm, bán theo phòng/cabin |
-| [3.10. Không gian](khong-gian.md) | Homestay, villa cho thuê theo không gian |
-| [3.11. Chuyến bay](chuyen-bay.md) | Tự quản lý chuyến bay, hãng, sân bay, loại ghế |
-| [3.12. Xe](xe.md) | Xe cho thuê, đưa đón sân bay |
-| [3.13. Thuyền](thuyen.md) | Thuê nguyên chiếc theo chuyến, không có phòng |
-| [3.14. Khóa học](khoa-hoc.md) | Khóa đào tạo, lớp học |
-| [3.15. Tài sản](tai-san.md) | Bất động sản cho thuê hoặc rao bán |
-| [3.16. Đơn hàng](don-hang.md) | Xử lý đơn và thanh toán của khách |
+| Mục                                      | Dùng để bán gì                                 |
+| ---------------------------------------- | ---------------------------------------------- |
+| [3.5. Sự kiện](su-kien.md)               | Vé sự kiện, lễ hội, show diễn                  |
+| [3.6. Vé máy bay BGT](ve-may-bay-bgt.md) | Vé máy bay qua tích hợp bên thứ ba             |
+| [3.7. Thẻ visa](the-visa.md)             | Nhận yêu cầu tư vấn làm visa                   |
+| [3.8. Booking](booking.md)               | Xem chi tiết từng lượt khách đặt dịch vụ       |
+| [3.9. Du thuyền](du-thuyen.md)           | Tàu ngủ đêm, bán theo phòng/cabin              |
+| [3.10. Không gian](khong-gian.md)        | Homestay, villa cho thuê theo không gian       |
+| [3.11. Chuyến bay](chuyen-bay.md)        | Tự quản lý chuyến bay, hãng, sân bay, loại ghế |
+| [3.12. Xe](xe.md)                        | Xe cho thuê, đưa đón sân bay                   |
+| [3.13. Thuyền](thuyen.md)                | Thuê nguyên chiếc theo chuyến, không có phòng  |
+| [3.14. Khóa học](khoa-hoc.md)            | Khóa đào tạo, lớp học                          |
+| [3.15. Tài sản](tai-san.md)              | Bất động sản cho thuê hoặc rao bán             |
+| [3.16. Đơn hàng](don-hang.md)            | Xử lý đơn và thanh toán của khách              |
 
 > **Lưu ý:** Các tính năng này có thể chưa được bật trên website của bạn. Nếu không thấy mục nào đó trong menu, hãy liên hệ đơn vị triển khai để được bật thêm.
 
 > **Ba cặp mục rất dễ nhầm — đọc kỹ trước khi đăng sản phẩm:**
 >
-> - **Du thuyền** vs **Thuyền** — bán theo phòng thì dùng Du thuyền; thuê nguyên chiếc theo chuyến thì dùng Thuyền.
-> - **Khách sạn** vs **Không gian** vs **Tài sản** — bán theo phòng/đêm dùng Khách sạn; cho thuê cả căn theo nhóm khách dùng Không gian; bán hoặc cho thuê dài hạn nguyên căn dùng Tài sản.
-> - **Đơn hàng** vs **Booking** — Đơn hàng là tờ hóa đơn tổng (tiền, thanh toán); Booking là từng lượt đặt dịch vụ cụ thể trong đơn đó.
+> * **Du thuyền** vs **Thuyền** — bán theo phòng thì dùng Du thuyền; thuê nguyên chiếc theo chuyến thì dùng Thuyền.
+> * **Khách sạn** vs **Không gian** vs **Tài sản** — bán theo phòng/đêm dùng Khách sạn; cho thuê cả căn theo nhóm khách dùng Không gian; bán hoặc cho thuê dài hạn nguyên căn dùng Tài sản.
+> * **Đơn hàng** vs **Booking** — Đơn hàng là tờ hóa đơn tổng (tiền, thanh toán); Booking là từng lượt đặt dịch vụ cụ thể trong đơn đó.
 >
 > Đăng nhầm mục thì sản phẩm vẫn hiện ra, nhưng khách sẽ đặt sai cách và bạn phải nhập lại từ đầu.
 
@@ -80,12 +80,12 @@ Tùy theo gói dịch vụ và cấu hình website, trong nhóm SẢN PHẨM có
 
 Đây là tin vui cho bạn. Hầu hết các module sản phẩm (Khách sạn, Tour, Sự kiện, Du thuyền…) đều có cùng một bộ menu con:
 
-- **Tất cả …** — danh sách toàn bộ sản phẩm loại đó.
-- **Thêm mới** — màn hình nhập sản phẩm mới.
-- **Danh mục** — nhóm phân loại để khách dễ tìm.
-- **Thuộc tính** — các tiêu chí lọc chi tiết.
-- **Cập nhật giá** — lịch mở bán và giá theo từng ngày.
-- **Khôi phục** — thùng rác, nơi chứa những gì đã xóa và có thể lấy lại.
+* **Tất cả …** — danh sách toàn bộ sản phẩm loại đó.
+* **Thêm mới** — màn hình nhập sản phẩm mới.
+* **Danh mục** — nhóm phân loại để khách dễ tìm.
+* **Thuộc tính** — các tiêu chí lọc chi tiết.
+* **Cập nhật giá** — lịch mở bán và giá theo từng ngày.
+* **Khôi phục** — thùng rác, nơi chứa những gì đã xóa và có thể lấy lại.
 
 Nghĩa là khi bạn đã học thuộc cách làm với Tour, bạn gần như biết luôn cách làm với Khách sạn và các module còn lại. Chỉ khác tên gọi, còn thao tác thì như nhau.
 
@@ -95,9 +95,9 @@ Nghĩa là khi bạn đã học thuộc cách làm với Tour, bạn gần như 
 
 **Đã thêm sản phẩm mà ngoài website không thấy:** đây là lỗi phổ biến nhất. Thường do một trong ba nguyên nhân:
 
-- Bạn bấm **"Lưu thay đổi"** nhưng để trạng thái ở **"Draft"** (Bản nháp) — nghĩa là chỉ lưu lại cho bạn xem, khách chưa nhìn thấy. Hãy vào sửa lại, chọn **"Publish"** (Xuất bản) rồi lưu lần nữa.
-- Sản phẩm chưa được mở bán ngày nào trong mục **"Cập nhật giá"**.
-- Trình duyệt đang giữ bản cũ trong bộ nhớ. Hãy nhấn tổ hợp phím **Ctrl + F5** để tải lại trang sạch.
+* Bạn bấm **"Lưu thay đổi"** nhưng để trạng thái ở **"Draft"** (Bản nháp) — nghĩa là chỉ lưu lại cho bạn xem, khách chưa nhìn thấy. Hãy vào sửa lại, chọn **"Publish"** (Xuất bản) rồi lưu lần nữa.
+* Sản phẩm chưa được mở bán ngày nào trong mục **"Cập nhật giá"**.
+* Trình duyệt đang giữ bản cũ trong bộ nhớ. Hãy nhấn tổ hợp phím **Ctrl + F5** để tải lại trang sạch.
 
 **Sửa xong nhưng số liệu chưa đổi:** hãy đợi vài giây rồi tải lại trang. Nếu vẫn vậy, thử **Ctrl + F5**.
 
@@ -105,9 +105,9 @@ Nghĩa là khi bạn đã học thuộc cách làm với Tour, bạn gần như 
 
 Bốn mục nền tảng, nên đọc theo đúng thứ tự này:
 
-- [3.1. Địa điểm](dia-diem.md) — làm trước tiên
-- [3.2. Khách sạn](khach-san.md)
-- [3.3. Tour](tour.md)
-- [3.4. Yêu cầu báo giá](yeu-cau-bao-gia.md)
+* [3.1. Địa điểm](dia-diem.md) — làm trước tiên
+* [3.2. Khách sạn](khach-san.md)
+* [3.3. Tour](tour.md)
+* [3.4. Yêu cầu báo giá](yeu-cau-bao-gia.md)
 
 Toàn bộ các mục còn lại của khối này nằm ở bảng **"Các module khác có thể xuất hiện"** phía trên.
