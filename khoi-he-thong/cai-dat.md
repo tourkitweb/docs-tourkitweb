@@ -15,7 +15,7 @@ Hai mục này nằm cạnh nhau trong menu và rất nhiều người nhầm l�
 |                    | **Cài đặt**                                   | **Tích hợp**                                             |
 | ------------------ | --------------------------------------------- | -------------------------------------------------------- |
 | Chứa gì?           | Cấu hình **bên trong** website của bạn        | Kết nối **ra ngoài** với dịch vụ của bên thứ ba          |
-| Ví dụ              | Tên công ty, logo, tiền tệ, cách hiển thị giá | Nối với CRM, gửi thông báo qua Telegram, kết nối OpenAI  |
+| Ví dụ              | Tên công ty, logo, tiền tệ, cách hiển thị giá | Nối với CRM, gửi thông báo qua Telegram, nối PMS khách sạn |
 | Cần gì để làm?     | Chỉ cần thông tin công ty bạn                 | Thường cần **mã khóa (API Key)** do bên kia cấp          |
 | Không làm thì sao? | Website hiển thị sai/thiếu thông tin          | Website vẫn chạy bình thường, chỉ là không có kết nối đó |
 
