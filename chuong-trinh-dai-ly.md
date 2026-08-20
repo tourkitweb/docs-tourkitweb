@@ -17,7 +17,11 @@
 * Có cây tuyến: bạn tuyển được đại lý cấp dưới, và ăn một phần trên đơn họ bán.
 * Chỉ đại lý Cấp 1 mang hạng. Cấp 2 trở xuống KHÔNG có hạng — quyền lợi của cả nhánh do hạng của Cấp 1 quyết định.
 
-_**Đừng nhầm hai chế độ:**_ Sàn bật hay tắt phân cấp là quyết định của sàn, không phải của từng đại lý. Ngay khi bật phân cấp, chiết khấu trực tiếp bị cắt cho TẤT CẢ đại lý — kể cả Cấp 1 — và tiền chuyển hết sang đường hoa hồng vào ví. Nếu hôm nay bạn thấy giá không còn giảm nữa thì đó là lý do, không phải lỗi.
+{% hint style="info" %}
+_<mark style="color:$warning;">**Đừng nhầm hai chế độ:**</mark>_&#x20;
+
+Sàn bật hay tắt phân cấp là quyết định của sàn, không phải của từng đại lý. Ngay khi bật phân cấp, chiết khấu trực tiếp bị cắt cho TẤT CẢ đại lý — kể cả Cấp 1 — và tiền chuyển hết sang đường hoa hồng vào ví. Nếu hôm nay bạn thấy giá không còn giảm nữa thì đó là lý do, không phải lỗi.
+{% endhint %}
 
 #### Bốn bước từ lúc bắt đầu tới lúc có tiền
 
@@ -32,42 +36,47 @@ _**Đừng nhầm hai chế độ:**_ Sàn bật hay tắt phân cấp là quy�
 
 Trang đăng ký đại lý là một trang RIÊNG, khác trang đăng ký khách thường: [https://demo.tourkitweb.vn/dang-ky/dai-ly](https://demo.tourkitweb.vn/dang-ky/dai-ly)
 
-| Thông tin           | Yêu cầu                                                                                                                                    |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
-| Họ và tên           | Bắt buộc.                                                                                                                                  |
-| Email               | Bắt buộc, chưa ai dùng. Đây là email nhận thư xác minh — điền email thật của bạn, không mượn của người khác.                               |
-| Số điện thoại       | Bắt buộc, chưa ai dùng. ĐÂY CHÍNH LÀ MÃ GIỚI THIỆU của bạn sau này — khách sẽ gõ số này ở bước thanh toán.                                 |
-| Mật khẩu            | Tối thiểu 8 ký tự, phải có chữ in hoa, chữ thường, số và ký tự đặc biệt.                                                                   |
-| Mã giới thiệu       | Số điện thoại của đại lý đã giới thiệu bạn. **Website này đang yêu cầu BẮT BUỘC phải có mã mới đăng ký được.**                             |
-| Thông tin ngân hàng | Tên ngân hàng (có gợi ý sẵn), số tài khoản, chủ tài khoản. Không bắt buộc lúc đăng ký nhưng nên điền — sàn dùng thông tin này khi chi trả. |
+<table><thead><tr><th width="181.36001586914062">Thông tin</th><th>Yêu cầu</th></tr></thead><tbody><tr><td>Họ và tên</td><td>Bắt buộc.</td></tr><tr><td>Email</td><td>Bắt buộc, chưa ai dùng. Đây là email nhận thư xác minh — điền email thật của bạn, không mượn của người khác.</td></tr><tr><td>Số điện thoại</td><td>Bắt buộc, chưa ai dùng. ĐÂY CHÍNH LÀ MÃ GIỚI THIỆU của bạn sau này — khách sẽ gõ số này ở bước thanh toán.</td></tr><tr><td>Mật khẩu</td><td>Tối thiểu 8 ký tự, phải có chữ in hoa, chữ thường, số và ký tự đặc biệt.</td></tr><tr><td>Mã giới thiệu</td><td>Số điện thoại của đại lý đã giới thiệu bạn. <strong>Website này đang yêu cầu BẮT BUỘC phải có mã mới đăng ký được.</strong></td></tr><tr><td>Thông tin ngân hàng</td><td>Tên ngân hàng (có gợi ý sẵn), số tài khoản, chủ tài khoản. Không bắt buộc lúc đăng ký nhưng nên điền — sàn dùng thông tin này khi chi trả.</td></tr></tbody></table>
 
 **Đăng ký xong thì sao?**
 
-* **Có mã giới thiệu hợp lệ** website này: kích hoạt ngay → tài khoản đại lý được bật NGAY, không phải chờ, và bạn trở thành cấp dưới trực tiếp của người giới thiệu.
+* **Có mã giới thiệu hợp lệ** _<mark style="color:$success;background-color:green;">**website này: kích hoạt ngay**</mark>_ → tài khoản đại lý được bật NGAY, không phải chờ, và bạn trở thành cấp dưới trực tiếp của người giới thiệu.
 * **Không có mã giới thiệu** → hồ sơ vào hàng chờ, quản trị viên duyệt tay. Duyệt xong bạn là đại lý Cấp 1 độc lập và được gán một hạng.
 
-Đăng ký báo thành công nhưng chưa dùng được ngay Kể cả khi bạn gõ đúng mã, vẫn có mấy trường hợp hệ thống lặng lẽ đưa hồ sơ về hàng chờ thay vì kích hoạt: sàn tắt chế độ tự duyệt, nhánh của người giới thiệu đã chạm giới hạn số cấp, hoặc người giới thiệu vừa bị khoá. Bạn không sửa được mấy tình huống này — cứ chờ quản trị viên duyệt, hoặc liên hệ người đã giới thiệu bạn.
+{% hint style="info" %}
+_<mark style="color:blue;">**Đăng ký báo thành công nhưng chưa dùng được ngay:**</mark>_
+
+Kể cả khi bạn gõ đúng mã, vẫn có mấy trường hợp hệ thống lặng lẽ đưa hồ sơ về hàng chờ thay vì kích hoạt: sàn tắt chế độ tự duyệt, nhánh của người giới thiệu đã chạm giới hạn số cấp, hoặc người giới thiệu vừa bị khoá. Bạn không sửa được mấy tình huống này — cứ chờ quản trị viên duyệt, hoặc liên hệ người đã giới thiệu bạn.
+{% endhint %}
 
 #### Cách 2 — Quản trị viên gán trực tiếp
 
 Bạn đã có tài khoản khách thường trên website, quản trị viên gán hạng đại lý cho tài khoản đó. Bạn trở thành đại lý Cấp 1. Không cần đăng ký lại, giữ nguyên email và mật khẩu cũ.
 
-Một tài khoản chỉ mang MỘT vài Đại lý, nhà cung cấp (vendor) và cộng tác viên affiliate là ba loại tài khoản LOẠI TRỪ NHAU. Tài khoản đang là nhà cung cấp hoặc cộng tác viên thì không gán làm đại lý được, và ngược lại. Muốn đổi vai thì phải gỡ vai cũ trước — hãy liên hệ quản trị viên, đừng tạo tài khoản thứ hai bằng cùng số điện thoại (số điện thoại không cho trùng).
+{% hint style="info" %}
+_<mark style="color:$danger;">**Một tài khoản chỉ mang MỘT vai:**</mark>_
+
+Đại lý, nhà cung cấp (vendor) và cộng tác viên affiliate là ba loại tài khoản LOẠI TRỪ NHAU. Tài khoản đang là nhà cung cấp hoặc cộng tác viên thì không gán làm đại lý được, và ngược lại. Muốn đổi vai thì phải gỡ vai cũ trước — hãy liên hệ quản trị viên, đừng tạo tài khoản thứ hai bằng cùng số điện thoại (số điện thoại không cho trùng).
+{% endhint %}
 
 ### 3. Khu đại lý gồm những gì
 
 Sau khi đăng nhập, mở trang tài khoản của bạn. Trong thanh menu bên trái có một nhóm riêng tên "KHU ĐẠI LÝ" — chỉ tài khoản đại lý mới nhìn thấy nhóm này.
 
-| Mục menu           | Đường dẫn                      | Dùng để làm gì                                               |
-| ------------------ | ------------------------------ | ------------------------------------------------------------ |
-| Bảng điều khiển    | `/tai-khoan/dai-ly/hang`       | Hạng, doanh số, quyền lợi từng dịch vụ.                      |
-| Tuyến dưới của tôi | `/tai-khoan/dai-ly/tuyen-duoi` | Cây tuyến, đặt tỉ lệ chia cho cấp dưới.                      |
-| Khách hàng         | `/tai-khoan/dai-ly/khach-hang` | Danh sách khách bạn đã giới thiệu và đơn của họ.             |
-| Sổ hoa hồng        | `/tai-khoan/dai-ly/hoa-hong`   | Từng dòng tiền: đơn nào, cấp mấy, bao nhiêu, đã vào ví chưa. |
-| Link giới thiệu    | `/tai-khoan/dai-ly/lien-ket`   | Tạo và quản lý link chia sẻ.                                 |
-| Nạp tiền vào ví    | `/tai-khoan/dai-ly/nap-tien`   | Nạp tiền và xem lịch sử giao dịch ví.                        |
+| Mục menu           | Đường dẫn                                                             | Dùng để làm gì                                               |
+| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------ |
+| Bảng điều khiển    | <mark style="background-color:$info;">`/tai-khoan/dai-ly/hang`</mark> | Hạng, doanh số, quyền lợi từng dịch vụ.                      |
+| Tuyến dưới của tôi | `/tai-khoan/dai-ly/tuyen-duoi`                                        | Cây tuyến, đặt tỉ lệ chia cho cấp dưới.                      |
+| Khách hàng         | `/tai-khoan/dai-ly/khach-hang`                                        | Danh sách khách bạn đã giới thiệu và đơn của họ.             |
+| Sổ hoa hồng        | `/tai-khoan/dai-ly/hoa-hong`                                          | Từng dòng tiền: đơn nào, cấp mấy, bao nhiêu, đã vào ví chưa. |
+| Link giới thiệu    | `/tai-khoan/dai-ly/lien-ket`                                          | Tạo và quản lý link chia sẻ.                                 |
+| Nạp tiền vào ví    | `/tai-khoan/dai-ly/nap-tien`                                          | Nạp tiền và xem lịch sử giao dịch ví.                        |
 
-Menu thiếu mục nào đó?"Tuyến dưới của tôi" chỉ hiện khi sàn bật chế độ phân cấp. Nếu bạn không thấy mục này, sàn đang chạy đơn cấp — không phải tài khoản bạn bị lỗi.
+{% hint style="info" %}
+_<mark style="color:blue;">**Menu thiếu mục nào đó?:**</mark>_&#x20;
+
+"Tuyến dưới của tôi" chỉ hiện khi sàn bật chế độ phân cấp. Nếu bạn không thấy mục này, sàn đang chạy đơn cấp — không phải tài khoản bạn bị lỗi.
+{% endhint %}
 
 ### 4. Bảng điều khiển & hạng
 
@@ -80,11 +89,13 @@ Hạng (Đồng, Bạc, Vàng, Kim cương… tuỳ sàn đặt tên) quyết đ
 
 #### Nếu bạn là đại lý Cấp 2 trở xuống
 
-Bạn sẽ KHÔNG BAO GIỜ có hạng riêng — và đó không phải thiệt thòi
+{% hint style="info" %}
+_<mark style="color:blue;">**Bạn sẽ KHÔNG BAO GIỜ có hạng riêng — và đó không phải thiệt thòi:**</mark>_&#x20;
 
-Chỉ đại lý Cấp 1 (người đứng đầu nhánh) mới mang hạng. Ngân sách của mỗi đơn trong nhánh do hạng của người đó quyết định, rồi chảy xuống theo tỉ lệ chia từng cấp. Trang bảng điều khiển của bạn vì vậy hiện: bạn đang ở cấp mấy, doanh số nhánh của bạn, số dư ví, tỉ lệ bạn chia cho cấp dưới, và hạng của đại lý gốc.
+Chỉ đại lý Cấp 1 (người đứng đầu nhánh) mới mang hạng. Ngân sách của mỗi đơn trong nhánh do hạng của người đó quyết định, rồi chảy xuống theo tỉ lệ chia từng cấp. Trang bảng điều khiển của bạn vì vậy hiện: bạn đang ở cấp mấy, doanh số nhánh của bạn, số dư ví, tỉ lệ bạn chia cho cấp dưới, và hạng của đại lý gốc.&#x20;
 
 Đừng đề nghị quản trị viên "gán hạng" cho bạn — hệ thống chặn việc đó, vì gán hạng cho cấp 2+ sẽ tạo ra hai ngân sách chồng nhau trên cùng một đơn.
+{% endhint %}
 
 #### Mức áp dụng cho một đơn được chọn thế nào
 
@@ -93,11 +104,19 @@ Chỉ đại lý Cấp 1 (người đứng đầu nhánh) mới mang hạng. Ng�
 3. Không có mức riêng theo danh mục → dùng mức mặc định của dịch vụ.
 4. Không có cả hai → đơn đó không phát sinh quyền lợi nào.
 
-Mức 0 và "không khai" là hai chuyện khác nhau Quản trị viên có thể khai mức 0 cho một danh mục để loại hẳn danh mục đó khỏi chương trình, dù dịch vụ mẹ vẫn có mức. Thấy một sản phẩm không sinh hoa hồng thì trước khi báo lỗi, hãy kiểm tra xem danh mục của nó có bị loại không.
+{% hint style="info" %}
+_<mark style="color:$warning;">**Mức 0 và "không khai" là hai chuyện khác nhau:**</mark>_&#x20;
+
+Quản trị viên có thể khai mức 0 cho một danh mục để loại hẳn danh mục đó khỏi chương trình, dù dịch vụ mẹ vẫn có mức. Thấy một sản phẩm không sinh hoa hồng thì trước khi báo lỗi, hãy kiểm tra xem danh mục của nó có bị loại không.
+{% endhint %}
 
 ### 5. Đưa khách vào tuyến
 
-Bạn KHÔNG tự thêm được ai vào tuyến Không thêm được khách, cũng không thêm được đại lý cấp dưới. Đây là luật cố định của hệ thống: người mới phải TỰ hành động — tự bấm link của bạn, tự đăng ký, tự gõ mã của bạn. Không có màn hình nào cho phép bạn tạo tài khoản hộ người khác.
+{% hint style="info" %}
+_<mark style="color:red;">**Bạn KHÔNG tự thêm được ai vào tuyến:**</mark>_&#x20;
+
+Không thêm được khách, cũng không thêm được đại lý cấp dưới. Đây là luật cố định của hệ thống: người mới phải TỰ hành động — tự bấm link của bạn, tự đăng ký, tự gõ mã của bạn. Không có màn hình nào cho phép bạn tạo tài khoản hộ người khá<mark style="color:red;">c.</mark>
+{% endhint %}
 
 Chỉ có đúng hai đường, cả hai đều cần chính khách hàng hành động:
 
@@ -108,7 +127,9 @@ Chỉ có đúng hai đường, cả hai đều cần chính khách hàng hành 
 * Ngay tại trang chi tiết dịch vụ: nút "Lấy link cho khách" nằm ngay dưới tên sản phẩm. Bấm là có link cho đúng trang đó.
 * Hoặc vào trang "Link giới thiệu" trong khu đại lý, dán đường dẫn trang muốn chia sẻ rồi bấm tạo.
 
+{% hint style="info" %}
 Một trang = một link Bấm nút nhiều lần trên cùng một trang sẽ trả lại ĐÚNG link cũ chứ không đẻ link mới. Cố ý như vậy để số lượt bấm không bị chia nhỏ ra nhiều link giống hệt nhau, và để bạn không nhầm link nào đã gửi cho khách.
+{% endhint %}
 
 **Link trông như thế nào**
 
@@ -123,12 +144,11 @@ Dạng ngắn: `demo.tourkitweb.vn/r/xxxxxxxx`
 
 **Hai loại link, đừng gửi nhầm**
 
-| Loại link               | Dẫn tới                                           | Gửi cho ai                                                               |
-| ----------------------- | ------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Link bán hàng**       | Trang tour / khách sạn / dịch vụ                  | Khách mua hàng. Người bấm vào mua ngay được, không phải đăng ký gì.      |
-| **Link mời làm đại lý** | Trang đăng ký đại lý, ô mã đã điền sẵn số của bạn | Người muốn làm đại lý cấp dưới của bạn. Họ chỉ cần điền tên và mật khẩu. |
+<table><thead><tr><th width="142.5999755859375">Loại link</th><th width="263.60009765625">Dẫn tới</th><th>Gửi cho ai</th></tr></thead><tbody><tr><td><strong>Link bán hàng</strong></td><td>Trang tour / khách sạn / dịch vụ</td><td>Khách mua hàng. Người bấm vào mua ngay được, không phải đăng ký gì.</td></tr><tr><td><strong>Link mời làm đại lý</strong></td><td>Trang đăng ký đại lý, ô mã đã điền sẵn số của bạn</td><td>Người muốn làm đại lý cấp dưới của bạn. Họ chỉ cần điền tên và mật khẩu.</td></tr></tbody></table>
 
+{% hint style="info" %}
 Đừng gửi link mời làm đại lý cho khách mua hàng: họ mở ra thấy trang đăng ký đại lý, không thấy sản phẩm, và thường sẽ đóng luôn.
+{% endhint %}
 
 **Xoá một link**
 
@@ -145,13 +165,7 @@ Khách đã được gắn vào tuyến trước đó VẪN LÀ của bạn — 
 
 **Mã KHÔNG áp dụng được trong các trường hợp sau**
 
-| Tình huống                            | Hệ thống báo gì                                                                                                    |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Khách đã có người giới thiệu từ trước | "Bạn đã có người giới thiệu nên mã này không được áp dụng." — luật ai-đến-trước, người gắn đầu tiên giữ vĩnh viễn. |
-| Khách gõ chính số của mình            | "Không thể tự giới thiệu chính mình."                                                                              |
-| Người mua là cộng tác viên affiliate  | "Đã là Affiliate. Mã áp dụng không hợp lệ."                                                                        |
-| Người mua là nhà cung cấp hoặc đại lý | Ô nhập bị ẩn hẳn, không hiện ra.                                                                                   |
-| Đại lý được gõ mã đang bị khoá        | "Mã giới thiệu không hợp lệ." — giống hệt như gõ sai số.                                                           |
+<table><thead><tr><th width="320.4000244140625">Tình huống</th><th>Hệ thống báo gì</th></tr></thead><tbody><tr><td>Khách đã có người giới thiệu từ trước</td><td>"Bạn đã có người giới thiệu nên mã này không được áp dụng." — luật ai-đến-trước, người gắn đầu tiên giữ vĩnh viễn.</td></tr><tr><td>Khách gõ chính số của mình</td><td>"Không thể tự giới thiệu chính mình."</td></tr><tr><td>Người mua là cộng tác viên affiliate</td><td>"Đã là Affiliate. Mã áp dụng không hợp lệ."</td></tr><tr><td>Người mua là nhà cung cấp hoặc đại lý</td><td>Ô nhập bị ẩn hẳn, không hiện ra.</td></tr><tr><td>Đại lý được gõ mã đang bị khoá</td><td>"Mã giới thiệu không hợp lệ." — giống hệt như gõ sai số.</td></tr></tbody></table>
 
 ### 6. Tuyến dưới & tỉ lệ chia
 
@@ -164,14 +178,20 @@ Trang "Tuyến dưới của tôi" hiện toàn bộ nhánh bên dưới bạn: 
 * Đại lý mới vào cây được đặt sẵn 50%.
 * Đổi tỉ lệ chỉ ảnh hưởng ĐƠN PHÁT SINH TỪ LÚC ĐỔI. Đơn cũ đã ghi sổ không tính lại.
 
-Tỉ lệ cao hay thấp thì lợi hơn? Tỉ lệ cao → cấp dưới nhận nhiều hơn trên mỗi đơn họ bán, nên họ có động lực bán và tuyển thêm; nhưng phần bạn giữ trên mỗi đơn của họ mỏng đi. Tỉ lệ thấp thì ngược lại. Đây là quyết định kinh doanh của bạn, hệ thống không khuyến nghị con số nào.
+{% hint style="info" %}
+_<mark style="color:blue;">**Tỉ lệ cao hay thấp thì lợi hơn?:**</mark>_ Tỉ lệ cao → cấp dưới nhận nhiều hơn trên mỗi đơn họ bán, nên họ có động lực bán và tuyển thêm; nhưng phần bạn giữ trên mỗi đơn của họ mỏng đi. Tỉ lệ thấp thì ngược lại. Đây là quyết định kinh doanh của bạn, hệ thống không khuyến nghị con số nào.
+{% endhint %}
 
 #### Ví dụ với một đơn có ngân sách 1.000.000đ
 
 * Đơn do CHÍNH BẠN mang về → bạn nhận trọn 1.000.000đ.
 * Đơn do CẤP DƯỚI TRỰC TIẾP mang về (bạn chia 50%) → họ nhận 500.000đ, bạn nhận 500.000đ.
 
-Bạn chỉ thấy tỉ lệ của cấp dưới TRỰC TIẾP Tỉ lệ mà cấp dưới của bạn chia cho tuyến dưới của họ là thoả thuận riêng giữa họ với nhau, không hiện cho bạn. Nó cũng không quyết định đồng nào chảy vào túi bạn.
+{% hint style="info" %}
+_<mark style="color:$warning;">**Bạn chỉ thấy tỉ lệ của cấp dưới TRỰC TIẾP**</mark>_
+
+Tỉ lệ mà cấp dưới của bạn chia cho tuyến dưới của họ là thoả thuận riêng giữa họ với nhau, không hiện cho bạn. Nó cũng không quyết định đồng nào chảy vào túi bạn.
+{% endhint %}
 
 #### Cấp dưới bị khoá hoặc nghỉ
 
@@ -196,26 +216,26 @@ Ngân sách = mức của hạng (hạng của đại lý Cấp 1 đứng đầu
 
 Ngân sách chảy từ Cấp 1 xuống tới người bán. Mỗi cấp đẩy xuống một phần theo tỉ lệ mình đã đặt, và GIỮ LẠI phần chênh giữa cái chảy vào mình với cái mình đẩy tiếp xuống.
 
-| Người bán ở cấp | Cấp 1 nhận | Cấp 2 nhận | Cấp 3 nhận | Tổng chi    |
-| --------------- | ---------- | ---------- | ---------- | ----------- |
-| Cấp 1           | 100.000    | 0          | 0          | **100.000** |
-| Cấp 2           | 40.000     | 60.000     | 0          | **100.000** |
-| Cấp 3           | 40.000     | 30.000     | 30.000     | **100.000** |
+<table><thead><tr><th width="151.4000244140625" align="center">Người bán ở cấp</th><th width="149" align="center">Cấp 1 nhận</th><th align="center">Cấp 2 nhận</th><th align="center">Cấp 3 nhận</th><th align="center">Tổng chi</th></tr></thead><tbody><tr><td align="center">Cấp 1</td><td align="center">100.000</td><td align="center">0</td><td align="center">0</td><td align="center"><strong>100.000</strong></td></tr><tr><td align="center">Cấp 2</td><td align="center">40.000</td><td align="center">60.000</td><td align="center">0</td><td align="center"><strong>100.000</strong></td></tr><tr><td align="center">Cấp 3</td><td align="center">40.000</td><td align="center">30.000</td><td align="center">30.000</td><td align="center"><strong>100.000</strong></td></tr></tbody></table>
 
 (Ví dụ với ngân sách 100.000đ, mỗi cấp chia 60% xuống dưới.) Dù chuỗi dài bao nhiêu, tổng chi không bao giờ vượt ngân sách của đơn.
 
-Đồng lẻ ở lại người chiaMọi con số đều làm tròn XUỐNG về đồng nguyên. Phần lẻ nằm lại ở cấp trên gần nhất — người đẩy tiền xuống. Vì vậy con số bạn nhận đôi khi lẻ hơn cấp dưới một đồng, đó là đúng quy tắc chứ không phải sai sót.
+{% hint style="info" %}
+_<mark style="color:blue;">**Đồng lẻ ở lại người chia:**</mark>_ Mọi con số đều làm tròn XUỐNG về đồng nguyên. Phần lẻ nằm lại ở cấp trên gần nhất — người đẩy tiền xuống. Vì vậy con số bạn nhận đôi khi lẻ hơn cấp dưới một đồng, đó là đúng quy tắc chứ không phải sai sót.
+{% endhint %}
 
 #### Bước 4 — Khi nào tiền được ghi sổ
 
-| Đơn chuyển sang                        | Hệ thống làm gì                                                           |
-| -------------------------------------- | ------------------------------------------------------------------------- |
-| Đã thanh toán / Đã xác nhận / Hoàn tất | Ghi sổ hoa hồng cho cả chuỗi. Gọi lại bao nhiêu lần cũng chỉ ghi một lần. |
-| Đã huỷ                                 | Thu hồi toàn bộ. Tiền đã vào ví bị trừ ra.                                |
-| Bị xoá                                 | Thu hồi như đơn huỷ.                                                      |
-| Nháp / chờ thanh toán / đang xử lý     | Chưa sinh gì cả.                                                          |
+| Đơn chuyển sang                                                             | Hệ thống làm gì                                                           |
+| --------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <mark style="color:$success;">Đã thanh toán / Đã xác nhận / Hoàn tất</mark> | Ghi sổ hoa hồng cho cả chuỗi. Gọi lại bao nhiêu lần cũng chỉ ghi một lần. |
+| <mark style="color:$danger;">Đã huỷ</mark>                                  | Thu hồi toàn bộ. Tiền đã vào ví bị trừ ra.                                |
+| <mark style="color:red;">Bị xoá</mark>                                      | Thu hồi như đơn huỷ.                                                      |
+| <mark style="color:$info;">Nháp / chờ thanh toán / đang xử lý</mark>        | Chưa sinh gì cả.                                                          |
 
-Số dư ví có thể ÂMNếu bạn đã rút hoặc đã tiêu hết tiền hoa hồng rồi đơn mới bị huỷ, phần thu hồi làm số dư âm — đó là khoản nợ với sàn. Nó tự trừ dần vào hoa hồng bạn kiếm được sau đó. Trong lúc số dư còn âm, bạn không thanh toán đơn bằng ví được.
+{% hint style="info" %}
+_<mark style="color:$warning;">**Số dư ví có thể ÂM:**</mark>_ Nếu bạn đã rút hoặc đã tiêu hết tiền hoa hồng rồi đơn mới bị huỷ, phần thu hồi làm số dư âm — đó là khoản nợ với sàn. Nó tự trừ dần vào hoa hồng bạn kiếm được sau đó. Trong lúc số dư còn âm, bạn không thanh toán đơn bằng ví được.
+{% endhint %}
 
 #### Bước 5 — Từ sổ vào ví
 
@@ -225,12 +245,12 @@ Sàn giữ tiền 5 ngày, tính từ NGÀY KẾT THÚC DỊCH VỤ của đơn 
 
 Mỗi đơn sinh ra MỘT DÒNG cho mỗi người trong chuỗi — kể cả người không được nhận. Dòng không được nhận vẫn ghi lại kèm lý do, để bạn luôn đối chiếu được và không bao giờ phải đoán.
 
-| Trạng thái      | Nghĩa là                                                                    |
-| --------------- | --------------------------------------------------------------------------- |
-| Đã vào ví       | Tiền đã cộng vào số dư, dùng được.                                          |
-| Đang giữ        | Đã ghi sổ, chờ hết thời gian giữ mới vào ví.                                |
-| Không được tính | Bạn nằm trong chuỗi nhưng không đủ điều kiện nhận. Cột lý do ghi rõ vì sao. |
-| Đã thu hồi      | Đơn bị huỷ hoặc bị xoá sau khi đã trả tiền.                                 |
+| Trạng thái                                        | Nghĩa là                                                                    |
+| ------------------------------------------------- | --------------------------------------------------------------------------- |
+| <mark style="color:$success;">Đã vào ví</mark>    | Tiền đã cộng vào số dư, dùng được.                                          |
+| <mark style="color:$primary;">Đang giữ</mark>     | Đã ghi sổ, chờ hết thời gian giữ mới vào ví.                                |
+| <mark style="color:$info;">Không được tính</mark> | Bạn nằm trong chuỗi nhưng không đủ điều kiện nhận. Cột lý do ghi rõ vì sao. |
+| <mark style="color:red;">Đã thu hồi</mark>        | Đơn bị huỷ hoặc bị xoá sau khi đã trả tiền.                                 |
 
 #### Bốn lý do khiến một dòng "Không được tính"
 
@@ -239,13 +259,19 @@ Mỗi đơn sinh ra MỘT DÒNG cho mỗi người trong chuỗi — kể cả n
 3. **Tài khoản đã bị xoá**
 4. **Tài khoản không còn là đại lý** — đã bị gỡ khỏi danh sách đại lý.
 
+{% hint style="info" %}
 Phần tiền của dòng bị loại được SÀN GIỮ LẠI, không dồn lên cấp trên. Điều này cố ý: nếu dồn lên thì cấp trên sẽ có động cơ khoá cấp dưới để ăn trọn ngân sách.
+{% endhint %}
 
 ### 9. Khách hàng của tôi
 
 Danh sách những người đã gắn vào tuyến của bạn (bằng link hoặc bằng mã). Tìm được theo tên, email, số điện thoại. Bấm vào từng khách để xem toàn bộ đơn của họ kèm tổng số đơn, tổng giá trị và tổng hoa hồng bạn đã nhận từ khách đó.
 
-Danh sách này chỉ gồm KHÁCH, không gồm đại lý cấp dướiCấp dưới của bạn nằm ở trang "Tuyến dưới của tôi". Hai danh sách khác nhau và không trùng nhau.
+{% hint style="info" %}
+_<mark style="color:blue;">**Danh sách này chỉ gồm KHÁCH, không gồm đại lý cấp dưới**</mark>_
+
+Cấp dưới của bạn nằm ở trang "Tuyến dưới của tôi". Hai danh sách khác nhau và không trùng nhau.
+{% endhint %}
 
 ### 10. Ví, nạp tiền & thanh toán
 
@@ -259,11 +285,11 @@ Mỗi tài khoản đại lý có một ví. Ví nhận hoa hồng, nhận tiề
 4. **Bấm "Tôi đã chuyển khoản".** Việc này chỉ báo cho sàn biết để kiểm tra — chưa cộng tiền.
 5. **Chờ xác nhận.** Quản trị viên kiểm tra sao kê rồi xác nhận, tiền mới vào ví.
 
-| Trạng thái giao dịch | Nghĩa là                                                                         |
-| -------------------- | -------------------------------------------------------------------------------- |
-| Chờ xử lý            | Đã tạo yêu cầu, sàn chưa xác nhận. Tiền CHƯA vào ví.                             |
-| Đã xác nhận          | Tiền đã cộng vào số dư.                                                          |
-| Đã huỷ               | Sàn từ chối yêu cầu (thường do không tìm thấy giao dịch chuyển khoản tương ứng). |
+| Trạng thái giao dịch                             | Nghĩa là                                                                         |
+| ------------------------------------------------ | -------------------------------------------------------------------------------- |
+| <mark style="color:$primary;">Chờ xử lý</mark>   | Đã tạo yêu cầu, sàn chưa xác nhận. Tiền CHƯA vào ví.                             |
+| <mark style="color:$success;">Đã xác nhận</mark> | Tiền đã cộng vào số dư.                                                          |
+| <mark style="color:$danger;">Đã huỷ</mark>       | Sàn từ chối yêu cầu (thường do không tìm thấy giao dịch chuyển khoản tương ứng). |
 
 #### Thanh toán bằng ví
 
@@ -271,7 +297,9 @@ Mỗi tài khoản đại lý có một ví. Ví nhận hoa hồng, nhận tiề
 * Số dư không đủ → hệ thống báo và không trừ gì cả. Nạp thêm rồi thanh toán lại.
 * Trả một phần thì đơn ở trạng thái thanh toán một phần, phần còn lại trả sau.
 
-Lịch sử giao dịch ví ≠ sổ hoa hồngVí còn nhận tiền nạp, tiền hoàn, tiền quản trị viên cộng tay. Muốn đối chiếu riêng phần hoa hồng thì xem trang "Sổ hoa hồng"; số dư ví không bao giờ bằng đúng tổng hoa hồng.
+{% hint style="info" %}
+_<mark style="color:$warning;">**Lịch sử giao dịch ví ≠ sổ hoa hồng:**</mark>_ Ví còn nhận tiền nạp, tiền hoàn, tiền quản trị viên cộng tay. Muốn đối chiếu riêng phần hoa hồng thì xem trang "Sổ hoa hồng"; số dư ví không bao giờ bằng đúng tổng hoa hồng.
+{% endhint %}
 
 ### 11. Lên hạng và xuống hạng
 
@@ -284,11 +312,17 @@ Hệ thống tự xét lại hạng MỖI NGÀY MỘT LẦN, dựa trên doanh s
 * Toàn bộ đơn của mọi cấp dưới trong nhánh, ở mọi độ sâu, kể cả khách của họ.
 * Chỉ tính đơn đã thanh toán / đã xác nhận / đã hoàn tất. Đơn huỷ và đơn chưa trả tiền không tính.
 
-Hạng có thể XUỐNG, không chỉ lênDoanh số nhánh rơi xuống dưới ngưỡng của hạng hiện tại thì hệ thống tự hạ hạng, và quyền lợi của cả nhánh giảm theo. Doanh số tính trên toàn bộ lịch sử đơn, không theo tháng.Chỉ đại lý Cấp 1 mới được xét hạng. Cấp 2 trở xuống không có hạng nên lệnh này bỏ qua họ — điều đó không có nghĩa họ bị bỏ quên: doanh số của họ vẫn được cộng vào nhánh và vẫn kéo hạng của Cấp 1 lên.
+{% hint style="info" %}
+_<mark style="color:$warning;">**Hạng có thể XUỐNG, không chỉ lên:**</mark>_
+
+Doanh số nhánh rơi xuống dưới ngưỡng của hạng hiện tại thì hệ thống tự hạ hạng, và quyền lợi của cả nhánh giảm theo. Doanh số tính trên toàn bộ lịch sử đơn, không theo tháng.&#x20;
+{% endhint %}
+
+{% hint style="info" %}
+Chỉ đại lý Cấp 1 mới được xét hạng. Cấp 2 trở xuống không có hạng nên lệnh này bỏ qua họ — điều đó không có nghĩa họ bị bỏ quên: doanh số của họ vẫn được cộng vào nhánh và vẫn kéo hạng của Cấp 1 lên.
+{% endhint %}
 
 ### 12. Tình huống thường gặp
-
-Mở tất cảThu gọn tất cả
 
 <details>
 
