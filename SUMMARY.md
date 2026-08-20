@@ -12,6 +12,10 @@
   * [Nhập & quản lý tour](nha-cung-cap/tour.md)
   * [Nhập hàng loạt bằng Excel](nha-cung-cap/import-excel.md)
 
+***
+
+* [CHƯƠNG TRÌNH ĐẠI LÝ](chuong-trinh-dai-ly.md)
+
 ## Bảng điều khiển
 
 * [1. Bảng điều khiển](bang-dieu-khien/README.md)
