@@ -62,6 +62,7 @@
     * [4.10.3. Thanh toán Tingee](khoi-he-thong/tich-hop/thanh-toan-tingee.md)
     * [4.10.4. Thông báo qua Telegram / Discord](khoi-he-thong/tich-hop/thong-bao-telegram-discord.md)
     * [4.10.5. Affiliate với đối tác (Accesstrade)](khoi-he-thong/tich-hop/affiliate-accesstrade.md)
+    * [4.10.6. Hoá đơn điện tử MISA](khoi-he-thong/tich-hop/hoa-don-dien-tu-misa.md)
   * [4.11. Công cụ](khoi-he-thong/cong-cu.md)
   * [4.12. Bảo mật 2 lớp](khoi-he-thong/bao-mat-2-lop.md)
   * [4.13. Báo cáo](khoi-he-thong/bao-cao.md)

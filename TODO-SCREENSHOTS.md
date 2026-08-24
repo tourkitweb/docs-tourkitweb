@@ -21,6 +21,7 @@
 | `doi-ngu.md` | 0/3 | 3 | module chưa bật trong theme |
 | `ket-noi-khach-san.md` | 0/4 | 4 | app Pro chưa cài |
 | `bao-mat-2-lop.md` | 0/3 | 3 | tài khoản chưa được cấp QR |
+| `tich-hop/hoa-don-dien-tu-misa.md` | 0/5 | 5 | trang mới (24/08/2026), chưa chụp lần nào |
 
 ### Nguyên nhân 1 — Thiếu quyền (18 ảnh)
 Role `administrator` (id 1) trong bảng `core_role_permissions` có `cruise_*` nhưng **không có** `car_*`, `boat_*`, `space_*`, `flight_*`.
@@ -207,3 +208,15 @@ Máy đã có sẵn **Playwright 1.61.1**, site local chạy tại `http://local
 Có thể viết script tự đăng nhập rồi chụp lần lượt từng trang. **Cần: tài khoản admin local.**
 
 Điều kiện: các module Xe / Thuyền / Du thuyền / Không gian / Chuyến bay / Khóa học / Tài sản phải **đang được bật** thì mới vào chụp được — nếu module tắt, menu không hiện.
+
+## Trang mới: Hoá đơn điện tử MISA (24/08/2026)
+
+`khoi-he-thong/tich-hop/hoa-don-dien-tu-misa.md` — cần 5 ảnh:
+
+| # | Chụp gì | Ghi chú khi chụp |
+|---|---|---|
+| 1 | Mục "Kết nối MISA meInvoice" + kết quả bấm **Kiểm tra kết nối** (khung xanh) | **Che ClientSecret và mật khẩu**; mã số thuế demo thì để nguyên |
+| 2 | Ô **Mẫu hoá đơn** đang xổ danh sách | Cho thấy vài dòng có nhãn *không mã CQT* / *chưa phát hành* |
+| 3 | Bảng **Thuế suất theo loại dịch vụ** + ô "Giá bán đã bao gồm VAT" | Đặt mỗi loại một mức khác nhau cho dễ hiểu |
+| 4 | Panel **Hoá đơn điện tử MISA** trong chi tiết đơn, sau khi bấm Xem trước | Chọn đơn có khách yêu cầu hoá đơn công ty |
+| 5 | Màn **Nhật ký hoá đơn** | Cần có ít nhất 1 dòng xanh và 1 dòng đỏ; **che email khách** |

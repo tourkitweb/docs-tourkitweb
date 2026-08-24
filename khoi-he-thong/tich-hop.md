@@ -37,6 +37,7 @@ Khi nhấn vào **Tích hợp**, danh sách các kết nối sẽ xổ ra ở c�
 | [Thanh toán Tingee](tich-hop/thanh-toan-tingee.md) | Tự động ghi nhận khi tiền về tài khoản |
 | [Thông báo Telegram / Discord](tich-hop/thong-bao-telegram-discord.md) | Nhận tin nhắn báo có khách đặt tour |
 | [Affiliate với đối tác](tich-hop/affiliate-accesstrade.md) | Ghi nhận đơn hàng do đối tác giới thiệu (Accesstrade) |
+| [Hoá đơn điện tử MISA](tich-hop/hoa-don-dien-tu-misa.md) | Tự phát hành hoá đơn điện tử và gửi cho khách |
 
 > **Lưu ý:** Danh sách trên website của bạn có thể **ít hơn** bảng này. Mỗi tích hợp chỉ hiện ra khi tính năng tương ứng đã được bật cho website của bạn. Nếu bạn cần một kết nối mà không thấy trong menu, hãy liên hệ đơn vị triển khai.
 
@@ -66,6 +67,7 @@ Dù là kết nối nào, quy trình cũng chỉ có 4 bước giống nhau:
 3. Các mã có dính **khoảng trắng thừa** không?
 4. Với Telegram/Discord: đã tích **thời điểm nhận thông báo** chưa?
 5. Với Tingee/Accesstrade: đã khai báo **phía bên kia** chưa? (kết nối 2 chiều)
+6. Với Hoá đơn điện tử MISA: đã **chọn mẫu hoá đơn** chưa, và đơn đã tới trạng thái bạn cấu hình chưa?
 
 **Báo lỗi xác thực / sai key.** Gần như luôn là do mã dán sai, thiếu ký tự, hoặc mã đã bị bên kia hủy. Hãy xin lại mã mới từ nhà cung cấp.
 
