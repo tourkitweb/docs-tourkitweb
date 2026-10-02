@@ -58,7 +58,7 @@ Bấm vào tên menu để mở ra. Màn hình chia làm 2 phần: **cột trái
 Cột trái là các hộp chứa những thứ bạn có thể đưa vào menu:
 
 * **Trang (Page)** — các trang tĩnh: Giới thiệu, Liên hệ, Điều khoản…
-* **Địa điểm (Location)** — các điểm đến: Hà Nội, Đà Nẵng, Phú Quốc…
+* **Địa điểm (Location)** và **Điểm đến tour** — các điểm đến: Hà Nội, Đà Nẵng, Phú Quốc… Hai hộp này cho ra cùng một loại mục menu; bấm vào sẽ mở trang nào thì bạn chọn ở Bước 4 (xem [Mục menu là địa điểm](#muc-menu-la-dia-diem-khi-bam-mo-trang-nao)).
 * **Tin tức (News)** và **Danh mục tin tức** — bài viết và nhóm bài viết.
 * **Các loại dịch vụ bạn đang bán** — tùy website của bạn bật những module nào, có thể có: Tour, Khách sạn, Xe, Du thuyền, Sự kiện, Vé máy bay, Không gian, Visa, Bất động sản, Khóa học…
 * **Custom Url** (Đường dẫn tùy chỉnh) — dùng khi bạn muốn trỏ tới **bất kỳ địa chỉ nào**, kể cả trang ngoài website (ví dụ trang Facebook của công ty). Bạn nhập 2 thứ: **URL** (địa chỉ) và **Link Text** (chữ hiện trên menu).
@@ -84,10 +84,29 @@ Bấm vào một mục trong menu để mở ra các tùy chọn:
 * **Class** — dành cho kỹ thuật, để trống.
 * **Target** (Mở ở đâu) — chọn **Normal** (mở trong cùng cửa sổ) hoặc **Open new tab** (mở tab mới). Với mục trỏ ra ngoài (Facebook, đối tác), nên chọn **Open new tab** để khách không rời khỏi web của bạn.
 * **Icon Html** — thêm biểu tượng nhỏ, dành cho kỹ thuật.
+* **Khi bấm, mở trang** — **chỉ có ở mục là địa điểm.** Chọn khách bấm vào sẽ sang trang tour, trang khách sạn hay trang tổng hợp của địa điểm đó. Xem chi tiết ở phần [Mục menu là địa điểm](#muc-menu-la-dia-diem-khi-bam-mo-trang-nao) ngay dưới.
+* **Menu con xếp theo** — các mục con của mục này xổ ra **"Chiều dọc"** (mỗi mục một dòng) hay **"Chiều ngang"** (nằm trên một hàng). Để **"Theo giao diện (mặc định)"** thì giao diện tự quyết. Chỉ có tác dụng khi mục có menu con; trên điện thoại menu con luôn xếp dọc.
 * **Enable mega menu** (Bật mega menu) — "mega menu" là loại menu xổ xuống **to như một tấm bảng nhiều cột**, thay vì một danh sách dọc thông thường. Dùng khi bạn có rất nhiều mục con. Bật lên thì có thêm: **Columns** (số cột, từ 2 đến 12) và **Mega image url** (ảnh minh họa trong bảng đó).
 * **Nút Delete** — gỡ mục này khỏi menu. **Chỉ gỡ khỏi menu thôi, tour/khách sạn gốc vẫn còn nguyên trong hệ thống** — đừng lo.
 
 > **Mẹo về mega menu:** Đừng bật nếu chỉ có 3-4 mục con — một bảng to đùng xổ ra cho 3 dòng chữ nhìn rất trống trải. Chỉ dùng khi bạn có từ 8-10 mục con trở lên. Và về số cột: đừng chọn 12 cột, mỗi cột sẽ hẹp tới mức chữ bị cắt vụn. **3 hoặc 4 cột** là hợp lý cho hầu hết trường hợp.
+
+#### Mục menu là địa điểm: khi bấm mở trang nào?
+
+Mỗi địa điểm có sẵn nhiều trang trên website, mỗi trang đón một kiểu khách tìm trên Google (giải thích đầy đủ ở [3.1. Địa điểm](../khoi-san-pham/dia-diem.md#trang-cua-dia-diem-tren-website-vu-khi-seo)). Ô **"Khi bấm, mở trang"** quyết định mục menu dẫn khách tới trang nào:
+
+| Lựa chọn                                             | Bấm vào mở                        | Ví dụ địa chỉ              | Dùng khi                                                                                |
+| ---------------------------------------------------- | --------------------------------- | -------------------------- | --------------------------------------------------------------------------------------- |
+| **Tour tại địa điểm (mặc định)**                     | Danh sách tour đi tới nơi đó      | `/tour/da-nang`            | Menu "Tour" — bên dưới là các điểm đến                                                 |
+| **Tất cả tại địa điểm: tour, khách sạn, bài viết…**  | Trang tổng hợp của địa điểm: giới thiệu, mọi loại sản phẩm đang bán, bài viết về nơi đó, khu vực con, bản đồ | `/location/da-nang` | Menu "Điểm đến" — khách chưa biết mua gì, muốn xem nơi đó có gì |
+| **Khách sạn tại địa điểm**                           | Danh sách khách sạn ở nơi đó      | `/khach-san/da-nang`       | Menu "Khách sạn" — bên dưới là các thành phố                                            |
+| **Du thuyền / Sự kiện / … tại địa điểm**             | Trang tìm kiếm dịch vụ đó, lọc sẵn theo nơi đó | `/…?location_id=39` | Ít dùng. Chỉ hiện những dịch vụ website của bạn đang bật                               |
+
+> **Ví dụ menu đầu trang chuẩn SEO:** mục **"Tour"** có các con _Đà Nẵng, Phú Quốc, Hạ Long_ để mặc định (ra `/tour/…`); mục **"Khách sạn"** có các con _Đà Nẵng, Hà Nội, Nha Trang_ chọn **"Khách sạn tại địa điểm"** (ra `/khach-san/…`); mục **"Điểm đến"** có các con chọn **"Tất cả tại địa điểm"**. Cùng một địa điểm thêm vào menu nhiều lần, mỗi lần chọn một trang khác nhau là được.
+
+> **Bấm vào lại ra trang tìm kiếm có `?location_id=`?** Đường dẫn của địa điểm đang trùng với một danh mục tour hoặc một khách sạn, nên hệ thống tự chuyển sang trang tìm kiếm cho khỏi lỗi. Cách gỡ xem [3.1. Địa điểm](../khoi-san-pham/dia-diem.md).
+
+> 📷 *[Cần chụp màn hình: một mục địa điểm đang mở trong màn sửa menu — ô "Khi bấm, mở trang" đang xổ danh sách lựa chọn]*
 
 ### Bước 5: Gán vị trí và Lưu — bước quyết định
 
@@ -130,3 +149,4 @@ Trong màn hình sửa menu có phần liệt kê các **vị trí** dưới d�
 
 * [4. Khối HỆ THỐNG](./)
 * [4.7. Giao diện](giao-dien.md)
+* [3.1. Địa điểm](../khoi-san-pham/dia-diem.md) — các trang mà mỗi địa điểm tự sinh ra

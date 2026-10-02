@@ -67,7 +67,7 @@ Khác với khu quản trị (menu nằm dọc bên trái), khu nhà cung cấp 
 | **Tour** | [Quản lý tour](tour.md) của bạn |
 | **Booking Report** | Báo cáo các lượt khách đã đặt |
 | **Enquiry Report** | Các yêu cầu hỏi/báo giá khách gửi tới |
-| **Payouts** | Đối soát và nhận tiền thanh toán |
+| **Payouts** | [Đối soát và nhận tiền thanh toán](thanh-toan.md) |
 | **Teams** | Thêm nhân viên cùng quản lý gian hàng |
 | **Gói dịch vụ** | Xem/mua gói để được đăng bán |
 | **Về trang chủ** | Quay lại website như một khách bình thường |
@@ -107,3 +107,4 @@ Khác với khu quản trị (menu nằm dọc bên trái), khu nhà cung cấp 
 - [Nhập & quản lý khách sạn](khach-san.md)
 - [Nhập & quản lý phòng](phong.md)
 - [Nhập & quản lý tour](tour.md)
+- [Yêu cầu thanh toán & đối soát tiền về](thanh-toan.md)

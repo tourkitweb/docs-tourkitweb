@@ -11,6 +11,7 @@
   * [Nhập & quản lý phòng](nha-cung-cap/phong.md)
   * [Nhập & quản lý tour](nha-cung-cap/tour.md)
   * [Nhập hàng loạt bằng Excel](nha-cung-cap/import-excel.md)
+  * [Yêu cầu thanh toán & đối soát tiền về](nha-cung-cap/thanh-toan.md)
 
 ***
 
@@ -77,6 +78,7 @@
 ## Khác
 
 * [Chỉnh sửa bố cục "Trang chủ"](chinh-sua-bo-cuc-trang-chu.md)
+* [Kích thước ảnh chuẩn](kich-thuoc-anh.md)
 
 ## Tính năng AI
 

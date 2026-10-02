@@ -163,6 +163,14 @@ Tất cả ảnh để chung trong thư mục `.gitbook/assets/`.
 - [ ] Cửa sổ Import (ô chọn file + ô tích "Thay thế toàn bộ lịch khởi hành" — chụp ở màn Tour) → `ncc-import-cua-so.png`
 - [ ] Bảng kết quả sau khi import (các ô thống kê tạo mới/cập nhật/bỏ qua) → `ncc-import-ket-qua.png`
 
+### Yêu cầu thanh toán & đối soát (`nha-cung-cap/thanh-toan.md` — thêm 03/09/2026) — CHỜ 3 ẢNH
+
+> Chụp ở `/vendor/payouts` bằng tài khoản NCC đã có gói **và đã bán được ít nhất 1 đơn ở trạng thái được tính tiền**, nếu không khung "Create request" chỉ hiện "Your balance is zero".
+> **Che số tài khoản ngân hàng và tên chủ tài khoản thật** — dùng số giả trước khi chụp.
+
+- [ ] Cửa sổ **Setup payout accounts** (bảng phương thức + ô nhập thông tin tài khoản) → `ncc-payout-tai-khoan.png`
+- [ ] Cửa sổ **Create payout request** (4 ô: Available for payout, Amount, Method, Note to admin) → `ncc-payout-tao-yeu-cau.png`
+- [ ] Bảng **Payout history** có ít nhất 2 dòng ở 2 trạng thái khác nhau → `ncc-payout-lich-su.png`
 ## Khối Hệ thống
 
 ### `khoi-he-thong/slide-item.md` — 5 ảnh
@@ -220,3 +228,22 @@ Có thể viết script tự đăng nhập rồi chụp lần lượt từng tra
 | 3 | Bảng **Thuế suất theo loại dịch vụ** + ô "Giá bán đã bao gồm VAT" | Đặt mỗi loại một mức khác nhau cho dễ hiểu |
 | 4 | Panel **Hoá đơn điện tử MISA** trong chi tiết đơn, sau khi bấm Xem trước | Chọn đơn có khách yêu cầu hoá đơn công ty |
 | 5 | Màn **Nhật ký hoá đơn** | Cần có ít nhất 1 dòng xanh và 1 dòng đỏ; **che email khách** |
+
+## Mục mới 02/10/2026: Đăng bài chuẩn SEO + trang theo địa điểm + kích thước ảnh
+
+Cần **10 ảnh mới + chụp lại 2 ảnh cũ**. Website phải bật **SEO Pro** (`APP_SEO_ENABLED=true`) thì mới có bảng chấm điểm SEO.
+
+| # | Tệp : dòng | Chụp gì | Ghi chú khi chụp |
+|---|---|---|---|
+| 1 | `khoi-noi-dung/tin-tuc.md`:208 | Bước 5 Thêm tin tức — **chụp lại** `pg046-0.png` | Ảnh cũ còn khung tên "Công cụ tìm kiếm" — nay là "SEO Meta" (cơ bản) hoặc "SEO" (bản Pro) |
+| 2 | `khoi-noi-dung/tin-tuc.md`:186 | Khung **"Địa điểm liên quan"** ở cột phải màn viết bài | Đã chọn 2 địa điểm |
+| 3 | `khoi-noi-dung/tin-tuc.md`:244 | Khung **SEO** bản Pro dưới khung Nội dung tin tức | Điền sẵn Focus Keyphrase để SEO Analysis có đủ chấm xanh / cam / đỏ |
+| 4 | `khoi-noi-dung/tin-tuc.md`:305 | Ô **"Paragraph"** đang xổ danh sách Heading |  |
+| 5 | `khoi-noi-dung/tin-tuc.md`:353 | Cửa sổ **"Insert/Edit Image"** | Ô Image description đã điền |
+| 6 | `khoi-noi-dung/tin-tuc.md`:359 | Cửa sổ **"Search Engine Optimization"**, tab Chung | Thấy bộ đếm …/60 và …/155 |
+| 7 | `khoi-san-pham/dia-diem.md`:213 | Trang tổng hợp **/location/da-nang** ngoài website | Dải ảnh bìa có nút "… khách sạn / … tour / … bài viết" + khối "Bài viết về Đà Nẵng". Địa điểm phải có ảnh banner và ít nhất 1 bài đã gắn |
+| 8 | `khoi-san-pham/khach-san.md`:235 | Trang **/khach-san/da-nang** ngoài website | Tiêu đề, dòng số lượng, ô sắp xếp, lưới thẻ |
+| 9 | `khoi-san-pham/tour.md`:179 | Tab **Location** của màn sửa tour | Ô "Điểm đến" + "Các điểm đến khác" đã chọn 2 nơi |
+| 10 | `khoi-he-thong/menu.md`:109 | Mục địa điểm trong màn sửa menu, ô **"Khi bấm, mở trang"** đang xổ | Thấy đủ các lựa chọn |
+| 11 | `khoi-san-pham/khach-san.md`:145 | Màn sửa khách sạn dạng **tab** (cột tab trái + nút "Lưu thay đổi" ở chân) | Mở tab Chung |
+| 12 | `khoi-san-pham/khach-san.md`:213 | **Chụp lại** `pg075-0.png` | Ảnh cũ là bố cục xếp chồng + cột phải "Publish" — nay là tab **Trạng thái** > khung "Xuất bản" |

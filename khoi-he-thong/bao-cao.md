@@ -1,6 +1,6 @@
 # 4.13. Báo cáo
 
-**Báo cáo** là nơi bạn nhìn thấy **kết quả kinh doanh** của mình bằng con số: hôm nay có bao nhiêu đơn, doanh thu bao nhiêu, khách nào đang hỏi mà chưa ai trả lời.
+**Báo cáo** là nơi bạn nhìn thấy **kết quả kinh doanh** của mình bằng con số: hôm nay có bao nhiêu đơn, doanh thu bao nhiêu, tiền khách thanh toán online đã về chưa.
 
 Nếu các mục khác trong hệ thống là để **làm việc**, thì mục này là để **biết việc đó có ra tiền không**. Chủ doanh nghiệp nên ghé đây mỗi ngày một lần, dù chỉ 2 phút.
 
@@ -12,19 +12,23 @@ Nếu các mục khác trong hệ thống là để **làm việc**, thì mục 
 
 ## Trong mục này có gì?
 
-Nhấn vào **Báo cáo** ở menu bên trái, bạn sẽ thấy 5 mục con. Mỗi mục trả lời một câu hỏi khác nhau:
+Nhấn vào **Báo cáo** ở menu bên trái, bạn sẽ thấy 4 mục con. Mỗi mục trả lời một câu hỏi khác nhau:
 
 | Mục con                  | Trả lời câu hỏi                                |
 | ------------------------ | ---------------------------------------------- |
-| **Báo cáo yêu cầu**      | Ai đang hỏi về sản phẩm mà chưa ai trả lời?    |
 | **Báo cáo đặt chỗ**      | Có những đơn hàng nào? Tình trạng ra sao?      |
 | **Thống kê đặt chỗ**     | Doanh thu đang lên hay xuống? (biểu đồ)        |
-| **Gửi liên hệ**          | Ai gửi tin nhắn qua form liên hệ trên website? |
 | **Báo cáo mua tín dụng** | Ai đang chờ tôi duyệt nạp tiền?                |
+| **Log 9Pay**             | Khách thanh toán qua 9Pay có thành công không? |
 
-> **Nếu bạn chỉ có 2 phút mỗi ngày**, hãy xem đúng 2 mục: **Báo cáo yêu cầu** (có khách nào đang chờ trả lời không — đây là tiền đang chờ bạn) và **Báo cáo đặt chỗ** (đơn mới về).
+> **Tìm "Gửi liên hệ" và "Báo cáo yêu cầu" ở đâu?** Hai mục này **không còn nằm trong Báo cáo**:
+>
+> * **Gửi liên hệ** giờ là mục riêng ở menu bên trái, ngay dưới **Tài liệu hướng dẫn** — xem phần [Gửi liên hệ](#gui-lien-he) bên dưới.
+> * **Báo cáo yêu cầu** đã được thay bằng mục **Yêu cầu báo giá** (nhóm Quản lý đơn hàng) — xem [3.4. Yêu cầu báo giá](../khoi-san-pham/yeu-cau-bao-gia.md).
 
-> **Bạn có thể không thấy đủ 5 mục.** Mỗi mục con cần một quyền riêng. Ví dụ mục "Gửi liên hệ" cần quyền quản lý liên hệ. Thấy thiếu mục nào nghĩa là bạn chưa được cấp quyền đó.
+> **Nếu bạn chỉ có 2 phút mỗi ngày**, hãy xem đúng 3 chỗ: **Yêu cầu báo giá** và **Gửi liên hệ** (có khách nào đang chờ trả lời không — đây là tiền đang chờ bạn), rồi **Báo cáo đặt chỗ** (đơn mới về).
+
+> **Bạn có thể không thấy đủ 4 mục.** Mỗi mục con cần một quyền riêng. Ví dụ mục **Log 9Pay** cần thêm quyền xem đơn hàng. Thấy thiếu mục nào nghĩa là bạn chưa được cấp quyền đó.
 
 ## Hiểu rõ: "Yêu cầu" khác "Đặt chỗ" như thế nào?
 
@@ -38,49 +42,7 @@ Nhấn vào **Báo cáo** ở menu bên trái, bạn sẽ thấy 5 mục con. M�
 * **Yêu cầu** cần bạn **trả lời NHANH**. Khách hỏi mà 2 ngày sau mới trả lời thì họ đã mua của người khác rồi.
 * **Đặt chỗ** cần bạn **thực hiện đúng** — xác nhận, chuẩn bị dịch vụ, thu tiền.
 
-## Báo cáo yêu cầu
-
-Đây là nơi tập hợp mọi câu hỏi khách gửi về sản phẩm của bạn. **Mỗi dòng ở đây là một khách hàng tiềm năng đang chờ.**
-
-> **Đường dẫn:** Menu bên trái > **Báo cáo** > **Báo cáo yêu cầu**
-
-### Màn hình này có gì
-
-Danh sách hiển thị **20 dòng mỗi trang**, **mới nhất lên đầu**. Các cột:
-
-*   **Service** (Dịch vụ) — khách hỏi về sản phẩm nào, kèm tên nhà cung cấp. Trong ô này bạn cũng thấy luôn **Tên / Email / Số điện thoại / Ghi chú** của khách.
-
-    > **Thấy chữ "\[Deleted]"?** Nghĩa là sản phẩm khách hỏi **đã bị xóa** khỏi hệ thống. Câu hỏi vẫn còn nhưng sản phẩm không còn. Bạn vẫn nên liên hệ khách để tư vấn sản phẩm thay thế — đừng bỏ phí.
-* **Customer** (Khách hàng) — thông tin người hỏi.
-* **Status** (Trạng thái) — tình trạng xử lý của yêu cầu.
-*   **Replies** (Số phản hồi) — **đã trả lời bao nhiêu lần**.
-
-    > **Cột quan trọng nhất trên màn hình này.** Số **`0`** nghĩa là **chưa ai trả lời khách**. Hãy quét mắt tìm các dòng có số 0 trước tiên — đó là những khách đang bị bỏ quên.
-* **Created At** (Ngày tạo) — khách hỏi lúc nào.
-* **Actions** (Thao tác) — nút **"Reply"** (Trả lời).
-
-### Trả lời khách
-
-Bấm nút **"Reply"** ở cuối dòng. Màn hình mới mở ra hiển thị toàn bộ lịch sử trao đổi (20 phản hồi mỗi trang) và ô để bạn viết trả lời mới.
-
-> **Mẹo bán hàng:** Trả lời trong vòng **1 giờ** đầu có tỷ lệ chốt cao hơn nhiều lần so với trả lời sau 1 ngày. Khách hỏi giá tour thường hỏi cùng lúc 3-4 nơi — ai trả lời trước, người đó có cơ hội trước.
-
-### Tìm kiếm và lọc
-
-Ô tìm kiếm ở trang này **chỉ tìm được theo email**. Không tìm được theo tên hay số điện thoại. Vì vậy khi cần tra cứu, hãy chuẩn bị sẵn email của khách.
-
-### Làm hàng loạt
-
-Tích chọn nhiều dòng, rồi chọn hành động:
-
-* **"Mark as: \<trạng thái>"** — đánh dấu hàng loạt sang một trạng thái.
-* **"DELETE Enquiry"** — xóa các yêu cầu đã chọn.
-
-**Nhớ bấm nút áp dụng** sau khi chọn — quên bấm là không có gì xảy ra.
-
-> **Cẩn thận:** Xóa yêu cầu là **mất luôn thông tin liên hệ của khách hàng tiềm năng** đó. Đừng dọn dẹp cho gọn mắt. Hãy dùng trạng thái để đánh dấu đã xử lý thay vì xóa.
-
-> **Chỉ thấy một phần yêu cầu?** Nếu bạn là nhà cung cấp (vendor) và không có quyền xem của người khác, bạn **chỉ thấy các yêu cầu về sản phẩm của chính mình**. Đây là thiết kế đúng, không phải lỗi.
+> **Yêu cầu của khách xem ở đâu?** Không nằm trong Báo cáo. Xem ở mục **Yêu cầu báo giá** — hướng dẫn chi tiết tại [3.4. Yêu cầu báo giá](../khoi-san-pham/yeu-cau-bao-gia.md).
 
 ## Báo cáo đặt chỗ
 
@@ -134,18 +96,40 @@ Bên cạnh biểu đồ có bảng chi tiết, tổng hợp lại thành các c
 
 ## Gửi liên hệ
 
-Đây là nơi chứa các tin nhắn khách gửi qua **form Liên hệ** trên website (thường ở trang "Liên hệ" hoặc chân trang).
+Đây là nơi chứa **mọi tin nhắn khách gửi qua các form trên website**: form Liên hệ, ô đăng ký ở chân trang hoặc thanh bên, form **Đăng ký trở thành Đại lý / CTV**, và cả các yêu cầu báo giá.
 
-> **Đường dẫn:** Menu bên trái > **Báo cáo** > **Gửi liên hệ**
+> **Đường dẫn:** Menu bên trái > **Gửi liên hệ** (ngay dưới **Tài liệu hướng dẫn**)
+>
+> Trước đây mục này nằm trong **Báo cáo**. Giờ nó là mục riêng để bạn dễ thấy hơn.
 
-**Khác gì "Báo cáo yêu cầu"?**
+### Màn hình này có gì
 
-* **Báo cáo yêu cầu** = khách hỏi về **một sản phẩm cụ thể** (một tour, một phòng).
-* **Gửi liên hệ** = khách nhắn **chung chung**, không gắn với sản phẩm nào. Ví dụ: hỏi hợp tác, khiếu nại, xin báo giá đoàn.
+Danh sách hiển thị **20 dòng mỗi trang**, **mới nhất lên đầu**. Các cột:
 
-> **Đừng bỏ quên mục này.** Nhiều đơn vị chăm chỉ xem đơn hàng nhưng cả tháng không mở mục này ra, để khách gửi tin mà không ai trả lời. Trong đây thường có những cơ hội lớn — hợp tác, khách đoàn — chứ không chỉ là tin rác.
+*   **Tên**, **Email**, **Điện thoại** — thông tin khách để lại.
 
-> **Mục này cần quyền riêng** (quyền quản lý liên hệ), khác với quyền xem báo cáo. Không thấy mục này dù thấy các mục khác thì là do thiếu đúng quyền đó.
+    > **Email dạng `phone-0988123456@guest.local`?** Khách không nhập email, chỉ để lại số điện thoại. Hệ thống tự điền cho đủ ô — **đừng gửi mail vào địa chỉ này**, hãy gọi theo số điện thoại.
+* **Nội dung** — lời nhắn của khách. Với form đăng ký đại lý, ô này ghi sẵn từng dòng: mô hình hợp tác, tỉnh/thành, kinh nghiệm, dịch vụ muốn bán.
+*   **Nguồn** — khách gửi từ trang nào. Bấm vào để mở đúng trang đó. Ví dụ **"Đăng ký Đại lý / CTV – Đại Lý Chuyên Nghiệp"** là khách đăng ký đại lý và chọn gói Đại lý chuyên nghiệp.
+
+    > **Thấy nhãn cam "CTV: …"?** Khách đến website qua **link giới thiệu của cộng tác viên** đó.
+* **Ngày** — khách gửi lúc nào. Dòng chữ xanh **"✓ Đã đồng ý xử lý dữ liệu"** nghĩa là khách **đã tích ô đồng ý** cho bạn dùng thông tin để liên hệ (bằng chứng theo Nghị định 13/2023). Di chuột vào dòng chữ để xem địa chỉ IP lúc khách tích.
+
+> **Đừng bỏ quên mục này.** Nhiều đơn vị chăm chỉ xem đơn hàng nhưng cả tháng không mở mục này ra, để khách gửi tin mà không ai trả lời. Trong đây thường có những cơ hội lớn — **người muốn làm đại lý**, hợp tác, khách đoàn — chứ không chỉ là tin rác.
+
+### Tìm kiếm
+
+Ô **Tìm kiếm** tìm theo **tên, email hoặc nội dung** tin nhắn. **Không tìm được theo số điện thoại.**
+
+> **Mẹo:** Muốn lọc riêng người đăng ký đại lý, gõ **Đăng ký trở thành Đại lý** vào ô tìm kiếm.
+
+### Xoá
+
+Tích chọn các dòng, chọn **Hành động hàng loạt → Xóa**, rồi **bấm Áp dụng**.
+
+> **Cẩn thận:** Xoá xong là dòng đó **biến mất khỏi danh sách, không có thùng rác để lấy lại**. Mỗi dòng ở đây là một khách hàng tiềm năng — đừng xoá cho gọn mắt.
+
+> **Không thấy mục "Gửi liên hệ"?** Mục này cần **quyền quản lý liên hệ** (không cần quyền xem báo cáo). Hãy nhờ quản trị viên cấp quyền đó cho tài khoản của bạn.
 
 ## Báo cáo mua tín dụng
 
@@ -186,6 +170,40 @@ Trang này có chức năng **xuất báo cáo ra tệp Excel** để bạn lưu
 
 > **Mẹo cho kế toán:** cuối tháng xuất tệp này ra, đối chiếu với sao kê ngân hàng. Nếu có dòng nào trên hệ thống mà không có trên sao kê, nghĩa là ai đó đã duyệt nhầm — cần rà soát ngay.
 
+## Log 9Pay
+
+Mỗi lần khách thanh toán qua cổng **9Pay**, hệ thống ghi lại một dòng nhật ký ở đây. Bạn vào mục này khi khách báo **"tôi đã trả tiền rồi mà đơn chưa được xác nhận"**.
+
+> **Đường dẫn:** Menu bên trái > **Báo cáo** > **Log 9Pay**
+
+### Màn hình này có gì
+
+Danh sách **30 dòng mỗi trang**, mới nhất lên đầu. Các cột quan trọng:
+
+* **Loại** — ai báo kết quả:
+  * **IPN**: 9Pay **tự động** báo kết quả thanh toán về website.
+  * **Admin xác nhận**: nhân viên bấm nút **xác nhận thanh toán 9Pay** trong danh sách đơn hàng để hỏi lại 9Pay.
+* **Booking** — mã đơn hàng. Bấm vào để mở đơn ở tab mới.
+* **Số tiền** — số tiền khách trả.
+* **Status 9Pay** — 9Pay báo về thế nào: **Thành công**, **Thất bại**, **Đã huỷ**, **Hết hạn**, **Đang xử lý**.
+* **Kết quả** — website đã xử lý dòng đó ra sao.
+* **Thời gian** — lúc nhận được thông báo.
+* Nút **`</>`** ở cuối dòng — mở **dữ liệu gốc** 9Pay gửi về, kèm thông báo lỗi nếu có. Dùng khi cần gửi cho bộ phận kỹ thuật.
+
+### Tìm kiếm và lọc
+
+* Ô tìm kiếm: gõ **mã đơn hàng**, **invoice\_no** hoặc **mã giao dịch 9Pay**.
+* Lọc theo **Loại**, **Kết quả**, và **khoảng ngày**.
+* Bấm **Tìm** để lọc, bấm **Reset** để xoá hết bộ lọc.
+
+> **Khách nói đã trả tiền nhưng đơn chưa xác nhận — làm thế nào?** Gõ mã đơn vào ô tìm kiếm:
+>
+> 1. **Có dòng "Thành công"** → tiền đã về. Kiểm tra lại trạng thái đơn hàng.
+> 2. **Có dòng nhưng "Thất bại" / "Đã huỷ" / "Hết hạn"** → giao dịch không thành công. Báo khách thanh toán lại.
+> 3. **Không có dòng nào** → 9Pay chưa báo về. Vào danh sách đơn hàng, bấm **xác nhận thanh toán 9Pay** để hệ thống hỏi lại 9Pay.
+
+> **Không thấy mục "Log 9Pay"?** Mục này cần **cả** quyền xem báo cáo **và** quyền xem đơn hàng.
+
 ## Lưu ý & xử lý sự cố
 
 **Số trên báo cáo không khớp với số tôi tự tính.** Hãy kiểm tra 3 điều trước khi kết luận là lỗi:
@@ -198,12 +216,14 @@ Trang này có chức năng **xuất báo cáo ra tệp Excel** để bạn lưu
 
 **Chọn hành động hàng loạt nhưng không thấy gì xảy ra.** Bạn quên **bấm nút áp dụng** sau khi chọn. Đây là lỗi phổ biến nhất trên mọi màn hình danh sách. Hãy: tích chọn dòng → chọn hành động → **bấm áp dụng**.
 
-**Tìm khách mà không ra ở "Báo cáo yêu cầu".** Ô tìm kiếm ở đó **chỉ tìm theo email**. Gõ tên hay số điện thoại sẽ không ra kết quả — đây là giới hạn của màn hình, không phải lỗi.
+**Tìm khách mà không ra ở "Gửi liên hệ".** Ô tìm kiếm ở đó tìm theo **tên, email, nội dung** — **không tìm theo số điện thoại**. Hãy gõ tên hoặc email của khách.
 
 **Không thấy đơn của các nhà cung cấp khác.** Nếu tài khoản bạn không có quyền xem dữ liệu của người khác, bạn chỉ thấy phần của mình. Cần xem toàn bộ thì phải nhờ quản trị viên cấp quyền.
 
 ## Xem thêm
 
+* [3.4. Yêu cầu báo giá](../khoi-san-pham/yeu-cau-bao-gia.md) — trả lời câu hỏi của khách về từng sản phẩm
+* [3.16. Đơn hàng](../khoi-san-pham/don-hang.md) — xử lý đơn, xác nhận thanh toán
 * [4.9. Cài đặt](cai-dat.md) — cấu hình tiền tệ, ảnh hưởng đến cách hiển thị số tiền trong báo cáo
 * [4.10. Tích hợp](tich-hop.md) — nối đơn hàng sang CRM, nhận thông báo đơn mới qua Telegram
 * [4.11. Công cụ](cong-cu.md) — nhật ký hệ thống

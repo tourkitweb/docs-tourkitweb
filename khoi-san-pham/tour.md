@@ -140,6 +140,8 @@ Mỗi ngày bạn có thể thêm hình ảnh minh họa kèm theo phần mô t�
 Sau khi lưu lần đầu, hãy quay lại các tab ở cột trái để hoàn thiện:
 
 * **Location** (Địa điểm) — chọn nơi tour diễn ra. Nếu không thấy địa điểm cần chọn, nghĩa là nó chưa được tạo — xem bài [3.1. Địa điểm](dia-diem.md).
+  * Ô **"Điểm đến"** — nơi chính của tour. Dùng cho đường dẫn, dòng "Trang chủ > …" phía trên tour và đồng bộ CRM.
+  * Ô **"Các điểm đến khác"** — tour đi nhiều nơi (_"Đà Nẵng – Huế"_, _"Đức – Ý – Thuỵ Sĩ – Pháp"_) thì chọn thêm ở đây. Khách tìm theo nơi nào trong số đó cũng ra tour, và tour có mặt ở **trang tour của từng nơi** (xem [Trang tour theo địa điểm](#trang-tour-theo-dia-diem)).
 * **Pricing** (Giá cả) — thiết lập mức giá cho tour.
 * **Availability** (Cập nhật giá) — đảm bảo tour có ít nhất một ngày khởi hành được mở bán. **Bỏ qua bước này thì khách nhìn thấy tour nhưng không đặt được.**
 
@@ -151,6 +153,30 @@ Sau khi lưu lần đầu, hãy quay lại các tab ở cột trái để hoàn 
 > **Đây là lỗi số một của người mới:** nhập cả tiếng đồng hồ, bấm Lưu, rồi ra website tìm mãi không thấy tour đâu. Nguyên nhân gần như luôn là trạng thái vẫn đang để **"Draft"** (Bản nháp) — nghĩa là chỉ lưu cho bạn xem, khách chưa nhìn thấy. Hãy vào sửa lại, chọn **"Publish"** rồi lưu thêm lần nữa.
 
 ![](../.gitbook/assets/pg087-0.png)
+
+> **Ảnh tour:** ảnh đại diện nên là **1200 × 800 px, dưới 300 KB**; ảnh bộ sưu tập và ảnh lịch trình **rộng 1920 px, dưới 500 KB**. Hệ thống không tự thu nhỏ ảnh nên ảnh nặng bao nhiêu khách tải bấy nhiêu — xem [Kích thước ảnh chuẩn](../kich-thuoc-anh.md).
+
+## Trang tour theo địa điểm
+
+Mỗi địa điểm có sẵn một trang liệt kê **toàn bộ tour đi tới nơi đó**, địa chỉ dạng:
+
+`tenmien.com/tour/da-nang` · `tenmien.com/tour/phu-quoc` · `tenmien.com/tour/nhat-ban`
+
+**Trang này làm ra để giúp SEO.** Người gõ _"tour Đà Nẵng"_ là người đang muốn mua tour. Google ưu tiên trang có đúng cụm đó trong đường dẫn và tiêu đề, và nội dung đúng là danh sách tour Đà Nẵng — trang `/tour/da-nang` được dựng đúng như vậy. Đây là trang bạn muốn đưa lên top Google nhất, vì khách vào đây là đặt được ngay.
+
+Trang gom cả tour của **địa điểm con**: trang `/tour/viet-nam` có mọi tour trong nước, trang `/tour/da-nang` có cả tour Hội An, Bà Nà (nếu chúng là con của Đà Nẵng).
+
+### Việc của bạn để trang này mạnh lên
+
+1. **Chọn đúng "Điểm đến" và "Các điểm đến khác"** cho từng tour (tab **Location**). Tour Đà Nẵng – Huế phải chọn **cả hai**, không thì tour chỉ hiện ở một trang.
+2. **Tour để "Publish"** — bản nháp không được liệt kê.
+3. **(Không bắt buộc) Viết tiêu đề Google riêng**: trang tour theo địa điểm lấy **Tiêu đề SEO** và **Mô tả** từ khung SEO ở màn sửa **địa điểm** (không phải của tour nào cả). Để trống thì hệ thống tự đặt _"Tour Đà Nẵng"_ và mô tả _"Danh sách 24 tour Đà Nẵng: lịch trình, giá tour, ngày khởi hành và đặt tour trực tuyến."_ — đã dùng được. Muốn hấp dẫn hơn thì điền, ví dụ _"Tour Đà Nẵng trọn gói, khởi hành hằng ngày"_; lưu ý tiêu đề đó cũng dùng cho trang tổng hợp `/location/…`. Xem [3.1. Địa điểm](dia-diem.md#man-sua-dia-diem-co-gi-de-lam-seo).
+4. **Đưa trang lên menu**: thêm địa điểm vào menu — mặc định bấm vào là mở đúng trang tour theo địa điểm. Xem [4.6. Menu](../khoi-he-thong/menu.md#muc-menu-la-dia-diem-khi-bam-mo-trang-nao).
+5. **Gắn link từ bài viết**: bài _"Kinh nghiệm du lịch Đà Nẵng"_ nên có một câu dẫn tới `/tour/da-nang`.
+
+> **Đừng tạo danh mục tour trùng tên địa điểm.** Đường dẫn `/tour/da-nang` được tìm theo thứ tự **tour → danh mục tour → địa điểm**. Có một **danh mục** "Đà Nẵng" mang đường dẫn `da-nang` thì `/tour/da-nang` mở **trang danh mục**, không phải trang địa điểm — menu sẽ tự chuyển sang trang tìm kiếm cho khỏi lỗi, nhưng trang SEO coi như mất. Danh mục dùng để chia **kiểu tour** (Tour trong nước, Tour nước ngoài, Tour MICE, Combo…); **nơi đến** thì để địa điểm lo.
+
+> 📷 *[Cần chụp màn hình: tab Location của màn sửa tour — ô "Điểm đến" và ô "Các điểm đến khác" đã chọn 2 nơi]*
 
 ## Danh mục
 
@@ -176,6 +202,8 @@ Làm ở bảng **bên phải**:
 * **Hành động hàng loạt:** tích chọn nhiều mục → chọn lệnh **"Xóa"** → nhấn **"Áp dụng"**.
 
 > **Mẹo:** Đừng tạo quá nhiều danh mục. Khoảng 5–8 nhóm rõ ràng thì khách dễ chọn; ba chục nhóm chồng chéo chỉ khiến khách rối.
+
+> **Không đặt tên danh mục theo nơi đến** ("Đà Nẵng", "Phú Quốc", "Nhật Bản"). Nơi đến đã có **địa điểm** lo, và danh mục trùng tên sẽ chiếm mất đường dẫn `/tour/da-nang` của trang tour theo địa điểm — xem [Trang tour theo địa điểm](#trang-tour-theo-dia-diem).
 
 ![](../.gitbook/assets/pg088-1.png)
 
@@ -345,11 +373,17 @@ Dữ liệu sẽ trở lại danh sách hoạt động như chưa hề bị xóa
 
 **Lỡ xóa nhầm tour:** vào mục **"Khôi phục"**, tìm và bấm **"Khôi phục"**. Đừng hoảng, dữ liệu vẫn còn.
 
-**Ảnh lịch trình tải mãi không lên:** ảnh quá nặng. Ảnh chụp từ điện thoại thường 5–10 MB. Hãy giảm còn khoảng 1–2 MB rồi tải lại.
+**Ảnh lịch trình tải mãi không lên:** ảnh quá nặng. Ảnh chụp từ điện thoại thường 5–10 MB. Hãy đổi cỡ và nén theo [Kích thước ảnh chuẩn](../kich-thuoc-anh.md) (dưới 500 KB) rồi tải lại.
+
+**Trang `/tour/<địa điểm>` không có tour mình vừa thêm.** Kiểm tra tour đã chọn **"Điểm đến"** (hoặc có nơi đó trong **"Các điểm đến khác"**) và đang **"Publish"** chưa.
+
+**Bấm mục địa điểm trên menu mà ra trang danh mục, hoặc ra trang tìm kiếm có `?location_id=`.** Đang có danh mục tour (hoặc tour) trùng đường dẫn với địa điểm. Đổi đường dẫn của danh mục đó, hoặc xoá nếu không dùng — xem [Trang tour theo địa điểm](#trang-tour-theo-dia-diem).
 
 ## Xem thêm
 
 * [3. Khối SẢN PHẨM](./)
-* [3.1. Địa điểm](dia-diem.md)
+* [3.1. Địa điểm](dia-diem.md) — 3 trang SEO mà mỗi địa điểm tự sinh ra
 * [3.2. Khách sạn](khach-san.md)
 * [3.4. Yêu cầu báo giá](yeu-cau-bao-gia.md)
+* [4.6. Menu](../khoi-he-thong/menu.md) — đưa trang tour theo địa điểm lên menu
+* [Kích thước ảnh chuẩn](../kich-thuoc-anh.md)

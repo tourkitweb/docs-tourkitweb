@@ -8,7 +8,7 @@
 
 * Bạn đăng nhập rồi tự đặt đơn → giá GIẢM NGAY theo mức của hạng bạn đang mang. Bạn thu tiền khách theo giá niêm yết, phần chênh là của bạn.
 * Khách do bạn giới thiệu tự đặt → bạn nhận HOA HỒNG vào ví khi đơn hoàn tất.
-* Không có tuyến dưới. Menu "Tuyến dưới của tôi" không hiện.
+* Không có tuyến dưới. Menu "Tuyến dưới" không hiện.
 * Mọi đại lý đều mang một hạng.
 
 **Chế độ PHÂN CẤP (đang chạy)**
@@ -61,24 +61,76 @@ _<mark style="color:$danger;">**Một tài khoản chỉ mang MỘT vai:**</mark
 
 ### 3. Khu đại lý gồm những gì
 
-Sau khi đăng nhập, mở trang tài khoản của bạn. Trong thanh menu bên trái có một nhóm riêng tên "KHU ĐẠI LÝ" — chỉ tài khoản đại lý mới nhìn thấy nhóm này.
+Sau khi đăng nhập, bấm vào tên tài khoản ở đầu trang (hoặc mở thẳng `/dai-ly/tong-quan`). Khu đại lý có thanh menu riêng nằm ngang ở đầu trang — chỉ tài khoản đại lý mới vào được. Số dư ví hiện ngay trên thanh menu; bấm vào tên của bạn ở góc phải để xem hạng, hồ sơ, tài khoản ngân hàng và trang hướng dẫn.
 
-| Mục menu           | Đường dẫn                                                             | Dùng để làm gì                                               |
-| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------ |
-| Bảng điều khiển    | <mark style="background-color:$info;">`/tai-khoan/dai-ly/hang`</mark> | Hạng, doanh số, quyền lợi từng dịch vụ.                      |
-| Tuyến dưới của tôi | `/tai-khoan/dai-ly/tuyen-duoi`                                        | Cây tuyến, đặt tỉ lệ chia cho cấp dưới.                      |
-| Khách hàng         | `/tai-khoan/dai-ly/khach-hang`                                        | Danh sách khách bạn đã giới thiệu và đơn của họ.             |
-| Sổ hoa hồng        | `/tai-khoan/dai-ly/hoa-hong`                                          | Từng dòng tiền: đơn nào, cấp mấy, bao nhiêu, đã vào ví chưa. |
-| Link giới thiệu    | `/tai-khoan/dai-ly/lien-ket`                                          | Tạo và quản lý link chia sẻ.                                 |
-| Nạp tiền vào ví    | `/tai-khoan/dai-ly/nap-tien`                                          | Nạp tiền và xem lịch sử giao dịch ví.                        |
+| Mục menu                              | Đường dẫn                                                      | Dùng để làm gì                                                                                   |
+| ------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| Tổng quan                             | <mark style="background-color:$info;">`/dai-ly/tong-quan`</mark> | Mở mỗi sáng: việc sắp mất chỗ hoặc mất tiền, doanh số và lãi kỳ này, chỗ đang giữ, ví, mạng lưới. |
+| Tìm và nhận chỗ                       | <mark style="background-color:$info;">`/dai-ly/tim-cho`</mark> | Tìm chuyến tour / phòng khách sạn còn trống, xem giá của bạn và lãi, giữ chỗ hoặc đặt ngay.      |
+| Chỗ đang giữ                          | `/dai-ly/cho-dang-giu`                                         | Các lượt giữ còn hạn: điền thông tin khách, thanh toán hoặc trả chỗ.                             |
+| Đơn hàng                              | `/dai-ly/don-hang`                                             | Đơn chính bạn đặt: xem chi tiết, in hoá đơn, thanh toán tiếp.                                    |
+| Ví                                    | `/dai-ly/nap-tien`                                             | Nạp tiền và xem lịch sử giao dịch ví.                                                            |
+| Hoa hồng                              | `/dai-ly/hoa-hong`                                             | Từng dòng tiền: đơn nào, cấp mấy, bao nhiêu, đã vào ví chưa.                                     |
+| Mạng lưới → Khách hàng của tôi        | `/dai-ly/khach-hang`                                           | Danh sách khách bạn đã giới thiệu và đơn của họ.                                                 |
+| Mạng lưới → Tuyến dưới                | `/dai-ly/tuyen-duoi`                                           | Cây tuyến, đặt tỉ lệ chia cho cấp dưới.                                                          |
+| Mạng lưới → Link giới thiệu           | `/dai-ly/lien-ket`                                             | Tạo và quản lý link chia sẻ.                                                                     |
+| Hạng và quyền lợi (menu tài khoản)    | `/dai-ly/hang`                                                 | Hạng, doanh số, quyền lợi từng dịch vụ.                                                          |
+| Hồ sơ đại lý (menu tài khoản)         | `/dai-ly/ho-so`                                                | Sửa thông tin, tài khoản ngân hàng nhận hoa hồng, đổi mật khẩu.                                  |
 
 {% hint style="info" %}
 _<mark style="color:blue;">**Menu thiếu mục nào đó?:**</mark>_&#x20;
 
-"Tuyến dưới của tôi" chỉ hiện khi sàn bật chế độ phân cấp. Nếu bạn không thấy mục này, sàn đang chạy đơn cấp — không phải tài khoản bạn bị lỗi.
+"Tuyến dưới" chỉ hiện khi sàn bật chế độ phân cấp. Nếu bạn không thấy mục này, sàn đang chạy đơn cấp — không phải tài khoản bạn bị lỗi.
 {% endhint %}
 
-### 4. Bảng điều khiển & hạng
+#### Màn Tổng quan — mở mỗi sáng
+
+Màn này trả lời ba câu, theo đúng thứ tự:
+
+1. **Việc cần xử lý** — hôm nay có gì sắp mất chỗ hoặc mất tiền nếu quên. Mỗi dòng có một nút đi thẳng tới chỗ xử lý: chấm đỏ là quá hạn hoặc còn dưới 3 giờ, chấm cam là trong vòng 48 giờ. Không có việc nào thì khối này báo rõ "Không có việc nào cần xử lý hôm nay".
+2. **Bán được bao nhiêu** — bốn thẻ chỉ số theo kỳ đang chọn (Tháng này / Tháng trước / 30 ngày): doanh số khách trả, lãi bán trực tiếp, tiền nhận từ cấp dưới, số đơn đã xác nhận. Biểu đồ bên dưới tách tour và khách sạn theo từng ngày; bấm nút **Lãi** để xem lãi thay vì doanh số, rê chuột vào một cột để xem ngày đó.
+3. **Mạng lưới chạy thế nào** — bảng cấp dưới trực tiếp: doanh số kỳ này của nhánh họ và số tiền bạn nhận được từ họ.
+
+Bên phải còn hai thẻ: **Ví và hoa hồng** (số dư, số tiền cần để chốt hết chỗ đang giữ, hoa hồng đã vào ví và đang chờ) và **Điểm bán hàng**.
+
+{% hint style="info" %}
+_<mark style="color:blue;">**Điểm bán hàng là gì:**</mark>_&#x20;
+
+Điểm trên thang 100, chấm trên chính lượt giữ chỗ của bạn trong 90 ngày gần nhất: 70% là tỉ lệ chỗ đã nhận rồi bán được, 30% là tỉ lệ lượt bạn **tự bấm trả** thay vì để hết hạn. Giữ nhiều rồi bỏ đó làm tụt điểm; trả sớm những chỗ không bán được thì điểm tăng. Điểm càng cao càng dễ được sàn xét nâng hạn mức giữ chỗ.
+{% endhint %}
+
+Đơn chưa xác nhận (mới giữ chỗ) **không** được tính vào doanh số. Doanh số tính theo giá bán bạn đã soạn trong báo giá; chưa soạn thì lấy giá niêm yết.
+
+Trên điện thoại, màn này chỉ hiện việc cần xử lý, bốn thẻ chỉ số, chỗ đang giữ và ví — biểu đồ và bảng mạng lưới xem trên máy tính.
+
+#### Giữ chỗ cho khách
+
+Ở màn **Tìm và nhận chỗ**, chọn một chuyến tour hoặc một loại phòng rồi chọn hình thức ở khung bên phải:
+
+* **Giữ chỗ** — chưa trừ tiền. Tour giữ tối đa 24 giờ nhưng không quá hạn trả chỗ (mặc định 7 ngày trước ngày khởi hành); phòng khách sạn giữ 2 giờ. Các con số này do quản trị viên đặt trong Cài đặt → Đại lý.
+* **Đặt & thanh toán** — chuyển thẳng sang bước điền thông tin khách và thanh toán (chọn trả bằng ví đại lý).
+
+Tour có nhiều loại giá (người lớn, trẻ em, người già…) thì khung *Nhận chỗ nhanh* cho nhập **số khách từng loại**; tiền và số chỗ tính theo đúng cơ cấu đó, giống form đặt tour ngoài website. Tour có nhiều điểm khởi hành thì chọn điểm trước vì mỗi điểm một bảng giá.
+
+Tour chỉ chạy vài ngày trong tháng thì mỗi ngày khởi hành là một dòng riêng (không có nhãn *Hằng ngày*). Chuyến gần nhất nằm ngoài khoảng ngày đang tìm vẫn được hiện kèm nhãn **Ngoài khoảng tìm**, để bạn không tưởng tour đã ngừng bán.
+
+Mỗi dòng tour và mỗi khách sạn có **ảnh nhỏ ở đầu dòng**, góc ảnh ghi số ảnh. Bấm vào ảnh — hoặc nút **Chi tiết** — để mở **ngăn kéo xem nhanh** trượt ra từ bên phải: danh sách vẫn nhìn thấy phía sau, bấm dòng khác là nội dung đổi ngay chứ không phải đóng rồi mở lại.
+
+Trong ngăn kéo, với tour có **Ảnh**, **Lịch trình** từng ngày kèm ảnh, **Thông tin chung** (giá bao gồm / không bao gồm, điều kiện hoàn huỷ) và **Vị trí & đánh giá**; với khách sạn có **Ảnh**, **Phòng** (ảnh từng loại phòng, diện tích, giường, tiện ích, giá và nút giữ phòng), **Chính sách**, **Tiện nghi**, **Vị trí & đánh giá**. Khung *Nhận chỗ nhanh* nằm ở đáy ngăn kéo nên xem xong là giữ chỗ được luôn tại đó.
+
+Trong lúc giữ, chỗ đã bị trừ khỏi số chỗ còn — người khác không đặt được. Vào **Chỗ đang giữ** để điền thông tin khách và thanh toán trước khi hết giờ; hết giờ mà chưa thanh toán thì chỗ tự trả lại. Không cần nữa thì bấm **Trả chỗ** để nhả sớm.
+
+{% hint style="warning" %}
+**Hai điều cần biết:** khách sạn đối tác (nhãn "Khách sạn đối tác · đặt ngay") không giữ được phòng — đối tác không có chức năng giữ, chỉ đặt ngay; giá và phòng được kiểm lại lúc đặt. Mỗi đại lý chỉ được giữ một số chỗ nhất định cùng lúc (mặc định 20, tính chung khách tour và phòng khách sạn).
+{% endhint %}
+
+{% hint style="success" %}
+_<mark style="color:green;">**Nếu sàn bật "trừ hoa hồng vào giá":**</mark>_&#x20;
+
+Giá bạn thấy trong khu đại lý đã là **giá bán lẻ trừ hoa hồng của chính bạn** — trả ít hơn ngay lúc đặt, và khoản đó **không về ví lần nữa** (sổ hoa hồng ghi 0đ kèm lý do "Đã trừ vào giá đơn"). Tuyến trên của bạn vẫn nhận phần của họ vào ví sau khi đơn thanh toán. Đặt ngoài khu đại lý (mua như khách trên website) thì vẫn trả giá niêm yết.
+{% endhint %}
+
+### 4. Hạng và quyền lợi
 
 Hạng (Đồng, Bạc, Vàng, Kim cương… tuỳ sàn đặt tên) quyết định NGÂN SÁCH mà sàn chi ra cho mỗi đơn. Mỗi hạng có một bảng mức riêng cho từng dịch vụ, và có thể khai riêng cho từng danh mục.
 
@@ -169,7 +221,7 @@ Khách đã được gắn vào tuyến trước đó VẪN LÀ của bạn — 
 
 ### 6. Tuyến dưới & tỉ lệ chia
 
-Trang "Tuyến dưới của tôi" hiện toàn bộ nhánh bên dưới bạn: số cấp dưới trực tiếp, tổng số người toàn nhánh, doanh số nhánh và số đơn. Phần cây có thể gấp/mở từng nhánh; mỗi dòng ghi sẵn nhánh đó có bao nhiêu người bên dưới.
+Trang "Tuyến dưới" hiện toàn bộ nhánh bên dưới bạn: số cấp dưới trực tiếp, tổng số người toàn nhánh, doanh số nhánh và số đơn. Phần cây có thể gấp/mở từng nhánh; mỗi dòng ghi sẵn nhánh đó có bao nhiêu người bên dưới.
 
 #### Đặt tỉ lệ chia cho cấp dưới
 
@@ -270,7 +322,7 @@ Danh sách những người đã gắn vào tuyến của bạn (bằng link ho�
 {% hint style="info" %}
 _<mark style="color:blue;">**Danh sách này chỉ gồm KHÁCH, không gồm đại lý cấp dưới**</mark>_
 
-Cấp dưới của bạn nằm ở trang "Tuyến dưới của tôi". Hai danh sách khác nhau và không trùng nhau.
+Cấp dưới của bạn nằm ở trang "Tuyến dưới". Hai danh sách khác nhau và không trùng nhau.
 {% endhint %}
 
 ### 10. Ví, nạp tiền & thanh toán
@@ -279,7 +331,7 @@ Mỗi tài khoản đại lý có một ví. Ví nhận hoa hồng, nhận tiề
 
 #### Nạp tiền
 
-1. **Tạo yêu cầu.** Vào "Nạp tiền vào ví" → nhập số tiền (tối thiểu 1.000đ).
+1. **Tạo yêu cầu.** Vào "Ví" → nhập số tiền (tối thiểu 1.000đ).
 2. **Chuyển khoản.** Màn hình hiện thông tin ngân hàng của sàn, mã QR VietQR và MỘT MÃ CHUYỂN KHOẢN riêng cho yêu cầu này.
 3. **Ghi đúng mã vào nội dung chuyển khoản.** Quét QR thì nội dung đã điền sẵn. Chuyển tay mà ghi sai nội dung thì kế toán không đối chiếu được, tiền vào chậm.
 4. **Bấm "Tôi đã chuyển khoản".** Việc này chỉ báo cho sàn biết để kiểm tra — chưa cộng tiền.

@@ -81,21 +81,23 @@ Nhấn nút **"Áp dụng"** ngay bên cạnh.
 
 ![](../.gitbook/assets/pg071-1.png)
 
-**Bước 2:** Màn hình chỉnh sửa hiện ra. Bạn có thể thay đổi:
+**Bước 2:** Màn hình chỉnh sửa hiện ra, chia thành **6 tab ở cột hẹp bên trái** (Chung, Địa điểm, Giá cả, Danh mục, Trạng thái, SEO). Bấm vào tab chứa thứ bạn cần sửa:
 
-* Tên khách sạn, nội dung mô tả và hạng sao.
-* Địa điểm (quốc gia/thành phố) và ghim lại vị trí trên bản đồ nếu cần.
-* Ảnh đại diện, hoặc thêm ảnh vào Bộ sưu tập ảnh.
+* Tên, mô tả, ảnh bìa, bộ sưu tập ảnh, hạng sao → tab **Chung**.
+* Địa điểm, địa chỉ, tọa độ bản đồ → tab **Địa điểm**.
+* Ảnh đại diện, tiện ích, bật/tắt hiển thị → tab **Trạng thái**.
 
-**Bước 3:** Nhấn nút **"Lưu thay đổi"** để hoàn tất.
+Bảng đầy đủ tab nào chứa gì xem ở phần [Thêm khách sạn mới](#them-khach-san-moi) bên dưới.
 
-> **Lưu ý:** Sửa xong nhớ kiểm tra khung **"Publish"** ở cột bên phải. Nếu trạng thái đang là **"Draft"** (Bản nháp), khách vào website sẽ không nhìn thấy khách sạn này.
+**Bước 3:** Nhấn nút **"Lưu thay đổi"** ở **chân màn hình**. Một lần bấm lưu **tất cả các tab** — không cần lưu từng tab.
+
+> **Lưu ý:** Sửa xong nhớ mở tab **Trạng thái** kiểm tra khung **"Xuất bản"**. Nếu đang chọn **"Bản nháp"**, khách vào website sẽ không nhìn thấy khách sạn này.
 
 ## d, Hướng dẫn Quản lý phòng
 
 Đây là bước quan trọng nhất — nơi bạn tạo các loại phòng bên trong khách sạn. Không có phòng thì khách không đặt được.
 
-Trong màn hình chỉnh sửa khách sạn, bạn tìm nút **"Manage Rooms"** (Quản lý phòng) ở phía trên. Tại đây bạn khai báo từng loại phòng:
+Trong màn hình chỉnh sửa khách sạn, bạn tìm nút màu vàng **"Quản lý phòng"** ở **góc trên bên phải** — bấm vào sẽ mở danh sách phòng trong **tab trình duyệt mới**. Nút này **chỉ hiện sau khi khách sạn đã được lưu ít nhất một lần**. Tại đây bạn khai báo từng loại phòng:
 
 * **Thêm phòng mới:** nhập tên phòng (ví dụ: Deluxe hướng biển), tải lên ảnh đại diện và bộ sưu tập ảnh riêng của loại phòng đó.
 *   **Cấu hình giá và số lượng:** nhập giá cơ bản, số lượng phòng bạn có ở loại này, và số người tối đa mỗi phòng chứa được (người lớn/trẻ em).
@@ -127,41 +129,110 @@ Sau khi đã có phòng, đây là nơi bạn điều phối việc bán phòng 
 
 {% embed url="https://youtu.be/mtW6_h7HJiU?si=we04T8zD60YMx4Da" %}
 
-Màn hình thêm khách sạn khá dài, nhưng bạn đừng ngại. Nó chỉ là các khung xếp chồng lên nhau từ trên xuống dưới, bạn cuộn chuột và điền dần. Cột bên phải là nơi chứa các thiết lập phụ (trạng thái đăng, ảnh đại diện, danh mục).
+Màn hình thêm khách sạn chia thành **6 tab** nằm ở **cột hẹp bên trái**, dưới tiêu đề **"Thông tin khách sạn"** — giống hệt màn hình tour. Bấm tab nào thì nội dung tab đó hiện ra ở khoảng rộng bên phải. Nút **"Lưu thay đổi"** nằm ở **chân màn hình** và lưu **tất cả các tab cùng lúc** — bạn cứ điền lần lượt từng tab rồi bấm lưu một lần.
+
+| Tab            | Trong tab có gì                                                                                                                                             |
+| -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Chung**      | Tên, mô tả, video, ảnh bìa, bộ sưu tập ảnh, thông tin nổi bật, chính sách khách sạn (hạng sao, điện thoại, email), **liên hệ của khách sạn**, câu hỏi chính sách, khách sạn tương tự, khu vực xung quanh |
+| **Địa điểm**   | Địa điểm, địa chỉ thực tế, tọa độ bản đồ                                                                                                                    |
+| **Giá cả**     | Giờ nhận/trả phòng, đặt trước tối thiểu, số đêm tối thiểu, giá, giá khuyến mãi, flash sale, phụ thu, phí dịch vụ, chính sách trẻ em                         |
+| **Danh mục**   | Tích chọn nhóm phân loại khách sạn                                                                                                                          |
+| **Trạng thái** | Xuất bản / Bản nháp, tác giả, nổi bật, tiện ích (thuộc tính), **ảnh đại diện**                                                                               |
+| **SEO**        | Khung SEO — khách sạn hiện ra thế nào trên Google                                                                                                           |
+
+> **Khác tour ở chỗ:** khách sạn không có tab nào bị khoá. Bạn điền tab nào trước cũng được. Riêng nút **"Quản lý phòng"** (tạo phòng) chỉ hiện sau lần lưu đầu tiên.
+
+> 📷 *[Cần chụp màn hình: màn sửa khách sạn — cột tab bên trái (Chung, Địa điểm, Giá cả, Danh mục, Trạng thái, SEO) và nút "Lưu thay đổi" ở chân]*
 
 ### Bước 1: Mở màn hình thêm mới
 
 Vào menu **Khách sạn** > chọn **"Thêm khách sạn mới"**. Hoặc từ màn hình danh sách, nhấn nút màu xanh ở **góc trên bên phải**.
 
-### Bước 2: Hoàn thiện nội dung chính
+### Bước 2: Tab "Chung" — nội dung chính
 
-Ở khung nội dung phía trên cùng:
+* **Tiêu đề** — tên khách sạn. **Bắt buộc.** Đường dẫn của khách sạn được tạo từ tên này ở lần lưu đầu, nên hãy gõ đúng tên trước khi lưu.
+* **Nội dung** — bài giới thiệu khách sạn.
+* **Video Youtube** — dán link video nếu có, không bắt buộc.
+* **Ảnh bìa** — ảnh lớn ở đầu trang chi tiết (tuỳ giao diện có dùng hay không).
+* **Bộ sưu tập ảnh** — các ảnh để khách xem chi tiết: sảnh, phòng, hồ bơi, nhà hàng.
+* **Thông tin nổi bật** — vài dòng điểm mạnh (ví dụ "Cách biển 50 m", "Hồ bơi vô cực"). Bấm **"Thêm mục"** để thêm dòng.
+* Khung **"Chính sách khách sạn"**:
+  * **Xếp hạng sao** — gõ số, ví dụ `5`.
+  * **Số điện thoại** và **Hotel Email** — tự lấy từ dòng đầu của danh sách **"Liên hệ của khách sạn"** ngay bên dưới, bạn không cần gõ.
+* **Liên hệ của khách sạn** — số điện thoại, email của lễ tân, kế toán, chủ nhà… Danh sách này **chỉ dùng nội bộ** để gửi thông báo, **không hiện cho khách** trên website. Ở mỗi dòng, tích ô **"Nhận thông báo"** để chọn người đó nhận loại thông báo nào; phải nhập email thì mới tích được.
+* **Chính sách** — các câu hỏi – đáp về quy định (giờ yên tĩnh, thú cưng, hút thuốc…).
+* **Khách sạn tương tự** — chọn vài khách sạn để gợi ý ở cuối trang chi tiết. Để trống thì hệ thống tự gợi ý khách sạn cùng địa điểm.
+* **Khu vực xung quanh** — các điểm gần đó kèm khoảng cách (bãi biển 200 m, sân bay 5 km).
 
-* Nhập **tên khách sạn** và **nội dung mô tả** giới thiệu.
-* Tải lên **Ảnh đại diện** — đây là ảnh khách nhìn thấy đầu tiên trong danh sách, hãy chọn ảnh đẹp nhất.
-* Tải thêm ảnh vào **Bộ sưu tập ảnh** (Gallery) — các ảnh phụ để khách xem chi tiết.
-* Chọn **hạng sao** và tích các tiện ích (Wifi, hồ bơi, ăn sáng…).
+> **Về ảnh:** ảnh chụp từ điện thoại đời mới thường nặng 5–10 MB, mà hệ thống **không tự thu nhỏ ảnh** — khách vào web phải tải đúng ngần ấy, trang sẽ rất chậm. Ảnh đại diện nên là **1200 × 800 px, dưới 300 KB**; ảnh trong bộ sưu tập **1920 × 1280 px, dưới 500 KB**. Cách đổi cỡ và nén ảnh xem [Kích thước ảnh chuẩn](../kich-thuoc-anh.md). Nếu bấm tải ảnh mà quay mãi không xong, gần như chắc chắn là do ảnh quá nặng.
 
-> **Về ảnh:** ảnh chụp từ điện thoại đời mới thường nặng 5–10 MB, tải lên rất lâu và làm website chậm khi khách xem. Hãy dùng ảnh khoảng 1–2 MB là đủ đẹp. Nếu bấm tải ảnh mà quay mãi không xong, gần như chắc chắn là do ảnh quá nặng.
+### Bước 3: Tab "Địa điểm" — vị trí
 
-### Bước 3: Thiết lập vị trí
+* **Địa điểm** — bấm vào ô, **gõ vài chữ để tìm** (ví dụ `hoi an`) rồi chọn. Mỗi khách sạn chỉ chọn **một** địa điểm.
+* **Địa chỉ thực tế** — số nhà, tên đường. Gõ để tìm địa chỉ đã lưu, hoặc gõ mới.
+* **Tọa độ địa lý** — **Vĩ độ (Latitude)**, **Kinh độ (Longitude)**, **Mức zoom**. Không bắt buộc; có thì trang chi tiết hiện bản đồ đúng chỗ. Cách lấy: mở Google Maps, nhấp chuột phải vào đúng khách sạn — dòng số đầu tiên hiện ra là `vĩ độ, kinh độ`.
 
-* Chọn **Quốc gia/Thành phố** tại mục **Địa điểm**.
-* Nhập địa chỉ chính xác và ghim tọa độ trên bản đồ.
+> **Chọn địa điểm càng cụ thể càng tốt.** Khách sạn ở Hội An thì chọn **Hội An**, đừng chọn **Việt Nam**. Khách sạn sẽ tự hiện cả ở trang khách sạn Hội An lẫn trang của các địa điểm cha (Đà Nẵng, Việt Nam) — chọn chung chung thì nó chỉ hiện ở trang lớn, mất cơ hội lên trang _"khách sạn Hội An"_. Xem phần [Trang khách sạn theo địa điểm](#trang-khach-san-theo-dia-diem) bên dưới.
 
 > **Nếu không tìm thấy thành phố bạn cần trong danh sách:** nghĩa là địa điểm đó chưa được tạo. Hãy sang bài [3.1. Địa điểm](dia-diem.md) tạo nó trước, rồi quay lại đây.
 
-### Bước 4: Thiết lập giá & chính sách
+### Bước 4: Tab "Giá cả" — giờ giấc, giá & chính sách trẻ em
 
-Nhập giá cơ bản, chính sách nhận/trả phòng và các quy định về trẻ em, hủy phòng.
+* **Thời gian nhận/trả phòng** — **Giờ nhận phòng**, **Giờ trả phòng** (ví dụ `14:00`, `12:00`).
+* **Đặt trước tối thiểu** — khách phải đặt trước ít nhất bao nhiêu ngày. Để trống nếu không cần.
+* **Yêu cầu số đêm tối thiểu** — ví dụ `2` là không nhận đặt 1 đêm. Để trống nếu không cần.
+* **Giá khách sạn** và **Giá khuyến mãi** — mức giá **hiển thị** ở danh sách ("từ … đ") và dùng để tính phần trăm giảm. **Tiền khách thực trả tính theo giá của từng phòng theo ngày** (xem [Quản lý phòng](#d-huong-dan-quan-ly-phong) và [Cập nhật giá](#cap-nhat-gia)), nên hãy để giá ở đây gần bằng giá phòng rẻ nhất.
+* **Flash Sale** — khoảng thời gian bắt đầu/kết thúc giảm giá chớp nhoáng.
+* **Giá phụ thu** (tích **"Bật giá phụ thu"**) và **Phí dịch vụ** (tích **"Bật phí dịch vụ"**) — các khoản cộng thêm vào đơn, tính một lần, theo ngày hoặc theo người.
+* **Chính sách cho trẻ em** — bảng độ tuổi: trẻ dưới bao nhiêu tuổi miễn phí, từ bao nhiêu tuổi tính phí bao nhiêu.
 
-### Bước 5: Lưu lại
+> **Tab Giá cả của bạn ít ô hơn mô tả ở trên?** Một số website được đơn vị triển khai rút gọn tab này (chỉ còn giờ nhận/trả phòng và số đêm tối thiểu) vì toàn bộ giá nằm ở từng phòng. Đó là cấu hình có chủ ý, không phải lỗi.
 
-Nhấn nút **"Lưu thay đổi"** để hoàn tất.
+### Bước 5: Tab "Danh mục" và tab "Trạng thái"
 
-> **Quan trọng — bước ai cũng quên:** hãy nhìn khung **"Publish"** ở **cột bên phải**. Nếu để **"Draft"** (Bản nháp) thì khách hàng KHÔNG nhìn thấy khách sạn này trên website, dù bạn đã nhập đầy đủ và bấm Lưu. Muốn khách xem được, phải chọn **"Publish"** (Xuất bản) rồi lưu.
+* Tab **Danh mục** — tích các nhóm phù hợp (ví dụ _Resort nghỉ dưỡng_, _Khách sạn 5 sao_).
+* Tab **Trạng thái**:
+  * **Xuất bản** / **Bản nháp** — khách chỉ thấy khách sạn khi chọn **Xuất bản**.
+  * **Cài đặt tác giả** — người phụ trách khách sạn này.
+  * **Khách sạn nổi bật** (tích **"Bật nổi bật"**) — được ưu tiên ở các khối "nổi bật" trên trang chủ.
+  * **Tiện ích** (các nhóm thuộc tính: Wifi, hồ bơi, bãi đỗ xe…) — tích những gì khách sạn có. Đây là thứ khách dùng để lọc tìm.
+  * **Ảnh đại diện** — ảnh khách nhìn thấy đầu tiên trong danh sách. **1200 × 800 px**, chủ thể ở giữa.
+  * Khung **"Mã liên kết"** (Mã Hotelia, Trip Hotel ID) — dành cho kết nối hệ thống, **để trống** nếu đơn vị triển khai không dặn.
+
+### Bước 6: Tab "SEO"
+
+Điền **Tiêu đề SEO** và **Mô tả** để khách sạn hiện ra hấp dẫn trên Google. Cách điền giống hệt bài viết — xem [Đăng bài chuẩn SEO](../khoi-noi-dung/tin-tuc.md#dang-bai-chuan-seo), Bước 6.
+
+### Bước 7: Lưu, rồi tạo phòng
+
+1. Nhấn **"Lưu thay đổi"** ở **chân màn hình**.
+2. Sau khi lưu, nút vàng **"Quản lý phòng"** hiện ra ở góc trên bên phải — bấm vào để tạo các loại phòng (xem [Hướng dẫn Quản lý phòng](#d-huong-dan-quan-ly-phong)). **Chưa có phòng thì khách không đặt được.**
+
+> **Quan trọng — bước ai cũng quên:** mở tab **Trạng thái** nhìn khung **"Xuất bản"**. Nếu đang chọn **"Bản nháp"** thì khách hàng KHÔNG nhìn thấy khách sạn này trên website, dù bạn đã nhập đầy đủ và bấm lưu. Muốn khách xem được, phải chọn **"Xuất bản"** rồi lưu.
 
 ![](../.gitbook/assets/pg075-0.png)
+
+## Trang khách sạn theo địa điểm
+
+Mỗi địa điểm có sẵn một trang liệt kê **toàn bộ khách sạn ở nơi đó**, địa chỉ dạng:
+
+`tenmien.com/khach-san/da-nang` · `tenmien.com/khach-san/phu-quoc` · `tenmien.com/khach-san/ha-noi`
+
+**Trang này làm ra để giúp SEO.** Khi khách gõ _"khách sạn Đà Nẵng"_ lên Google, Google thích đưa lên một trang có đúng chữ đó trong đường dẫn, trong tiêu đề, và đúng là một danh sách khách sạn Đà Nẵng. Trang `/khach-san/da-nang` đáp ứng đủ cả ba — nó là "cửa đón" khách tìm phòng theo thành phố, thay cho trang tìm kiếm có địa chỉ dài ngoằng `?location_id=39` mà Google không đánh giá cao.
+
+Trang có sẵn: tiêu đề _"Khách sạn Đà Nẵng"_, số lượng khách sạn, ô **sắp xếp** theo giá thấp → cao, giá cao → thấp, đánh giá cao nhất, **12 khách sạn mỗi trang** có chia trang. Tiêu đề và mô tả trên Google **hệ thống tự viết** (ví dụ _"Danh sách 128 khách sạn tại Đà Nẵng: xem ảnh, giá phòng, đánh giá và đặt phòng trực tuyến."_), bạn không phải điền gì.
+
+### Việc của bạn để trang này mạnh lên
+
+1. **Mỗi khách sạn chọn đúng ô Địa điểm** (Bước 3 ở trên). Chưa chọn thì khách sạn không có mặt ở trang nào.
+2. **Khách sạn để "Publish"** — bản nháp không được liệt kê.
+3. **Ảnh đại diện đúng cỡ** (1200 × 800 px, chủ thể ở giữa): trang này là một lưới thẻ khách sạn, ảnh lệch cỡ trông rất lộn xộn. Xem [Kích thước ảnh chuẩn](../kich-thuoc-anh.md).
+4. **Đưa trang lên menu**: thêm địa điểm vào menu, ở ô **"Khi bấm, mở trang"** chọn **"Khách sạn tại địa điểm"**. Xem [4.6. Menu](../khoi-he-thong/menu.md#muc-menu-la-dia-diem-khi-bam-mo-trang-nao). Link trên menu xuất hiện ở mọi trang của website — đó là tín hiệu mạnh nhất để Google biết trang này quan trọng.
+5. **Gắn link trong bài viết**: bài _"Kinh nghiệm du lịch Đà Nẵng"_ nên có một câu dẫn tới `/khach-san/da-nang` (cách chèn link xem [Đăng bài chuẩn SEO](../khoi-noi-dung/tin-tuc.md#dang-bai-chuan-seo), Bước 4).
+
+> **Đừng đặt đường dẫn khách sạn trùng đường dẫn địa điểm.** Nếu có một khách sạn mang đường dẫn `da-nang`, thì `/khach-san/da-nang` sẽ mở **khách sạn đó** chứ không phải danh sách — kể cả khi khách sạn đó đang ở bản nháp. Hệ thống sẽ tự chuyển menu sang trang tìm kiếm cho khỏi lỗi, nhưng trang SEO coi như mất. Đường dẫn khách sạn nên là tên riêng của nó, ví dụ `muong-thanh-luxury-da-nang`.
+
+> 📷 *[Cần chụp màn hình: trang /khach-san/da-nang ngoài website — tiêu đề "Khách sạn Đà Nẵng", dòng số lượng, ô sắp xếp và lưới thẻ khách sạn]*
 
 ## Danh mục
 
@@ -281,14 +352,16 @@ Cách dùng:
 
 **Đã thêm khách sạn nhưng ngoài website không thấy:** kiểm tra theo thứ tự này.
 
-1. Trạng thái có đang là **"Publish"** (Xuất bản) không, hay vẫn là **"Draft"** (Bản nháp)?
+1. Tab **Trạng thái** đang chọn **"Xuất bản"** hay vẫn là **"Bản nháp"**?
 2. Đã tạo ít nhất một loại phòng bên trong chưa? Không có phòng thì khách không đặt được.
 3. Trong **"Cập nhật giá"**, đã mở bán ngày nào chưa?
 4. Thử tải lại trang web bằng **Ctrl + F5**.
 
 **Khách báo "hết phòng" trong khi bạn còn phòng:** vào **"Cập nhật giá"**, chọn đúng loại phòng, kiểm tra ngày khách muốn đặt xem số lượng có đang là 0 hoặc ngày đó có bị đóng bán không.
 
-**Tải ảnh mãi không lên:** ảnh quá nặng. Hãy giảm kích thước ảnh xuống khoảng 1–2 MB rồi tải lại.
+**Tải ảnh mãi không lên:** ảnh quá nặng. Hãy đổi cỡ và nén ảnh theo [Kích thước ảnh chuẩn](../kich-thuoc-anh.md) (ảnh đại diện dưới 300 KB) rồi tải lại.
+
+**Trang `/khach-san/<địa điểm>` không có khách sạn mình vừa thêm.** Kiểm tra khách sạn đã chọn **Địa điểm** chưa và đang **"Publish"** chưa. Nếu địa điểm của khách sạn là con của địa điểm đang xem (ví dụ Hội An nằm trong Đà Nẵng) thì nó vẫn hiện — không hiện nghĩa là ô "Cha" của địa điểm đang chọn sai, xem [3.1. Địa điểm](dia-diem.md).
 
 **Nhập giá bị sai số:** hãy nhập số thuần, không tự thêm dấu chấm phân cách hay chữ "đ". Ví dụ gõ `1200000` chứ đừng gõ `1.200.000đ`.
 
@@ -297,5 +370,7 @@ Cách dùng:
 ## Xem thêm
 
 * [3. Khối SẢN PHẨM](./)
-* [3.1. Địa điểm](dia-diem.md)
+* [3.1. Địa điểm](dia-diem.md) — 3 trang SEO mà mỗi địa điểm tự sinh ra
 * [3.3. Tour](tour.md)
+* [4.6. Menu](../khoi-he-thong/menu.md) — đưa trang khách sạn theo địa điểm lên menu
+* [Kích thước ảnh chuẩn](../kich-thuoc-anh.md)

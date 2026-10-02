@@ -174,7 +174,66 @@ Bảng danh sách hiển thị các cột sau:
 
 ![](../.gitbook/assets/pg068-0.png)
 
+## Trang của địa điểm trên website — vũ khí SEO
+
+Mỗi địa điểm bạn tạo **tự sinh ra 3 trang** trên website. Đây không phải chuyện kỹ thuật cho vui: mỗi trang được làm ra để **đón đúng một kiểu câu khách gõ lên Google**.
+
+| Trang                     | Ví dụ địa chỉ                 | Khách gõ gì lên Google thì trang này đón | Trang hiện gì                                                                                     |
+| ------------------------- | ----------------------------- | ----------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| **Trang tour theo địa điểm**      | `tenmien.com/tour/da-nang`        | _"tour Đà Nẵng"_, _"tour đi Đà Nẵng"_      | Toàn bộ tour đi tới Đà Nẵng (và các nơi nằm trong Đà Nẵng)                                         |
+| **Trang khách sạn theo địa điểm** | `tenmien.com/khach-san/da-nang`   | _"khách sạn Đà Nẵng"_                       | Toàn bộ khách sạn ở Đà Nẵng, có sắp xếp theo giá / đánh giá, chia trang                            |
+| **Trang tổng hợp địa điểm**       | `tenmien.com/location/da-nang`    | _"du lịch Đà Nẵng"_, _"Đà Nẵng có gì"_      | **Tất cả** về Đà Nẵng: giới thiệu, mọi loại sản phẩm đang bán (khách sạn, tour, du thuyền…), **bài viết** về Đà Nẵng, khu vực con, bản đồ |
+
+**Vì sao chia ra như vậy?** Người gõ _"khách sạn Đà Nẵng"_ muốn thấy ngay danh sách khách sạn, không muốn lội qua tour. Một trang đúng ý người tìm thì Google mới xếp cao. Đường dẫn ngắn, chứa đúng từ khoá (`/khach-san/da-nang`) cũng là một tín hiệu Google rất coi trọng.
+
+### Cách tận dụng 3 trang này
+
+1. **Đặt đường dẫn đẹp cho địa điểm.** Đường dẫn của địa điểm (phần `da-nang`) dùng chung cho cả 3 trang. Mở **"Chỉnh sửa"** địa điểm, nhìn dòng **"Liên kết cố định"** dưới tiêu đề — bấm vào phần đường dẫn để sửa: **viết thường, không dấu, nối bằng gạch ngang**, ví dụ `da-nang`, `phu-quoc`, `ha-long`.
+2. **Gắn đúng địa điểm cho sản phẩm.** Khách sạn chọn ô địa điểm, tour chọn **"Điểm đến"** (và **"Các điểm đến khác"** nếu tour đi nhiều nơi). Sản phẩm không gắn địa điểm thì không bao giờ hiện trên các trang này. Xem [3.2. Khách sạn](khach-san.md#trang-khach-san-theo-dia-diem) và [3.3. Tour](tour.md#trang-tour-theo-dia-diem).
+3. **Gắn địa điểm cho bài viết.** Trong màn viết bài có ô **"Địa điểm liên quan"** — bài gắn Đà Nẵng sẽ hiện trong khối **"Bài viết về Đà Nẵng"** của trang tổng hợp. Xem [2.1. Tin tức](../khoi-noi-dung/tin-tuc.md#dang-bai-chuan-seo).
+4. **Đưa link lên menu.** Mục menu trỏ vào địa điểm có ô **"Khi bấm, mở trang"** để chọn mở trang tour, trang khách sạn hay trang tổng hợp. Xem [4.6. Menu](../khoi-he-thong/menu.md#muc-menu-la-dia-diem-khi-bam-mo-trang-nao).
+5. **Viết phần giới thiệu và điền SEO cho địa điểm** (xem bên dưới).
+
+> **Địa điểm cha gom luôn của con.** Trang của "Việt Nam" hiện tour, khách sạn và bài viết của mọi tỉnh bên trong. Trang "Đà Nẵng" gom cả những gì gắn với "Hội An", "Bà Nà" nếu chúng là con của Đà Nẵng. Vì vậy ô **"Cha"** (Bước 1 ở trên) phải chọn đúng.
+
+### Màn sửa địa điểm có gì để làm SEO
+
+Bấm **"Chỉnh sửa"** một địa điểm trong bảng **"Tất cả vị trí"** để mở màn sửa đầy đủ — nhiều ô hơn khung "Thêm vị trí" ở cột trái:
+
+* **Mô tả** — đoạn giới thiệu hiện ở trang tổng hợp `/location/…`. Viết 300–500 chữ có ích cho khách: nên đi mùa nào, đi lại thế nào, ở khu nào. Trang có nội dung riêng thì Google mới coi là trang có giá trị, thay vì chỉ là danh sách sản phẩm.
+* **"Hình ảnh banner"** — ảnh bìa lớn ở đầu trang tổng hợp. Không chọn thì dùng ảnh đặc trưng; không có cả hai thì đầu trang là một dải màu.
+* **"Hình ảnh đặc trưng"** — ảnh nhỏ của địa điểm, hiện ở các khối danh sách địa điểm trên trang chủ.
+* **"Ý tưởng chuyến đi"** — vài gợi ý hành trình kèm ảnh và link, hiện ở cuối trang tổng hợp. Không bắt buộc.
+* **Khung SEO** (dưới phần nội dung) — **Tiêu đề SEO** và **Mô tả** hiện trên Google. Cách điền giống hệt bài viết, xem [Đăng bài chuẩn SEO](../khoi-noi-dung/tin-tuc.md#dang-bai-chuan-seo).
+
+> **Tiêu đề trên Google của 3 trang lấy từ đâu:**
+>
+> | Trang | Khung SEO của địa điểm **để trống** | Khung SEO của địa điểm **đã điền** |
+> | --- | --- | --- |
+> | Trang tổng hợp `/location/…` | Tên địa điểm, ví dụ _"Đà Nẵng"_ | Tiêu đề bạn điền |
+> | Trang tour `/tour/…` | Tự đặt _"Tour Đà Nẵng"_ + mô tả có số tour | Tiêu đề bạn điền |
+> | Trang khách sạn `/khach-san/…` | Luôn tự đặt _"Khách sạn Đà Nẵng"_ + mô tả có số khách sạn | (không dùng khung SEO của địa điểm) |
+>
+> Nghĩa là **điền khung SEO của địa điểm thì cả trang tổng hợp lẫn trang tour dùng chung tiêu đề đó**. Hãy viết nhắm vào cụm bạn muốn lên top nhất — thường là cụm có chữ "tour", vì người gõ _"tour Đà Nẵng"_ là người sắp mua. Ví dụ: `Tour Đà Nẵng trọn gói, khởi hành hằng ngày`. Không chắc viết gì thì cứ để trống: trang tour vẫn có sẵn tiêu đề _"Tour Đà Nẵng"_ tử tế.
+
+Kích thước ảnh bìa và ảnh đặc trưng nên dùng: xem [Kích thước ảnh chuẩn](../kich-thuoc-anh.md).
+
+> 📷 *[Cần chụp màn hình: trang tổng hợp /location/da-nang ngoài website — dải ảnh bìa có các nút "… khách sạn", "… tour", "… bài viết", và khối "Bài viết về Đà Nẵng"]*
+
+### Khi trang tour / khách sạn theo địa điểm "không chịu hiện"
+
+Đường dẫn `/tour/da-nang` được hệ thống tìm theo thứ tự: **tour** tên `da-nang` → **danh mục tour** tên `da-nang` → **địa điểm** `da-nang`. Nghĩa là nếu bạn có một **danh mục tour** cũng đặt đường dẫn `da-nang`, thì `/tour/da-nang` sẽ mở **trang danh mục đó**, không phải trang địa điểm. Tương tự, `/khach-san/da-nang` sẽ mở **khách sạn** nào có đường dẫn `da-nang` (kể cả khách sạn đang ở bản nháp).
+
+Khi bị trùng như vậy, menu và các link trên website tự chuyển sang trang tìm kiếm lọc theo địa điểm (địa chỉ dạng `/tour?location_id=39`) để khách vẫn xem được — nhưng **trang đó không có giá trị SEO**. Cách xử lý:
+
+* **Đừng tạo danh mục tour trùng tên địa điểm** (danh mục "Đà Nẵng", "Phú Quốc"…). Muốn gom tour theo nơi đến thì dùng chính địa điểm — đó là việc địa điểm sinh ra để làm.
+* Đã lỡ có danh mục trùng: đổi đường dẫn của **danh mục** (ví dụ `tour-da-nang-gia-re`), hoặc xoá danh mục nếu không còn dùng. Xoá/đổi xong, link `/tour/da-nang` tự quay về trang địa điểm.
+
 ## Lưu ý & xử lý sự cố
+
+**Trang `/tour/…` hoặc `/khach-san/…` của địa điểm trống trơn.** Chưa có sản phẩm nào gắn địa điểm đó (hoặc các sản phẩm đó đang ở bản nháp). Mở vài tour/khách sạn, kiểm tra ô địa điểm/điểm đến, chọn đúng rồi lưu.
+
+**Bấm mục địa điểm trên menu lại ra trang tìm kiếm có `?location_id=` thay vì `/tour/…`.** Đường dẫn của địa điểm đang trùng với một danh mục tour hoặc một khách sạn — xem phần "Khi trang tour / khách sạn theo địa điểm không chịu hiện" ở trên.
 
 **Thêm địa điểm xong nhưng khi tạo tour không tìm thấy nó trong danh sách chọn:** hãy tải lại trang tạo tour bằng **Ctrl + F5**. Màn hình tạo tour thường đã tải sẵn danh sách địa điểm từ lúc bạn mở nó, nên địa điểm vừa tạo chưa kịp xuất hiện.
 
@@ -191,3 +250,6 @@ Bảng danh sách hiển thị các cột sau:
 * [3. Khối SẢN PHẨM](./)
 * [3.2. Khách sạn](khach-san.md)
 * [3.3. Tour](tour.md)
+* [2.1. Tin tức](../khoi-noi-dung/tin-tuc.md) — gắn bài viết vào địa điểm
+* [4.6. Menu](../khoi-he-thong/menu.md) — đưa trang địa điểm lên menu
+* [Kích thước ảnh chuẩn](../kich-thuoc-anh.md)
