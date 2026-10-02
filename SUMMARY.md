@@ -74,6 +74,7 @@
   * [4.14. Kho ứng dụng](khoi-he-thong/kho-ung-dung.md)
   * [4.15. Đội ngũ](khoi-he-thong/doi-ngu.md)
   * [4.16. Slide item](khoi-he-thong/slide-item.md)
+  * [4.17. SEO](khoi-he-thong/seo.md)
 
 ## Khác
 

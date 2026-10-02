@@ -231,19 +231,21 @@ Có thể viết script tự đăng nhập rồi chụp lần lượt từng tra
 
 ## Mục mới 02/10/2026: Đăng bài chuẩn SEO + trang theo địa điểm + kích thước ảnh
 
-Cần **10 ảnh mới + chụp lại 2 ảnh cũ**. Website phải bật **SEO Pro** (`APP_SEO_ENABLED=true`) thì mới có bảng chấm điểm SEO.
+Cần **12 ảnh mới + chụp lại 2 ảnh cũ**. SEO Pro nay bật sẵn ở mọi site (miễn phí, từ 02/10/2026) — không cần cấu hình gì để có bảng chấm điểm.
 
 | # | Tệp : dòng | Chụp gì | Ghi chú khi chụp |
 |---|---|---|---|
-| 1 | `khoi-noi-dung/tin-tuc.md`:208 | Bước 5 Thêm tin tức — **chụp lại** `pg046-0.png` | Ảnh cũ còn khung tên "Công cụ tìm kiếm" — nay là "SEO Meta" (cơ bản) hoặc "SEO" (bản Pro) |
+| 1 | `khoi-noi-dung/tin-tuc.md`:208 | Bước 5 Thêm tin tức — **chụp lại** `pg046-0.png` | Ảnh cũ còn khung tên "Công cụ tìm kiếm" — nay là khung "SEO" có Focus Keyphrase + SEO Score |
 | 2 | `khoi-noi-dung/tin-tuc.md`:186 | Khung **"Địa điểm liên quan"** ở cột phải màn viết bài | Đã chọn 2 địa điểm |
-| 3 | `khoi-noi-dung/tin-tuc.md`:244 | Khung **SEO** bản Pro dưới khung Nội dung tin tức | Điền sẵn Focus Keyphrase để SEO Analysis có đủ chấm xanh / cam / đỏ |
-| 4 | `khoi-noi-dung/tin-tuc.md`:305 | Ô **"Paragraph"** đang xổ danh sách Heading |  |
-| 5 | `khoi-noi-dung/tin-tuc.md`:353 | Cửa sổ **"Insert/Edit Image"** | Ô Image description đã điền |
-| 6 | `khoi-noi-dung/tin-tuc.md`:359 | Cửa sổ **"Search Engine Optimization"**, tab Chung | Thấy bộ đếm …/60 và …/155 |
+| 3 | `khoi-noi-dung/tin-tuc.md`:247 | Khung **SEO** bản Pro dưới khung Nội dung tin tức | Điền sẵn Focus Keyphrase để SEO Analysis có đủ chấm xanh / cam / đỏ |
+| 4 | `khoi-noi-dung/tin-tuc.md`:308 | Ô **"Paragraph"** đang xổ danh sách Heading |  |
+| 5 | `khoi-noi-dung/tin-tuc.md`:356 | Cửa sổ **"Insert/Edit Image"** | Ô Image description đã điền |
+| 6 | `khoi-noi-dung/tin-tuc.md`:362 | Cửa sổ **"Search Engine Optimization"**, tab Chung | Thấy bộ đếm …/60 và …/155 |
 | 7 | `khoi-san-pham/dia-diem.md`:213 | Trang tổng hợp **/location/da-nang** ngoài website | Dải ảnh bìa có nút "… khách sạn / … tour / … bài viết" + khối "Bài viết về Đà Nẵng". Địa điểm phải có ảnh banner và ít nhất 1 bài đã gắn |
 | 8 | `khoi-san-pham/khach-san.md`:235 | Trang **/khach-san/da-nang** ngoài website | Tiêu đề, dòng số lượng, ô sắp xếp, lưới thẻ |
 | 9 | `khoi-san-pham/tour.md`:179 | Tab **Location** của màn sửa tour | Ô "Điểm đến" + "Các điểm đến khác" đã chọn 2 nơi |
 | 10 | `khoi-he-thong/menu.md`:109 | Mục địa điểm trong màn sửa menu, ô **"Khi bấm, mở trang"** đang xổ | Thấy đủ các lựa chọn |
 | 11 | `khoi-san-pham/khach-san.md`:145 | Màn sửa khách sạn dạng **tab** (cột tab trái + nút "Lưu thay đổi" ở chân) | Mở tab Chung |
 | 12 | `khoi-san-pham/khach-san.md`:213 | **Chụp lại** `pg075-0.png` | Ảnh cũ là bố cục xếp chồng + cột phải "Publish" — nay là tab **Trạng thái** > khung "Xuất bản" |
+| 13 | `khoi-he-thong/seo.md`:14 | Trang **SEO Settings** — khung "Chặn Google khi đang lên bài" + khung "Sitemap" (ô "Bật Sitemap", bảng Sitemap Files) | Chụp lúc chế độ chặn đang TẮT; nếu chụp lúc bật thì có thêm dải đỏ |
+| 14 | `khoi-he-thong/seo.md`:31 | Nút đỏ **"Đang chặn Google"** trên thanh đầu trang quản trị | Chèn ảnh ngay dưới dòng này. Bật tạm chế độ chặn để chụp, chụp xong **nhớ tắt** |

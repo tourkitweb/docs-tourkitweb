@@ -232,14 +232,17 @@ Bạn không cần làm hết mọi bước mới đăng được bài. Nhưng m
 
 ### Khung SEO nằm ở đâu?
 
-Trên màn hình viết/sửa bài, cuộn xuống **ngay dưới khung "Nội dung tin tức"** (cột rộng bên trái). Tuỳ website của bạn, bạn sẽ thấy một trong hai kiểu:
+Trên màn hình viết/sửa bài, cuộn xuống **ngay dưới khung "Nội dung tin tức"** (cột rộng bên trái) là khung **"SEO"**. Khung này có:
 
-| Bạn thấy                                                                                                           | Nghĩa là                                                                                                                       |
-| ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------ |
-| Khung **"SEO Meta"** nhỏ, chỉ ghi Tiêu đề và Mô tả, kèm nút **"Chỉnh sửa"**                                         | Bản cơ bản. Bạn vẫn sửa được Tiêu đề SEO, Mô tả, ảnh chia sẻ — chỉ không có bảng chấm điểm.                                    |
-| Khung **"SEO"** có ô **"Focus Keyphrase"**, thanh **"SEO Score"**, ô **"Google Preview"** và danh sách **"SEO Analysis"** | Website đã bật tính năng **SEO Pro**. Hệ thống **tự chấm điểm bài viết theo 13 tiêu chí** ngay trong lúc bạn gõ. |
+* Ô **"Focus Keyphrase"** — từ khóa chính của bài.
+* Thanh **"SEO Score"** — điểm SEO, hệ thống **tự chấm bài theo 13 tiêu chí** ngay trong lúc bạn gõ.
+* Ô **"Google Preview"** — xem trước bài sẽ hiện trên Google thế nào.
+* Danh sách **"SEO Analysis"** — tiêu chí nào đạt, tiêu chí nào chưa.
+* Nút **"Chỉnh sửa"** — mở cửa sổ điền Tiêu đề SEO, Mô tả, ảnh chia sẻ.
 
-> **Không thấy bảng chấm điểm?** Tính năng SEO Pro có thể chưa được bật trên website của bạn — hãy liên hệ đơn vị triển khai. Các bước dưới đây vẫn áp dụng y nguyên, chỉ là bạn tự kiểm tra bằng mắt thay vì để máy chấm.
+Khung SEO này (gọi là **SEO Pro**) **miễn phí và có sẵn trên mọi website** — tour, khách sạn, địa điểm, trang… đều có cùng một khung.
+
+> **Thấy dải vàng "Website đang bật Chặn Google khi đang lên bài" ở đầu khung SEO?** Website đang ở chế độ chuẩn bị nội dung: **chưa trang nào được lên Google**, kể cả bài bạn điền SEO đầy đủ. Đây là chủ ý của người quản trị trong giai đoạn nhập liệu — xem [4.17. SEO](../khoi-he-thong/seo.md). Bạn cứ viết và điền SEO bình thường, khi chế độ này tắt thì bài sẽ lên Google.
 
 > 📷 *[Cần chụp màn hình: khung SEO bản Pro ngay dưới khung Nội dung tin tức — thấy ô Focus Keyphrase, thanh SEO Score, Google Preview và vài dòng SEO Analysis xanh/cam/đỏ]*
 
@@ -263,7 +266,7 @@ Nhiều nhãn trong khung này còn hiện tiếng Anh. Bảng dịch nhanh:
 * **Cách tìm câu khách hay gõ:** mở Google, gõ vài chữ đầu (ví dụ `bà nà hills`) rồi nhìn các gợi ý Google tự xổ ra, và phần **"Mọi người cũng tìm kiếm"** ở cuối trang kết quả. Đó chính là những câu khách thật đang gõ.
 * **Đừng viết 2 bài cùng một từ khóa.** Hai bài sẽ tự tranh nhau, Google không biết chọn bài nào và thường xếp cả hai thấp đi. Đã có bài cũ cùng chủ đề thì hãy **sửa bổ sung bài cũ** thay vì viết bài mới.
 
-Nếu website có SEO Pro, gõ từ khóa này vào ô **"Focus Keyphrase"** ở đầu khung SEO. Gõ có dấu hay không dấu đều được — hệ thống so được cả hai kiểu.
+Gõ từ khóa này vào ô **"Focus Keyphrase"** ở đầu khung SEO. Gõ có dấu hay không dấu đều được — hệ thống so được cả hai kiểu.
 
 ### Bước 2: Đặt tiêu đề bài chứa từ khóa — ngay từ lần lưu đầu tiên
 
@@ -284,7 +287,7 @@ Sau lần lưu đầu tiên, ngay dưới dòng tiêu đề ở đầu màn hìn
 * Bỏ bớt chữ thừa như `cua-toi`, `nhung`, `cac`. Nếu bạn định cập nhật bài này hằng năm thì **đừng để năm** trong đường dẫn — năm để ở tiêu đề là đủ, sang năm sửa tiêu đề mà không phải đổi đường dẫn.
 * Đường dẫn tự bị thêm đuôi `-1`, `-2`? Nghĩa là đã có bài khác dùng đúng đường dẫn đó, hệ thống thêm số để khỏi trùng. Nên đổi sang một đường dẫn khác hẳn — và kiểm tra xem có phải bạn đang viết trùng chủ đề với bài cũ không (xem Bước 1).
 
-> **Bài đã đăng lâu thì đừng đổi đường dẫn tuỳ tiện.** Google và những người đã chia sẻ link sẽ vào địa chỉ cũ và gặp trang lỗi — bài mất hết thứ hạng đã có. **Hệ thống không tự chuyển địa chỉ cũ sang địa chỉ mới.** Nếu bắt buộc phải đổi và website có SEO Pro, hãy tạo một **chuyển hướng**: Menu bên trái > **SEO** > **Redirects** > nút **"Add Redirect"**. Ô **From URL** điền đường dẫn cũ (bắt đầu bằng dấu `/`), ô **To URL** điền đường dẫn mới, **Redirect Type** chọn **"301 – Permanent"** (chuyển vĩnh viễn), **Status** để **"Active"**, rồi bấm **"Create"**. Không thấy mục **SEO** trong menu nghĩa là tài khoản của bạn chưa được cấp quyền, hoặc tính năng chưa được bật.
+> **Bài đã đăng lâu thì đừng đổi đường dẫn tuỳ tiện.** Google và những người đã chia sẻ link sẽ vào địa chỉ cũ và gặp trang lỗi — bài mất hết thứ hạng đã có. **Hệ thống không tự chuyển địa chỉ cũ sang địa chỉ mới.** Nếu bắt buộc phải đổi, hãy tạo một **chuyển hướng**: Menu bên trái > **SEO** > **Redirects** > nút **"Add Redirect"**. Ô **From URL** điền đường dẫn cũ (bắt đầu bằng dấu `/`), ô **To URL** điền đường dẫn mới, **Redirect Type** chọn **"301 – Permanent"** (chuyển vĩnh viễn), **Status** để **"Kích hoạt"**, rồi bấm **"Tạo"**. Không thấy mục **SEO** trong menu nghĩa là tài khoản của bạn chưa được cấp quyền quản lý SEO — nhờ quản trị viên làm giúp. Chi tiết xem [4.17. SEO](../khoi-he-thong/seo.md#chuyen-huong-redirects).
 
 ### Bước 4: Viết nội dung có bố cục rõ ràng
 
@@ -304,7 +307,7 @@ Sau lần lưu đầu tiên, ngay dưới dòng tiêu đề ở đầu màn hìn
 
 > 📷 *[Cần chụp màn hình: ô "Paragraph" ở đầu thanh công cụ khung soạn thảo đang xổ danh sách Heading 1 … Heading 6]*
 
-**c) Nhắc từ khóa vừa đủ, tự nhiên.** Từ khóa nên xuất hiện rải rác khắp bài. Bảng điểm SEO Pro coi là vừa khi từ khóa chiếm khoảng **1–3%** số chữ — ví dụ bài 1.000 chữ, từ khóa dài 3 chữ thì nhắc khoảng **4–10 lần**. Nhồi nhiều hơn thì câu văn đọc rất gượng, và Google coi đó là gian lận.
+**c) Nhắc từ khóa vừa đủ, tự nhiên.** Từ khóa nên xuất hiện rải rác khắp bài. Bảng điểm SEO coi là vừa khi từ khóa chiếm khoảng **1–3%** số chữ — ví dụ bài 1.000 chữ, từ khóa dài 3 chữ thì nhắc khoảng **4–10 lần**. Nhồi nhiều hơn thì câu văn đọc rất gượng, và Google coi đó là gian lận.
 
 **d) Gắn link sang các trang khác trên website.** Trong bài có nhắc tới tour, khách sạn hay bài viết nào mà website bạn có, hãy:
 
@@ -362,7 +365,7 @@ Nhấn nút **"Chỉnh sửa"** ở góc phải khung SEO — cửa sổ **"Sear
 
 **2. Tab "Chung":**
 
-* **Focus Keyphrase** (chỉ có ở bản SEO Pro) — chính là ô từ khóa ở Bước 1. Gõ ở đây hay ở khung SEO bên ngoài đều được, hai ô tự đồng bộ.
+* **Focus Keyphrase** — chính là ô từ khóa ở Bước 1. Gõ ở đây hay ở khung SEO bên ngoài đều được, hai ô tự đồng bộ.
 * **SEO Title** — dòng chữ xanh to trên Google. Nên dài **50–60 ký tự**, có từ khóa, từ khóa càng gần đầu càng tốt. Tiêu đề SEO có thể khác tiêu đề bài: tiêu đề bài viết cho người đang đọc trên website, còn Tiêu đề SEO viết để "câu" người đang lướt Google.
   * Ví dụ (54 ký tự): `Kinh nghiệm du lịch Bà Nà Hills tự túc 2026 từ A đến Z`
 * **Meta Description** — đoạn chữ xám dưới tiêu đề trên Google. Nên dài **120–155 ký tự**, có từ khóa, và kết thúc bằng một câu mời bấm. Bỏ trống thì hệ thống tự cắt khoảng 160 ký tự đầu bài — thường bị cụt giữa câu, kém hấp dẫn.
@@ -380,7 +383,7 @@ Nhấn nút **"Chỉnh sửa"** ở góc phải khung SEO — cửa sổ **"Sear
 
 > **Sau này đổi tiêu đề bài thì sửa luôn Tiêu đề SEO.** Ô Tiêu đề SEO được điền sẵn bằng tiêu đề bài, nhưng một khi đã lưu thì nó **không tự đổi theo** khi bạn sửa tiêu đề bài. Không sửa thì Google vẫn hiện tiêu đề cũ.
 
-### Bước 7: Đọc bảng chấm điểm (chỉ có ở bản SEO Pro)
+### Bước 7: Đọc bảng chấm điểm
 
 Ngay khi bạn gõ, khung SEO tự chấm bài theo 13 tiêu chí trong danh sách **"SEO Analysis"**. Mỗi dòng có một chấm màu: **xanh** = đạt, **cam** = tạm được / cần xem lại, **đỏ** = chưa đạt. Bên dưới mỗi dòng có chữ nhỏ giải thích vì sao.
 
@@ -407,7 +410,7 @@ Góc trên khung hiện nhãn tổng: **"Tốt"** (từ 11/13 tiêu chí trở l
 ### Bước 8: Đăng bài và việc cần làm sau khi đăng
 
 1. Chọn **"Xuất bản"** → bấm **"Lưu thay đổi"** → bấm **"Xem bài viết"** ở góc trên bên phải. Kiểm tra: tab trình duyệt hiện đúng Tiêu đề SEO, ảnh hiện đủ, các link đã chèn bấm vào được.
-2. **Cập nhật sơ đồ website (Sitemap)** — chỉ có ở bản SEO Pro. Sitemap giống một **"danh bạ" liệt kê mọi bài trên website** để Google tìm đến đọc. Danh bạ này **không tự cập nhật** khi bạn đăng bài: vào Menu bên trái > **SEO** > **SEO Settings**, cuộn xuống phần **Sitemap**, bấm nút **"Cập nhật Sitemap"**. Đăng nhiều bài trong ngày thì chỉ cần bấm một lần sau cùng. Không bấm thì Google vẫn tìm ra bài qua các link trên website, chỉ là chậm hơn.
+2. **Sơ đồ website (Sitemap)** — Sitemap giống một **"danh bạ" liệt kê mọi bài trên website** để Google tìm đến đọc. Nếu website đang **bật Sitemap**, danh bạ này **tự cập nhật mỗi đêm** — bài đăng hôm nay sẽ có trong đó từ sáng mai, bạn không phải làm gì. Muốn bài vào danh bạ **ngay** (ví dụ bài khuyến mãi gấp): Menu bên trái > **SEO** > **SEO Settings**, phần **Sitemap**, bấm **"Cập nhật Sitemap"**. Website **tắt Sitemap** thì không có danh bạ — Google vẫn tìm ra bài qua các link trên website, chỉ là chậm hơn. Bật/tắt Sitemap xem [4.17. SEO](../khoi-he-thong/seo.md#sitemap-so-do-website).
 3. **Chia sẻ bài** lên fanpage, nhóm Zalo của công ty — vừa mang khách về ngay trong lúc chờ Google, vừa để bạn kiểm tra khung xem trước (ảnh, tiêu đề) có đẹp không.
 4. **Kiên nhẫn.** Google thường mất từ **vài ngày đến vài tuần** mới đưa một bài mới lên kết quả tìm kiếm. Muốn biết Google đã ghi nhận bài chưa, gõ lên Google: `site:tenmiencuaban.com Bà Nà Hills` (thay bằng tên miền và từ khóa của bạn) — ra bài là Google đã biết đến nó.
 
@@ -432,13 +435,15 @@ Góc trên khung hiện nhãn tổng: **"Tốt"** (từ 11/13 tiêu chí trở l
 
 **Bảng điểm báo đỏ "Keyword xuất hiện trong URL" và "Có Canonical URL" dù đã làm đúng hết.** Bài chưa được lưu lần nào nên chưa có đường dẫn. Bấm **"Lưu thay đổi"** một lần (để "Bản nháp" cũng được) là hai dòng này hết đỏ. Nếu dòng "URL" vẫn đỏ, nghĩa là đường dẫn đang không chứa từ khóa — xem Bước 2 và Bước 3.
 
-**Không thấy ô Focus Keyphrase, không thấy bảng điểm, không thấy mục SEO trong menu.** Website chưa bật tính năng SEO Pro, hoặc tài khoản của bạn chưa được cấp quyền quản lý SEO. Hãy liên hệ quản trị viên hoặc đơn vị triển khai. Trong lúc chờ, bạn vẫn điền được Tiêu đề SEO và Mô tả qua nút **"Chỉnh sửa"** ở khung "SEO Meta".
+**Không thấy mục SEO trong menu bên trái.** Khung SEO trong màn viết bài thì ai cũng có, nhưng mục **SEO** trên menu (Cài đặt SEO, Chuyển hướng) chỉ hiện với tài khoản được cấp quyền quản lý SEO. Nhờ quản trị viên cấp quyền hoặc làm giúp.
+
+**Bài điền SEO đầy đủ, điểm "Tốt", mà mãi không lên Google — và khung SEO có dải vàng "đang bật Chặn Google".** Website đang ở chế độ **"Chặn Google khi đang lên bài"**. Chừng nào chế độ này còn bật thì **không trang nào lên Google**. Báo quản trị viên tắt khi website sẵn sàng ra mắt — xem [4.17. SEO](../khoi-he-thong/seo.md).
 
 **Chia sẻ link lên Facebook vẫn hiện ảnh hoặc tiêu đề cũ.** Facebook ghi nhớ khung xem trước từ lần đầu tiên có người chia sẻ link đó. Mở công cụ **Sharing Debugger** của Facebook (`developers.facebook.com/tools/debug`), dán link bài, bấm **"Scrape Again"** để Facebook đọc lại bài.
 
 **Google hiện tiêu đề hoặc mô tả khác với cái tôi đã điền.** Google đôi khi tự viết lại cho khớp với câu khách gõ — đây là chuyện bình thường, không phải lỗi website. Tiêu đề SEO và Mô tả càng sát nội dung bài thì Google càng ít tự sửa.
 
-**Đăng cả tuần mà tìm trên Google vẫn không thấy bài.** Kiểm tra lần lượt: (1) bài đang ở trạng thái **"Xuất bản"**; (2) ô **"Cho phép search engine index?"** đang là **"Có"**; (3) đã bấm **"Cập nhật Sitemap"** (nếu website có SEO Pro). Đúng cả ba thì chỉ là Google chưa ghé tới — hãy chờ thêm, và tiếp tục chia sẻ bài để có người đọc.
+**Đăng cả tuần mà tìm trên Google vẫn không thấy bài.** Kiểm tra lần lượt: (1) bài đang ở trạng thái **"Xuất bản"**; (2) ô **"Cho phép search engine index?"** đang là **"Có"**; (3) website **không** bật chế độ **"Chặn Google khi đang lên bài"** (thanh trên cùng trang quản trị có nút đỏ **"Đang chặn Google"** là đang bật); (4) nếu website dùng Sitemap thì Sitemap đang bật. Đúng cả bốn thì chỉ là Google chưa ghé tới — hãy chờ thêm, và tiếp tục chia sẻ bài để có người đọc.
 
 ***
 

@@ -17,7 +17,7 @@ Bạn không cần vào đây mỗi ngày. Thường bạn chỉ vào khối nà
 
 ## Trong khối này có gì?
 
-Khối Hệ thống gồm 16 mục:
+Khối Hệ thống gồm 17 mục:
 
 | | Mục | | Mục |
 |---|---|---|---|
@@ -29,6 +29,7 @@ Khối Hệ thống gồm 16 mục:
 | 🔧 | [4.11. Công cụ](cong-cu.md) | 🔒 | [4.12. Bảo mật 2 lớp](bao-mat-2-lop.md) |
 | 📈 | [4.13. Báo cáo](bao-cao.md) | 🗃 | [4.14. Kho ứng dụng](kho-ung-dung.md) |
 | 🧑‍🤝‍🧑 | [4.15. Đội ngũ](doi-ngu.md) | 🖼 | [4.16. Slide item](slide-item.md) |
+| 🔍 | [4.17. SEO](seo.md) | | |
 
 ## Giải thích nhanh từng mục
 
@@ -63,6 +64,8 @@ Khối Hệ thống gồm 16 mục:
 **[4.15. Đội ngũ](doi-ngu.md)** — Giới thiệu nhân sự công ty bạn ra ngoài website: ảnh, họ tên, chức danh.
 
 **[4.16. Slide item](slide-item.md)** — Các ảnh nhỏ chạy ngang trên trang chủ, ví dụ dải logo đối tác.
+
+**[4.17. SEO](seo.md)** — Công cụ SEO miễn phí cho cả website: chặn Google khi đang lên bài, Sitemap, xác minh Google Search Console, chuyển hướng link cũ.
 
 ## Nếu bạn mới bắt đầu, nên làm theo thứ tự này
 
